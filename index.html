@@ -6,17 +6,22 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>He Wept by Carmine Vile</title>
     <style type="text/css">
-        body{max-width:700px;margin:auto;padding:auto;font-family: Arial, Helvetica, sans-serif;color:#454545}
+        body{max-width:640px;margin:auto;padding:auto;font-family: Arial, Helvetica, sans-serif;color:#454545}
         h1{font-size:2em;line-height:1.2}
-        .flex-container{display:flex;flex-flow:row wrap;justify-content:space-around;padding:0;margon:0;list-style:none;}
-        .flex-item{}
-        @media (prefers-color-scheme: dark){body{color:#c9d1d9;background:#0d1117}a:link{color:#58a6ff}a:visited{color:#8e96f0}}
+        * {box-sizing:border-box;}
+        .column{float:left;width:50vw;padding:10px;height:100vh;}
+        .row:after{content:"";display:table;clear:both;}
+        @media screen and (max-width:600px) {column {width:100%}}
     </style>
 </head>
 <body>
-    <ul class="flex-container">
-    <li class="flex-item"><h1>Nobody<br>writes<br>like<br>Carmine Vile.<br><br>Nobody.</h1></li>
-    <li class="flex-item"><img src="" alt="Smiley face" width="500px" height="500px" style="border:1px solid black;"></li>
-    </ul>
+    <div class="row">
+        <div class="column" style="background-color:#aaa;">
+            <h1>Nobody<br>writes<br>like<br>Carmine Vile.<br><br>Nobody.</h1>
+        </div>
+        <div class="column" style="background-color:#bbb;">
+            <img src="" alt="Smiley face">
+        </div>
+    </div>
 </body>
 </html> 
