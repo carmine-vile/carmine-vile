@@ -10,9 +10,12 @@ body {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 h1{font-size:2.5rem;line height:1.6;}
 h2{font-size:2rem;line height:1.6;}
 h3{font-size:1.5rem;line height:1.6;}
-a{color:#454545;padding:1rem 2rem 2rem 1rem;text-decoration:none;}
-a:hover{color:#454545;padding:1rem 2rem 2rem 1rem;text-decoration:none;}
-a:visited{color:#454545;padding:1rem 2rem 2rem 1rem;text-decoration:none;}
+h4{font-size:1;line height:1.6;}
+a, a:hover, a:visited{color:#454545;text-decoration:none;}
+.horizontal-links-left{padding-left: 2em;}
+.horizontal-links-right{padding-right: 2em;}
+.text-align-right{text-align:right;padding-left:0.5rem;}
+.text-align-left{text-align:left;padding-right:0.5rem;}
 
 * {
   box-sizing: border-box;
@@ -20,17 +23,23 @@ a:visited{color:#454545;padding:1rem 2rem 2rem 1rem;text-decoration:none;}
 
 /* Create two equal columns that float next to each other */
 .column-left {
+  display:table-cell;
+  vertical-align:middle;
   float: left;
   width: 50%;
   padding: 10px;
   height: 100vh; /* Should be removed. Only for demonstration */
+  background-color:#f2f3f4;
 }
  
 .column-right {
+  display:table-cell;
+  vertical-align:middle;
   float: right;
   width: 50%;
   padding: 10px;
   height: 100vh; /* Should be removed. Only for demonstration */
+  background-color:#faf9f6;
 }
 
 /* Clear floats after the columns */
@@ -54,12 +63,10 @@ a:visited{color:#454545;padding:1rem 2rem 2rem 1rem;text-decoration:none;}
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column-left {
-    width: 100%;height: 50vh;
-  }
-  .column-right {
-    width: 100%;height: 50vh;
-  }
+  .column-left {width: 100%;height: 50vh;}
+  .column-right {width: 100%;height: 50vh;}
+  .text-align-right{text-align:right;padding-left:2rem;}
+  .text-align-left{text-align:left;padding-right:2rem;}
 }
 </style>
 </head>
@@ -68,14 +75,14 @@ a:visited{color:#454545;padding:1rem 2rem 2rem 1rem;text-decoration:none;}
 <!-- Intro -->
 <!-- First Panel - text left -->
 <div class="row">
-  <div class="column-left" style="background-color:#f2f3f4;display:table-cell;vertical-align:middle;">
+  <div class="column-left">
    <div id="parent">
     <div id="child">
-     <h1 style="text-align:right;padding:0 2rem 0 0;">I like making<br> things catch your<br>eye and capture<br> your imagination.</h1>
+     <h1 class="text-align-right">I like making<br> things catch your<br>eye and capture<br> your imagination.</h1>
     </div>
    </div>
   </div>
-  <div class="column-left" style="background-color:#f2f3f4;">
+  <div class="column-left">
    <div id="parent">
     <div id="child">
      <a href="images/imelda-cell.jpg" target="_blank"><img src="images/imelda-cell300.jpg" alt="" style="border: 1px solid #454545"></a>
@@ -86,14 +93,14 @@ a:visited{color:#454545;padding:1rem 2rem 2rem 1rem;text-decoration:none;}
 
 <!-- Second Panel - text right -->
 <div class="row">
-  <div class="column-right" style="background-color:#faf9f6;display:table-cell;vertical-align:middle;">
+  <div class="column-right">
    <div id="parent">
     <div id="child">
-     <h1 style="text-align:left;padding:0 0 0 2rem;">I like making<br>heads turn,<br>jaws drop,<br>and hearts<br>skip a beat.</h1>
+     <h1 class="text-align-left">I like making<br>heads turn,<br>jaws drop,<br>and hearts<br>skip a beat.</h1>
     </div>
    </div>
   </div>
-  <div class="column-right" style="background-color:#faf9f6;">
+  <div class="column-right">
    <div id="parent">
     <div id="child">
      <a href="images/colon-wall.jpg" target="_blank"><img src="images/colon-wall300.jpg" alt="" style="border: 1px solid #454545"></a>
@@ -104,14 +111,14 @@ a:visited{color:#454545;padding:1rem 2rem 2rem 1rem;text-decoration:none;}
 
 <!-- Third Panel - text left -->
 <div class="row">
-  <div class="column-left" style="background-color:#f2f3f4;display:table-cell;vertical-align:middle;">
+  <div class="column-left">
    <div id="parent">
     <div id="child">
-     <h1 style="text-align:right;padding:0 2rem 0 0;">I like making<br>a difference.</h1>
+     <h1 class="text-align-right">I like making<br>a difference.</h1>
     </div>
    </div>
   </div>
-  <div class="column-left" style="background-color:#f2f3f4;">
+  <div class="column-left">
    <div id="parent">
     <div id="child">
      <a href="images/in-a-rush.jpg" target="_blank"><img src="images/in-a-rush300.jpg" alt="" style="border: 1px solid #454545"></a>
@@ -122,18 +129,18 @@ a:visited{color:#454545;padding:1rem 2rem 2rem 1rem;text-decoration:none;}
  
 <!-- Fourth Panel - text right -->
 <div class="row">
-  <div class="column-right" style="background-color:#faf9f6;display:table-cell;vertical-align:middle;">
+  <div class="column-right">
    <div id="parent">
     <div id="child">
-     <h3 style="text-align:left;padding:0 0 0 2rem;">I’m always open<br>to collaboration<br>with the right person<br>on the right project.<br><br>
+     <h4 class="text-align-left">I’m always open<br>to collaboration<br>with the right person<br>on the right project.<br><br>
       Think we might click<br>and accomplish<br>something big?<br><br>
       Échame un grito. Let’s talk.<br><br>
       Hasta pronto.<br><br>
-      Carmine</h3>
+      Carmine</h4>
     </div>
    </div>
   </div>
-  <div class="column-right" style="background-color:#faf9f6;">
+  <div class="column-right">
    <div id="parent">
     <div id="child">
      <a href="images/4th-Av.jpg" target="_blank"><img src="images/4th-Av300.jpg" alt="" style="border: 1px solid #454545"></a>
@@ -144,27 +151,27 @@ a:visited{color:#454545;padding:1rem 2rem 2rem 1rem;text-decoration:none;}
  
 <!-- Fifth Panel -text left -->
 <div class="row">
-  <div class="column-left" style="background-color:#f2f3f4;display:table-cell;vertical-align:middle;">
+  <div class="column-left">
    <div id="parent">
     <div id="child">
-     <h3 style="text-align:right;padding:0 2rem 0 0;">I’M HERE.</h3>
-     <p style="text-align:right;padding:0 2rem 0 0;">create@carminevile.com</a></p>
-     <h3 style="text-align:right;padding:0 2rem 0 0;">AND HERE.</h3>
-     <p style="text-align:right;padding:0 2rem 0 0;">+52 (81) 2190 5907</p>
-     <h3 style="text-align:right;padding:0 2rem 0 0;">AND HERE.</h3>
-     <p style="text-align:right;padding:0 0 0 0;"><a href="https://api.whatsapp.com/send?phone=528121905907" target="_blank" rel="noreferrer noopener">Click to connect with me on WhatsApp.</a></p>
-     <h3 style="text-align:right;padding:0 2rem 0 0;">AND HERE.</h3>
-     <p style="text-align:right;padding:0 0 0 0;"><a href="https://t.me/he_wept_by_carmine_vile" target="_blank">>This link opens a chat with me on Telegram.</a></p>
-     <h3 style="text-align:right;padding:0 2rem 0 0;">AND HERE.</h3>
-     <p style="text-align:right;padding:0 0 0 0;">
-      <a href="https://www.instagram.com/carmine_vile/" target="_blank">INSTAGRAM</a><br><br>
-      <a href="https://onlyfans.com/u219318829" target="_blank">ONLY FANS</a><br><br>
-      <a href="https://twitter.com/CarmineVile" target="_blank">TWITTER</a><br><br>
+     <h4 class="text-align-right">I’M HERE.</h4>
+     <p class="text-align-right">create@carminevile.com</a></p>
+     <h4 class="text-align-right">AND HERE.</h4>
+     <p class="text-align-right">+52 (81) 2190 5907</p>
+     <h4 class="text-align-right">AND HERE.</h4>
+     <p class="text-align-right"><a href="https://api.whatsapp.com/send?phone=528121905907" target="_blank" rel="noreferrer noopener">Click to connect with me on WhatsApp.</a></p>
+     <h4 class="text-align-right">AND HERE.</h4>
+     <p class="text-align-right"><a href="https://t.me/he_wept_by_carmine_vile" target="_blank">This link opens a chat with me on Telegram.</a></p>
+     <h4 class="text-align-right">AND HERE.</h4>
+     <p class="text-align-right">
+      <a class="horizontal-links-left" href="https://www.instagram.com/carmine_vile/" target="_blank">INSTAGRAM</a>
+      <a class="horizontal-links-left" href="https://onlyfans.com/u219318829" target="_blank">ONLY FANS</a>
+      <a class="horizontal-links-left" href="https://twitter.com/CarmineVile" target="_blank">TWITTER</a>
     </p>
     </div>
    </div>
   </div>
-  <div class="column-left" style="background-color:#f2f3f4;">
+  <div class="column-left">
    <div id="parent">
     <div id="child">
      <a href="images/edge.jpg" target="_blank"><img src="images/edge300.jpg" alt="" style="border: 1px solid #454545"></a>
@@ -175,17 +182,17 @@ a:visited{color:#454545;padding:1rem 2rem 2rem 1rem;text-decoration:none;}
 
 <!-- Sixth Panel text right -->
 <div class="row">
-  <div class="column-right" style="background-color:#faf9f6;display:table-cell;vertical-align:middle;">
+  <div class="column-right">
    <div id="parent">
     <div id="child">
-     <h2 style="text-align:left;padding:0 0 0 2rem;">Production Notes.</h2>
-     <p style="text-align:left;padding:0 4rem 0 2rem;">This site was created from scratch with HTML5 and CSS3 and that's it. Loads fast. Easy on the eyes. Gets right to the point.</p>
-     <p style="text-align:left;padding:0 4rem 0 2rem;">All photographs are original, purchased assets, or reproduced with permission.</p>
-     <p style="text-align:left;padding:0 4rem 0 2rem;">Special thanks to Falafel on the Corner, Bicycle to Tokyo, and Slava Kotovsky of St. Petersburg for generously furnishing the soundtrack.</p>
+     <h3 class="text-align-left">Production Notes.</h3>
+     <p class="text-align-left" style="width:75%;">This site was created from scratch with HTML5 and CSS3 and that's it. Loads fast. Easy on the eyes. Gets right to the point.</p>
+     <p class="text-align-left" style="width:75%;">All photographs are original, purchased assets, or reproduced with permission.</p>
+     <p class="text-align-left" style="width:75%;">Special thanks to Falafel on the Corner, Bicycle to Tokyo, and Slava Kotovsky of St. Petersburg for generously furnishing the soundtrack.</p>
     </div>
    </div>
   </div>
-  <div class="column-right" style="background-color:#faf9f6;">
+  <div class="column-right">
    <div id="parent">
     <div id="child">
      <a href="images/gluck.jpg" target="_blank"><img src="images/gluck300.jpg" alt="" style="border: 1px solid #454545"></a>
@@ -196,17 +203,16 @@ a:visited{color:#454545;padding:1rem 2rem 2rem 1rem;text-decoration:none;}
  
 <!-- Seventh Panel - text left -->
 <div class="row">
-  <div class="column-left" style="background-color:#f2f3f4;display:table-cell;vertical-align:middle;">
+  <div class="column-left">
    <div id="parent">
     <div id="child">
-     <h2 style="text-align:right;padding:0 2rem 0 0;">He Wept<br>by Carmine Vile.</h2>
-     <p style="text-align:right;padding:0 0 0 0;">
-      <a href="index.html#home" >HOME</a><br><br>
-     <p style="text-align:right;padding:0 2rem 0 0;">He Wept © 2022 Carmine Vile</p>
+     <h3 class="text-align-right">He Wept<br>by Carmine Vile.</h3>
+     <p class="text-align-right"><a href="index.html#home">HOME</a><br><br></p>
+     <p class="text-align-right">He Wept © 2022 Carmine Vile</p>
     </div>
    </div>
   </div>
-  <div class="column-left" style="background-color:#f2f3f4;">
+  <div class="column-left">
    <div id="parent">
     <div id="child">
      <a href="images/empty.jpg" target="_blank"><img src="images/empty300.jpg" alt="" style="border: 1px solid #454545"></a>
