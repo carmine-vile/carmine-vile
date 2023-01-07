@@ -1,221 +1,209 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>He Wept by Carmine Vile</title>
+	<meta charset="utf-8">
+	<title>Let's Talk!</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
+/* RESET*/
+html, body, p, a, img {margin:0;padding:0;}
+/* END RESET */
 html{font-size:100%;}
 body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  max-width:900px;margin:auto;}
+  max-width:900px;margin:auto}
 h1{font-size:2.2rem;line height:1.6;}
 h2{font-size:1.8rem;line height:1.6;}
 h3{font-size:1.4rem;line height:1.6;}
-h4{font-size:1.2;line height:1.6;}
-p{line-height:1.6;}
+h4{font-size:1.0;line height:1.6;}
+p{line-height:1.6;margin:1rem 0;}
 a, a:hover, a:visited{color:#454545;text-decoration:none;}
-.horizontal-links-left{padding-left: 2em;}
-.horizontal-links-right{padding-right: 2em;}
-.text-align-right{text-align:right;padding-right:0.5rem;}
-.text-align-left{text-align:left;padding-left:0.5rem;}
+.row-of-links-left{padding-left: 2em;}
+.row-of-links-right{padding-right: 2em;}
+.flushR{text-align:right;}
+.flushL{text-align:left;}
+.border{border:1px solid #454545;}
+.title-card{padding:0 0 2.5% 0;}
+.img{padding: 2.5% 0 0 0;}
 
-* {
-  box-sizing: border-box;
-}
-
-/* Create two equal columns that float next to each other */
-.column-left {
-  display:table-cell;
-  vertical-align:middle;
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 100vh; /* Should be removed. Only for demonstration */
-  background-color:#f2f3f4;
-}
- 
-.column-right {
-  display:table-cell;
-  vertical-align:middle;
-  float: right;
-  width: 50%;
-  padding: 10px;
-  height: 100vh; /* Should be removed. Only for demonstration */
-  background-color:#faf9f6;
+.outer-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap:0;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
- 
-/* Vertically align text */
- #parent {
-        display: table;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-      }
- #child {
-        display: table-cell;
-        vertical-align: middle;
-      }
+.inner-container {width:80%;padding:10%;}
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column-left {width: 100%;height: 50vh;}
-  .column-right {width: 100%;height: 50vh;}
-  .text-align-right{text-align:right;padding-right:2rem;}
-  .text-align-left{text-align:left;padding-left:2rem;}
+.columnA {
+  height:100vh;
+  margin:0;
+  padding:0;
+  background-color: #faf9f6;
 }
+
+.columnB {
+  height:100vh;
+  margin:0;
+  padding:0;
+  background-color: #f2f3f4;
+}
+
+.grid{display:grid;place-items:center;}
+.gridCL{display:grid;place-items:center left;}
+.gridCR{display:grid;place-items:center right;}
+
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+.columnA, .columnB {height:100%;}
+.grid, .gridCL, .gridCR {display:grid;place-items:center left;}
+.flushL, .flushR {text-align:left;}
+
+}
+
 </style>
 </head>
+
 <body>
 
-<!-- Intro -->
-<!-- First Panel - text left -->
-<div class="row">
-  <div class="column-left">
-   <div id="parent">
-    <div id="child">
-     <h1 class="text-align-right">I like making<br>things catch<br>your eyes<br>and capture<br>your<br>imagination.</h1>
-    </div>
-   </div>
-  </div>
-  <div class="column-left">
-   <div id="parent">
-    <div id="child">
-     <a href="images/imelda-cell.jpg" target="_blank"><img src="images/imelda-cell300.jpg" alt="" style="border: 1px solid #454545"></a>
-    </div>
-   </div>
-  </div>
-</div>
+	<main>
+		<section class="outer-container">
+			<div class="columnA grid">
+        <div class="inner-container">
+          <div class="gridCR">
+            <div class="title-card">
+              <h1 class="flushR">I like making things catch your eyes and capture your imagination.</h1>
+            </div>
+            <div class="img">
+              <a href="images/imelda-cell.jpg" target="_blank"><img src="images/imelda-cell300.jpg" alt="" class="border"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+		</section>
+	</main>
 
-<!-- Second Panel - text right -->
-<div class="row">
-  <div class="column-right">
-   <div id="parent">
-    <div id="child">
-     <h1 class="text-align-left">I like making<br>heads turn,<br>jaws drop,<br>and hearts<br>skip a beat.</h1>
-    </div>
-   </div>
-  </div>
-  <div class="column-right">
-   <div id="parent">
-    <div id="child">
-     <a href="images/colon-wall.jpg" target="_blank"><img src="images/colon-wall300.jpg" alt="" style="border: 1px solid #454545"></a>
-     </div>
-   </div>
-  </div>
-</div>
+  <main>
+		<section class="outer-container">
+      <div class="columnB grid">
+        <div class="inner-container">
+          <div class="gridCL">
+            <div class="title-card">
+              <h1 class="flushL">I like making heads turn, jaws drop, and hearts skip a beat.</h1>
+            </div>
+            <div class="img">
+              <a href="images/colon-wall.jpg" target="_blank"><img src="images/colon-wall300.jpg" alt="" class="border"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+		</section>
+  </main>
 
-<!-- Third Panel - text left -->
-<div class="row">
-  <div class="column-left">
-   <div id="parent">
-    <div id="child">
-     <h1 class="text-align-right">I like making<br>a difference.</h1>
-    </div>
-   </div>
-  </div>
-  <div class="column-left">
-   <div id="parent">
-    <div id="child">
-     <a href="images/in-a-rush.jpg" target="_blank"><img src="images/in-a-rush300.jpg" alt="" style="border: 1px solid #454545"></a>
-    </div>
-   </div>
-  </div>
-</div>
- 
-<!-- Fourth Panel - text right -->
-<div class="row">
-  <div class="column-right">
-   <div id="parent">
-    <div id="child">
-     <p class="text-align-left" style="width:75%;">I’m always open to collaboration with the right person on the right project.</p>
-     <p class="text-align-left" style="width:75%;">Think we might click and accomplish something big?</p>
-     <p class="text-align-left" style="width:75%;">Échame un grito. Let’s talk.</p>
-     <p class="text-align-left" style="width:75%;">Hasta pronto.</p>
-     <p class="text-align-left" style="width:75%;">Carmine</p>
-    </div>
-   </div>
-  </div>
-  <div class="column-right">
-   <div id="parent">
-    <div id="child">
-     <a href="images/4th-Av.jpg" target="_blank"><img src="images/4th-Av300.jpg" alt="" style="border: 1px solid #454545"></a>
-     </div>
-   </div>
-  </div>
-</div>
- 
-<!-- Fifth Panel -text left -->
-<div class="row">
-  <div class="column-left">
-   <div id="parent">
-    <div id="child">
-     <h4 class="text-align-right">I’M HERE.</h4>
-     <p class="text-align-right">create@carminevile.com</a></p>
-     <p class="text-align-right">+52 (81) 2190 5907</p>
-     <p class="text-align-right"><a href="https://api.whatsapp.com/send?phone=528121905907" target="_blank" rel="noreferrer noopener">WHATSAPP</a></p>
-     <p class="text-align-right"><a href="https://t.me/he_wept_by_carmine_vile" target="_blank">TELEGRAM</a></p>
-     <p class="text-align-right"><a href="https://www.instagram.com/carmine_vile/" target="_blank">INSTAGRAM</a></p>
-     <p class="text-align-right"><a href="https://onlyfans.com/u219318829" target="_blank">ONLY FANS</a></p>
-     <p class="text-align-right"><a href="https://twitter.com/CarmineVile" target="_blank">TWITTER</a></p>
-    </div>
-   </div>
-  </div>
-  <div class="column-left">
-   <div id="parent">
-    <div id="child">
-     <a href="images/edge.jpg" target="_blank"><img src="images/edge300.jpg" alt="" style="border: 1px solid #454545"></a>
-    </div>
-   </div>
-  </div>
-</div>
+  <main>
+		<section class="outer-container">
+      <div class="columnA grid">
+        <div class="inner-container">
+          <div class="gridCR">
+            <div class="title-card">
+              <h1 class="flushR">I like making a difference.</h1>
+            </div>
+            <div class="img">
+              <a href="images/in-a-rush.jpg" target="_blank"><img src="images/in-a-rush300.jpg" alt="" class="border"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+		</section>
+  </main>
 
-<!-- Sixth Panel text right -->
-<div class="row">
-  <div class="column-right">
-   <div id="parent">
-    <div id="child">
-     <h3 class="text-align-left">This Site.</h3>
-     <p class="text-align-left" style="width:75%;">HTML5, CSS3, and that's it. Loads fast. Easy on the eyes. Gets right to the point.</p>
-     <p class="text-align-left" style="width:75%;">Photos are original, purchased, or reproduced with permission.</p>
-     <p class="text-align-left" style="width:75%;">Songs by Falafel on the Corner / Bicycle to Tokyo. Thank you, Slava.</p>
-    </div>
-   </div>
-  </div>
-  <div class="column-right">
-   <div id="parent">
-    <div id="child">
-     <a href="images/gluck.jpg" target="_blank"><img src="images/gluck300.jpg" alt="" style="border: 1px solid #454545"></a>
-     </div>
-   </div>
-  </div>
-</div>
- 
-<!-- Seventh Panel - text left -->
-<div class="row">
-  <div class="column-left">
-   <div id="parent">
-    <div id="child">
-     <h3 class="text-align-right">He Wept<br>by Carmine Vile.</h3>
-     <p class="text-align-right"><a href="index.html#home">HOME</a><br><br></p>
-     <p class="text-align-right">He Wept © 2022 Carmine Vile</p>
-    </div>
-   </div>
-  </div>
-  <div class="column-left">
-   <div id="parent">
-    <div id="child">
-     <a href="images/empty.jpg" target="_blank"><img src="images/empty300.jpg" alt="" style="border: 1px solid #454545"></a>
-    </div>
-   </div>
-  </div>
-</div>
+  <main>
+		<section class="outer-container">
+      <div class="columnB grid">
+        <div class="inner-container">
+          <div class="gridCL">
+            <div class="title-card">
+              <h4 class="flushL">THINK.</h4>
+              <p class="flushL">I'm always open to collaboration with the right person on the right project.</br>
+              <p class="flushL">Think we might click and accomplish something big?</p>
+              <p class="flushL">Échame un grito. Let's talk.</p>
+              <p class="flushL">Hasta pronto.</p>
+              <p class="flushL">Carmine</p>
+            </div>
+            <div class="img">
+              <a href="images/4th-Av.jpg" target="_blank"><img src="images/4th-Av300.jpg" alt="" class="border"></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+		</section>
+  </main>
+
+  <main>
+		<section class="outer-container">
+      <div class="columnA grid">
+        <div class="inner-container">
+          <div class="gridCR">
+            <div class="title-card">
+              <h4 class="flushR">I'M HERE.</h4>
+              <p class="flushR">create@carminevile.com</p>
+              <p class="flushR">+52 (81) 2190 5907</p>
+              <p class="flushR">
+                <a href="https://api.whatsapp.com/send?phone=528121905907" target="_blank" rel="noreferrer noopener" class="row-of-links-left">WHATSAPP</a>
+                <a href="https://t.me/he_wept_by_carmine_vile" target="_blank" class="row-of-links-left">TELEGRAM</a>
+              </p>
+              <p class="flushR">
+                <a href="https://www.instagram.com/carmine_vile/" target="_blank" class="row-of-links-left">INSTAGRAM</a>
+                <a href="https://onlyfans.com/u219318829" target="_blank" class="row-of-links-left">ONLY FANS</a>
+                <a href="https://twitter.com/CarmineVile" target="_blank" class="row-of-links-left">TWITTER</a></p>
+            </div>
+            <div class="img">
+              <a href="images/edge.jpg" target="_blank"><img src="images/edge300.jpg" alt="" class="border"></a></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+		</section>
+  </main>
+
+  <main>
+		<section class="outer-container">
+      <div class="columnB grid">
+        <div class="inner-container">
+          <div class="gridCL">
+            <div class="title-card">
+              <h3 class="flushL">This Site.</h3>
+              <p class="flushL">HTML5, CSS3, and that's it. Loads fast. Easy on the eyes. Gets right to the point.</p>
+              <p class="flushL">Photos are original, purchased, or reproduced with permission.</p>
+              <p class="flushL">Songs by Falafel on the Corner / Bicycle to Tokyo. Thank you, Slava.</p>            </div>
+            <div class="img">
+              <a href="images/gluck.jpg" target="_blank"><img src="images/gluck300.jpg" alt="" class="border"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+		</section>
+  </main>
+
+  <main>
+		<section class="outer-container">
+      <div class="columnA grid">
+        <div class="inner-container">
+          <div class="gridCR">
+            <div class="title-card">
+              <h3 class="flushR">He Wept by Carmine Vile.</h3>
+              <p class="flushR"><a href="index.html#home">HOME</a></p>
+              <p class="flushR">He Wept © 2022 Carmine Vile</p>
+            </div>
+            <div class="img">
+              <a href="images/empty.jpg" target="_blank"><img src="images/empty300.jpg" alt="" class="border"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+		</section>
+  </main>
 
 </body>
 </html>
