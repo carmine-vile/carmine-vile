@@ -7,74 +7,49 @@
   <meta name="author" content="Carmine Vile">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Let's Talk!</title>
-<style>
-/* RESET*/
-html, body, p, a, img {margin:0;padding:0;}
-/* END RESET */
-html{font-size:100%;}
-body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  max-width:900px;margin:auto}
-h1{font-size:2.2rem;line height:1.6;}
-h2{font-size:1.8rem;line height:1.6;}
-h3{font-size:1.4rem;line height:1.6;}
-h4{font-size:1.0;line height:1.6;}
-p{line-height:1.6;margin:1rem 0;}
-a, a:hover, a:visited{color:#454545;text-decoration:none;}
-.flushR{text-align:right;}
-.flushL{text-align:left;}
-.border{border:1px solid #454545;}
-.title-card{padding:0 0 2.5% 0;}
-.img{padding: 2.5% 0 0 0;}
-.link-padding{padding-left:2em;}
-
-.outer-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap:0;
-}
-
-.inner-container {width:80%;padding:10%;}
-
-.columnA {
-  height:100dvh;
-  margin:0;
-  padding:0;
-  background-color: #faf9f6;
-}
-
-.columnB {
-  height:100dvh;
-  margin:0;
-  padding:0;
-  background-color: #f2f3f4;
-}
-
-.grid{display:grid;place-items:center;}
-.gridCL{display:grid;place-items:center left;}
-.gridCR{display:grid;place-items:center right;}
-
-@media (max-width: 600px) {
-  .container {
-    grid-template-columns: 1fr;
-  }
-.columnA, .columnB {height:100dvh;}
-.grid, .gridCL, .gridCR {display:grid;place-items:center left;}
-.flushL, .flushR {text-align:left;}
-.link-padding{padding-right:1.5em;}
-}
-
-</style>
+  <style>
+    /* RESET*/
+    html, body, p, a, img {margin:0;padding:0;}
+    /* END RESET */
+    html{font-size:100%;}
+    body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      max-width:900px;margin:auto}
+    h1{font-size:2.2rem;line-height:1.6;}
+    h2{font-size:1.8rem;line-height:1.6;}
+    h3{font-size:1.4rem;line-height:1.6;}
+    h4{font-size:1.0;line-height:1.6;}
+    p{line-height:1.6;margin:1rem 0;}
+    a, a:hover, a:visited{color:#454545;text-decoration:none;}
+    .flushR{text-align:right;}
+    .flushL{text-align:left;}
+    .border{border:1px solid #454545;}
+    .title-card{padding:0 0 2.5% 0;}
+    .img{padding: 2.5% 0 0 0;}
+    .link-paddingR{padding-right:2em;}
+    .link-paddingL{padding-left:2em;}
+    .outer-container{display: grid;grid-template-columns: 1fr;gap:0;}
+    .inner-container {width:80%;padding:10%;}
+    .columnA{height:100dvh;margin:0;padding:0;background-color: #faf9f6;}
+    .columnB{height:100dvh;margin:0;padding:0;background-color: #f2f3f4;}
+    .grid{display:grid;place-items:center;}
+    .gridCL{display:grid;place-items:center left;}
+    .gridCR{display:grid;place-items:center right;}
+    .nowrap{white-space:nowrap;}
+    @media (max-width: 600px) {
+    .columnA, .columnB {height:100dvh;}
+    .grid, .gridCL, .gridCR {display:grid;place-items:center left;}
+    .flushL, .flushR {text-align:left;}
+    .link-padding{padding-right:1.5em;}}
+  </style>
 </head>
-
 <body>
-
 	<main>
 		<section class="outer-container grid">
 			<div class="columnA grid">
         <div class="inner-container">
           <div class="gridCR">
             <div class="title-card">
-              <h1 class="flushR">I like making things catch your eyes and capture your imagination.</h1>
+              <h1 class="flushR">I like making things catch your eye and capture your imagination.</h1>
             </div>
             <div class="img">
               <a href="images/imelda-cell.jpg" target="_blank"><img src="images/imelda-cell300.jpg" alt="" class="border"></a>
@@ -84,7 +59,6 @@ a, a:hover, a:visited{color:#454545;text-decoration:none;}
       </div>
 		</section>
 	</main>
-
   <main>
 		<section class="outer-container grid">
       <div class="columnB grid">
@@ -101,7 +75,6 @@ a, a:hover, a:visited{color:#454545;text-decoration:none;}
       </div>
 		</section>
   </main>
-
   <main>
 		<section class="outer-container">
       <div class="columnA grid">
@@ -118,7 +91,6 @@ a, a:hover, a:visited{color:#454545;text-decoration:none;}
       </div>
 		</section>
   </main>
-
   <main>
 		<section class="outer-container">
       <div class="columnB grid">
@@ -139,7 +111,6 @@ a, a:hover, a:visited{color:#454545;text-decoration:none;}
       </div>
 		</section>
   </main>
-
   <main>
 		<section class="outer-container">
       <div class="columnA grid">
@@ -150,13 +121,13 @@ a, a:hover, a:visited{color:#454545;text-decoration:none;}
               <p class="flushR">create@carminevile.com</p>
               <p class="flushR">+52 81 2190 5907</p>
               <p class="flushR">
-                <a href="https://api.whatsapp.com/send?phone=528121905907" target="_blank" rel="noreferrer noopener">WHATSAPP</a>
-                <a href="https://t.me/he_wept_by_carmine_vile" target="_blank" class="link-padding">TELEGRAM</a>
+                <a href="https://api.whatsapp.com/send?phone=528121905907" target="_blank" rel="noreferrer noopener" class="link-paddingL">WHATSAPP</a>
+                <a href="https://t.me/he_wept_by_carmine_vile" target="_blank" class="link-paddingL">TELEGRAM</a>
               </p>
               <p class="flushR">
-                <a href="https://www.instagram.com/carmine_vile/" target="_blank">INSTAGRAM</a>
-                <a href="https://onlyfans.com/u219318829" target="_blank" class="link-padding">ONLY FANS</a>
-                <a href="https://twitter.com/CarmineVile" target="_blank" class="link-padding">TWITTER</a></p>
+                <a href="https://www.instagram.com/carmine_vile/" target="_blank" class="link-paddingL">INSTAGRAM</a>
+                <a href="https://onlyfans.com/u219318829" target="_blank" class="link-paddingL">ONLY FANS</a>
+                <a href="https://twitter.com/CarmineVile" target="_blank" class="link-paddingL">TWITTER</a></p>
             </div>
             <div class="img">
               <a href="images/edge.jpg" target="_blank"><img src="images/edge300.jpg" alt="" class="border"></a></h4>
@@ -166,7 +137,6 @@ a, a:hover, a:visited{color:#454545;text-decoration:none;}
       </div>
 		</section>
   </main>
-
   <main>
 		<section class="outer-container">
       <div class="columnB grid">
@@ -185,7 +155,6 @@ a, a:hover, a:visited{color:#454545;text-decoration:none;}
       </div>
 		</section>
   </main>
-
   <main>
 		<section class="outer-container">
       <div class="columnA grid">
@@ -204,6 +173,5 @@ a, a:hover, a:visited{color:#454545;text-decoration:none;}
       </div>
 		</section>
   </main>
-
 </body>
 </html>

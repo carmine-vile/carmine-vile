@@ -1,293 +1,241 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>He Wept by Carmine Vile</title>
-<style>
-  html{font-size:100%;}
-  body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    max-width:900px;margin:auto;}
-  h1{font-size:2.2rem;line height:1.6;}
-  h2{font-size:1.8rem;line height:1.6;}
-  h3{font-size:1.4rem;line height:1.6;}
-  h4{font-size:1.2;line height:1.6;}
-  a, a:hover, a:visited{color:#454545;text-decoration:none;}
-  .horizontal-links-left{padding-left: 2em;}
-  .horizontal-links-right{padding-right: 2em;}
-  .text-align-right{text-align:right;padding-right:0.5rem;}
-  .text-align-left{text-align:left;padding-left:0.5rem;}
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  /* Create two equal columns that float next to each other */
-  .column-left {
-    display:table-cell;
-    vertical-align:middle;
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 100vh; /* Should be removed. Only for demonstration */
-    background-color:#f2f3f4;
-  }
-   
-  .column-right {
-    display:table-cell;
-    vertical-align:middle;
-    float: right;
-    width: 50%;
-    padding: 10px;
-    height: 100vh; /* Should be removed. Only for demonstration */
-    background-color:#faf9f6;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-   
-  /* Vertically align text */
-   #parent {
-          display: table;
-          width: 100%;
-          height: 100%;
-          text-align: center;
-        }
-   #child {
-          display: table-cell;
-          vertical-align: middle;
-        }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column-left {width: 100%;height: 50vh;}
-    .column-right {width: 100%;height: 50vh;}
-    .text-align-right{text-align:right;padding-right:2rem;}
-    .text-align-left{text-align:left;padding-left:2rem;}
-  }
+  <meta charset="utf-8">
+  <meta name="description" content="Carmine Vile crafts fiction that resonates where it must and liberates where it can. All the rest is up to you.">
+  <meta name="keywords" content="collaboration, author, writer, storyteller">
+  <meta name="author" content="Carmine Vile">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>He Wept by Carmine Vile.</title>
+  <style>
+    /* RESET*/
+    html, body, p, a, img {margin:0;padding:0;}
+    /* END RESET */
+    html{font-size:100%;}
+    body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      max-width:900px;margin:auto}
+    h1{font-size:2.2rem;line-height:1.6;}
+    h2{font-size:1.8rem;line-height:1.6;}
+    h3{font-size:1.4rem;line-height:1.6;}
+    h4{font-size:1.0;line-height:1.6;}
+    p{line-height:1.6;margin:1rem 0;}
+    a, a:hover, a:visited{color:#454545;text-decoration:none;}
+    .flushR{text-align:right;}
+    .flushL{text-align:left;}
+    .border{border:1px solid #454545;}
+    .title-card{padding:0 0 2.5% 0;}
+    .img{padding: 2.5% 0 0 0;}
+    .link-paddingR{padding-right:2em;}
+    .link-paddingL{padding-left:2em;}
+    .outer-container{display: grid;grid-template-columns: 1fr;gap:0;}
+    .inner-container {width:80%;padding:10%;}
+    .columnA{height:100dvh;margin:0;padding:0;background-color: #faf9f6;}
+    .columnB{height:100dvh;margin:0;padding:0;background-color: #f2f3f4;}
+    .grid{display:grid;place-items:center;}
+    .gridCL{display:grid;place-items:center left;}
+    .gridCR{display:grid;place-items:center right;}
+    .nowrap{white-space:nowrap;}
+    @media (max-width: 600px) {
+    .columnA, .columnB {height:100dvh;}
+    .grid, .gridCL, .gridCR {display:grid;place-items:center left;}
+    .flushL, .flushR {text-align:left;}
+    .link-paddingL{padding-right:1.5em;}}
   </style>
 </head>
 <body>
-
-<!-- Intro -->
-<!-- First Panel - text left -->
-<div class="row">
-  <div class="column-left">
-   <div id="parent">
-    <div id="child">
-     <h1 class="text-align-right">Nobody<br>writes<br>like<br>Carmine Vile.<br><br>Nobody.</h1>
-    </div>
-   </div>
-  </div>
-  <div class="column-left">
-   <div id="parent">
-    <div id="child">
-     <a href="images/kids.jpg" target="_blank"><img src="images/kids300.jpg" alt="" style="border: 1px solid #454545"></a>
-    </div>
-   </div>
-  </div>
-</div>
-
-<!-- Second Panel - text right -->
-<div class="row">
-  <div class="column-right">
-   <div id="parent">
-    <div id="child">
-     <h1 class="text-align-left">He Wept.<br><br>Original<br>fiction<br>that<br>bleeds.</h1>
-    </div>
-   </div>
-  </div>
-  <div class="column-right">
-   <div id="parent">
-    <div id="child">
-     <a href="images/store.jpg" target="_blank"><img src="images/store300.jpg" alt="" style="border: 1px solid #454545"></a>
-     </div>
-   </div>
-  </div>
-</div>
-
-<!-- Third Panel - text left -->
-<div class="row">
-  <div class="column-left">
-   <div id="parent">
-    <div id="child">
-     <h1 class="text-align-right">Poignant.<br><br>Provocative.<br><br>Profane.</h1>
-    </div>
-   </div>
-  </div>
-  <div class="column-left">
-   <div id="parent">
-    <div id="child">
-     <a href="images/pole-and-chain.jpg" target="_blank"><img src="images/pole-and-chain300.jpg" alt="" style="border: 1px solid #454545"></a>
-    </div>
-   </div>
-  </div>
-</div>
- 
-<!-- Fourth Panel - text right -->
-<div class="row">
-  <div class="column-right">
-   <div id="parent">
-    <div id="child">
-     <h1 class="text-align-left">Authentic.<br><br>Urgent.<br><br>Explicit.</h1>
-    </div>
-   </div>
-  </div>
-  <div class="column-right">
-   <div id="parent">
-    <div id="child">
-     <a href="images/coin-laundry.jpg" target="_blank"><img src="images/coin-laundry300.jpg" alt="" style="border: 1px solid #454545"></a>
-     </div>
-   </div>
-  </div>
-</div>
- 
-<!-- Fifth Panel -text left -->
-<div class="row">
-  <div class="column-left">
-   <div id="parent">
-    <div id="child">
-     <h1 class="text-align-right">Real.</h1>
-    </div>
-   </div>
-  </div>
-  <div class="column-left">
-   <div id="parent">
-    <div id="child">
-     <a href="images/beverage.jpg" target="_blank"><img src="images/beverage300.jpg" alt="" style="border: 1px solid #454545"></a>
-    </div>
-   </div>
-  </div>
-</div>
-
-<!-- Sixth Panel text right -->
-<div class="row">
-  <div class="column-right">
-   <div id="parent">
-    <div id="child">
-     <h2 class="text-align-left">A torrent of tears<br>takes one to<br>the brink<br>where anything<br>is possible.</h2>
-    </div>
-   </div>
-  </div>
-  <div class="column-right">
-   <div id="parent">
-    <div id="child">
-     <a href="images/rosa.jpg" target="_blank"></a><img src="images/rosa300.jpg" alt="" style="border: 1px solid #454545"></a>
-     </div>
-   </div>
-  </div>
-</div>
- 
-<!-- Seventh Panel - text left -->
-<div class="row">
-  <div class="column-left">
-   <div id="parent">
-    <div id="child">
-     <h2 class="text-align-right">Shout it out<br>the window.<br><br>Scrawl it on<br>the wall.<br><br>Tattoo it over<br>your heart.</h2>
-    </div>
-   </div>
-  </div>
-  <div class="column-left">
-   <div id="parent">
-    <div id="child">
-     <a href="images/you-are-loved.jpg" target="_blank"><img src="images/you-are-loved300.jpg" alt="" style="border: 1px solid #454545"></a>
-    </div>
-   </div>
-  </div>
-</div>
-
-<!-- Eighth Panel - text right -->
-<div class="row">
-  <div class="column-right">
-   <div id="parent">
-    <div id="child">
-     <h1 class="text-align-left">He Wept.</h1>
-    </div>
-   </div>
-  </div>
-  <div class="column-right">
-   <div id="parent">
-    <div id="child">
-     <a href="images/billboard.jpg" target="_blank"><img src="images/billboard300.jpg" alt="" style="border: 1px solid #454545"></a>
-     </div>
-   </div>
-  </div>
-</div>
- 
-<!-- Ninth Panel - text left -->
-<div class="row">
-  <div class="column-left">
-   <div id="parent">
-    <div id="child">
-     <h3 class="text-align-right">WHAT YOU ARE<br>ABOUT TO EXPERIENCE<br>IS A WORK OF FICTION.<br><br>ANY RESEMBLANCE<br>TO ACTUAL PERSONS,<br>PLACES, THEMES,<br>OR EVENTS IS PURELY<br>COINCIDENTAL.</h3>
-    </div>
-   </div>
-  </div>
-  <div class="column-left">
-   <div id="parent">
-    <div id="child">
-     <a href="images/wooden-house.jpg" target="_blank"><img src="images/wooden-house300.jpg" alt="" style="border: 1px solid #454545"></a>
-    </div>
-   </div>
-  </div>
-</div>
-
-<!-- Tenth Panel - text right -->
-<div class="row" id="home">
-  <div class="column-right">
-   <div id="parent">
-    <div id="child">
-     <h2 class="text-align-left">He Wept<br>by Carmine Vile.<br></h2>
-      <p class="text-align-left">
-        <a href="teasers.html">TEASERS</a><br><br>
-        <a href="a-to-z.html">A TO Z</a><br><br>
-        <a href="the-premise.html">THE PREMISE</a><br><br>
-        <a href="an-interview.html">AN INTERVIEW</a><br><br>
-        <a href="lets-talk.html">LET'S TALK</a><br><br>
-        <a href="">INTRO</a><br><br>
-      </p>
-    </div>
-   </div>
-  </div>
-  <div class="column-right">
-   <div id="parent">
-    <div id="child">
-     <a href="images/venice-strand-atm.jpg" target="_blank"><img src="images/venice-strand-atm300.jpg" alt="" style="border: 1px solid #454545"></a>
-     </div>
-   </div>
-  </div>
-</div>
-
-<!-- Eleventh Panel - text left -->
-<div class="row">
-  <div class="column-left">
-   <div id="parent">
-    <div id="child">
-     <h3 class="text-align-right">Coming Soon /<BR>Próximamente.</h3>
-      <p class="text-align-right">
-        <a href="">TRATO DE NOVIOS</a><br><br>
-      </p>
-      <h3 class="text-align-right">All the Rest Is Up to You.</h3>
-      <p class="text-align-right">
-        <a href="https://www.instagram.com/carmine_vile/" target="_blank">INSTAGRAM</a><br><br>
-        <a href="https://onlyfans.com/u219318829" target="_blank">ONLY FANS</a><br><br>
-        <a href="https://twitter.com/CarmineVile" target="_blank">TWITTER</a><br><br>
-      </p>
-    </div>
-   </div>
-  </div>
-  <div class="column-left">
-   <div id="parent">
-    <div id="child">
-     <a href="images/vending.jpg" target="_blank"><img src="images/vending300.jpg" alt="" style="border: 1px solid #454545"></a>
-    </div>
-   </div>
-  </div>
-</div>
-
+  <main>
+		<section class="outer-container">
+			<div class="columnA grid">
+        <div class="inner-container">
+          <div class="gridCR">
+            <div class="title-card">
+              <h1 class="flushR">Nobody writes like Carmine Vile.</h1>
+              <h1 class="flushR">Nobody.</h1>
+            </div>
+            <div class="img">
+              <a href="images/kids.jpg" target="_blank"><img src="images/kids300.jpg" alt="" class="border"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+		</section>
+	</main>
+  <main>
+		<section class="outer-container">
+			<div class="columnB grid">
+        <div class="inner-container">
+          <div class="gridCL">
+            <div class="title-card">
+              <h1 class="flushL">He Wept.</h1>
+              <h1 class="flushL">Original fiction that bleeds.</h1>
+            </div>
+            <div class="img">
+              <a href="images/store.jpg" target="_blank"><img src="images/store300.jpg" alt="" class="border"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+		</section>
+	</main>
+  <main>
+		<section class="outer-container">
+			<div class="columnA grid">
+        <div class="inner-container">
+          <div class="gridCR">
+            <div class="title-card">
+              <h1 class="flushR">Poignant. Provocative. Profane.</h1>
+            </div>
+            <div class="img">
+              <a href="images/pole-and-chain.jpg" target="_blank"><img src="images/pole-and-chain300.jpg" alt="" class="border"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+		</section>
+	</main>
+  <main>
+		<section class="outer-container">
+			<div class="columnB grid">
+        <div class="inner-container">
+          <div class="gridCL">
+            <div class="title-card">
+              <h1 class="flushR">Authentic. Urgent. Explicit.</h1>
+            </div>
+            <div class="img">
+              <a href="images/coin-laundry.jpg" target="_blank"><img src="images/coin-laundry300.jpg" alt="" class="border"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+		</section>
+	</main>
+  <main>
+		<section class="outer-container">
+			<div class="columnA grid">
+        <div class="inner-container">
+          <div class="gridCR">
+            <div class="title-card">
+              <h1 class="flushR">Real.</h1>
+            </div>
+            <div class="img">
+              <a href="images/beverage.jpg" target="_blank"><img src="images/beverage300.jpg" alt="" class="border"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+		</section>
+	</main>
+  <main>
+		<section class="outer-container">
+			<div class="columnB grid">
+        <div class="inner-container">
+          <div class="gridCL">
+            <div class="title-card">
+              <h2 class="flushL">A torrent of tears takes one to the brink where anything is possible.</h2>
+            </div>
+            <div class="img">
+              <a href="images/rosa.jpg" target="_blank"></a><img src="images/rosa300.jpg" alt="" class="border"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+		</section>
+	</main>
+  <main>
+		<section class="outer-container">
+			<div class="columnA grid">
+        <div class="inner-container">
+          <div class="gridCR">
+            <div class="title-card">
+              <h2 class="flushR">Shout it out the window. Scrawl it on the wall. <span class="nowrap">Tattoo it over your heart.</span></h2>
+            </div>
+            <div class="img">
+              <a href="images/you-are-loved.jpg" target="_blank"><img src="images/you-are-loved300.jpg" alt="" class="border"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+		</section>
+	</main>
+  <main>
+		<section class="outer-container">
+			<div class="columnB grid">
+        <div class="inner-container">
+          <div class="gridCL">
+            <div class="title-card">
+              <h1 class="flushR">He Wept.</h1>
+            </div>
+            <div class="img">
+              <a href="images/billboard.jpg" target="_blank"><img src="images/billboard300.jpg" alt="" class="border"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+		</section>
+	</main>
+  <main>
+		<section class="outer-container">
+			<div class="columnA grid">
+        <div class="inner-container">
+          <div class="gridCR">
+            <div class="title-card">
+              <h3 class="flushR">WHAT YOU ARE ABOUT TO EXPERIENCE IS A WORK OF FICTION.</h3>
+              <h3 class="flushR">ANY RESEMBLANCE TO ACTUAL PERSONS, PLACES, THEMES, OR EVENTS IS PURELY COINCIDENTAL.</h3>
+            </div>
+            <div class="img">
+              <a href="images/wooden-house.jpg" target="_blank"><img src="images/wooden-house300.jpg" alt="" class="border"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+		</section>
+	</main>
+  <main>
+		<section class="outer-container">
+			<div class="columnB grid">
+        <div class="inner-container">
+          <div class="gridCL">
+            <div class="title-card">
+              <h2 class="flushL">He Wept by Carmine Vile.</h2>
+              <p class="flushL">
+                <a href="teasers.html" class="link-paddingR">TEASERS</a>
+                <a href="a-to-z.html" class="link-paddingR">A TO Z</a>
+                <a href="the-premise.html" class="link-paddingR">THE PREMISE</a>
+                <a href="an-interview.html" class="link-paddingR">AN INTERVIEW</a>
+                <a href="lets-talk.html" class="link-paddingR">LET'S TALK</a>
+                <a href="" class="link-padding">INTRO</a>
+              </p>
+            </div>
+            <div class="img">
+              <a href="images/venice-strand-atm.jpg" target="_blank"><img src="images/venice-strand-atm300.jpg" alt="" class="border"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+		</section>
+	</main>
+  <main>
+		<section class="outer-container">
+			<div class="columnA grid">
+        <div class="inner-container">
+          <div class="gridCR">
+            <div class="title-card">
+              <h2 class="flushR">Coming Soon / Próximamente.</h2>
+              <p class="flushR"><a href="">TRATO DE NOVIOS</a></p>
+              <h2 class="flushR">All the Rest Is Up to You.</h2>
+              <p class="flushR">
+                <a href="https://www.instagram.com/carmine_vile/" target="_blank" class="link-paddingL">INSTAGRAM</a>
+                <a href="https://onlyfans.com/u219318829" target="_blank" class="link-paddingL">ONLY FANS</a>
+                <a href="https://twitter.com/CarmineVile" target="_blank" class="link-paddingL">TWITTER</a>
+              </p>
+            </div>
+            <div class="img">
+              <a href="images/vending.jpg" target="_blank"><img src="images/vending300.jpg" alt="" class="border"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+		</section>
+	</main>
 </body>
 </html>
