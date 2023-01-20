@@ -28,14 +28,14 @@
     .img{padding: 2.5% 0 0 0;}
     .outer-container{display: grid;grid-template-columns: 1fr;gap:0;}
     .inner-container {width:80%;padding:10%;}
-    .columnA{height:100%;margin:0;padding:0;background-color: #faf9f6;}
-    .columnB{height:100%;margin:0;padding:0;background-color: #f2f3f4;}
+    .columnA{height:100dvh;margin:0;padding:0;background-color: #faf9f6;}
+    .columnB{height:100dvh;margin:0;padding:0;background-color: #f2f3f4;}
     .grid{display:grid;place-items:center;}
     .gridCL{display:grid;place-items:center left;}
     .gridCR{display:grid;place-items:center right;}
     .nowrap{white-space:nowrap;}
     @media (max-width: 600px) {
-    .columnA, .columnB {height:100%;}
+    .columnA, .columnB {height:100dvh;}
     .grid, .gridCL, .gridCR {display:grid;place-items:center left;}
     .flushL, .flushR {text-align:left;}
   </style>
@@ -64,7 +64,7 @@
           <div class="gridCL">
             <div class="title-card">
               <h3 class="flushL"></h3>
-              <p class="flushL"></p>
+              <p style="text-align:center;"><audio controls><source src="../audio/goodnight.mp3" type="audio/mp3"></audio></p><p style="text-align:center;"><em>Goodnight.</em> <strong>Bicycle to Tokyo.</strong></p><hr></p>
               </div>
           </div>
         </div>
@@ -95,7 +95,7 @@
           <div class="gridCRL">
             <div class="title-card">
               <h3 class="flushL">He Wept by Carmine Vile.</h3>
-              <p class="flushL"><a href="../index.html#home">HOME</a>&nbsp;&nbsp;<a href="../teasers.html">TEASERS</a></p>
+              <p class="flushL"><a href="../index.html#home">HOME</a>&nbsp;&nbsp;<a href="../teasers.html">TEASERS</a> &nbsp;&nbsp;<a href="../a-to-z.html">A TO Z</a></p>
               <p class="flushL">He Wept &copy; 2022 Carmine Vile</p>
             </div>
             <div class="img">
