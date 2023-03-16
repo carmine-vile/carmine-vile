@@ -10,236 +10,203 @@
   <link rel="shortcut icon" href="https://carminevile.com/favicon.png">
   <style>
     /* RESET*/
-    html, body, p, a, img {margin:0;padding:0;}
+    * {margin:0;padding:0;}
     /* END RESET */
-    html{font-size:100%;}
-    body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      max-width:900px;margin:auto}
+    html{font-size:100%;background-color:#f5f5f5;}
+    body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;color:#212427;
+      max-width:900px;margin:auto;}
     h1{font-size:2.2rem;line-height:1.5;}
     h2{font-size:1.8rem;line-height:1.5;}
     h3{font-size:1.4rem;line-height:1.5;}
     h4{font-size:1.0;line-height:1.6;}
-    p{line-height:1.6;margin:1rem 0;}
-    a, a:hover, a:visited{color:#454545;text-decoration:none;padding:}
-    .flushR{text-align:right;}
-    .flushL{text-align:left;}
+    p{line-height:1.6;margin:0;padding:0;}
+    p.intro{font-size:2.2rem;line-height:1.5;text-align:center;margin:auto;padding:2rem;}
+    p.disclaimer{font-size:1.8rem;line-height:1.5;text-align:center;margin:auto;padding:2rem;}
+    img{margin:1rem;border-radius:15px;}
+    a, a:hover, a:visited{color:#454545;text-decoration:none;padding:0 1rem;}
     .border{border:1px solid #454545;}
-    .title-card{padding:0 0 2.5% 0;}
-    .img{padding: 2.5% 0 0 0;}
-    .outer-container{display: grid;grid-template-columns: 1fr;gap:0;}
-    .inner-container {width:80%;padding:10%;}
-    .columnA{height:100%;margin:0;padding:0;background-color: #faf9f6;}
-    .columnB{height:100%;margin:0;padding:0;background-color: #f2f3f4;}
-    .grid{display:grid;place-items:center;}
-    .gridCL{display:grid;place-items:center left;}
-    .gridCR{display:grid;place-items:center right;}
+    .flex-container-title{display:flex;height:300px;justify-content:center;align-items:center;align-content:space-around;}
+    .flex-container-images{display:flex;height:auto;flex-flow: row wrap;justify-content:center;align-items:center;align-content:space-around;}
+    .flex-container-menu{display:flex;height:100px;flex-flow: row wrap;justify-content:space-around;align-items:center;align-content:space-between;}
+    .flex-container-menu-title{display:flex;height:200px;justify-content:center;align-items:center;align-content:space-around;}
     .nowrap{white-space:nowrap;}
-    .special{white-space:nowrap;}
+    footer{text-align:center;margin:2em;}
     @media (max-width: 600px) {
-    .columnA, .columnB {height:100%;}
-    /* .grid, .gridCL, .gridCR {display:grid;place-items:center left;} */
-    /* .flushL, .flushR {text-align:left;} */
-    .adjust1{padding:0 20% 0 0;}
-    .adjust2{padding:0 0 0 20%;}
-    .special{white-space:normal;}
-    .nowrap{white-space:nowrap;}
+      p{line-height:1.6;text-align:left;margin:0 2rem;}
+      p.intro{font-size:2.2rem;line-height:1.5;text-align:center;margin:0 2rem;}
+      }
   </style>
 </head>
 <body>
-  <main>
-		<section class="outer-container">
-			<div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h1 class="flushR">Nobody writes like Carmine Vile.</h1>
-              <h1 class="flushR">Nobody.</h1>
-            </div>
-            <div class="img">
-              <a href="images/00347.jpg" target="_blank"><img src="images/00347-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-	</main>
-  <main>
-		<section class="outer-container">
-			<div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCL">
-            <div class="title-card">
-              <h1 class="flushL">He Wept.</h1>
-              <h1 class="flushL">Original fiction that bleeds.</h1>
-            </div>
-            <div class="img">
-              <a href="images/00033.jpg" target="_blank"><img src="images/00033-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-	</main>
-  <main>
-		<section class="outer-container">
-			<div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h1 class="flushR">Poignant. Provocative. Profane.</h1>
-            </div>
-            <div class="img">
-              <a href="images/00050.jpg" target="_blank"><img src="images/00050-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-	</main>
-  <main>
-		<section class="outer-container">
-			<div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCL">
-            <div class="title-card">
-              <h1 class="flushL adjust1">Authentic. Urgent. Explicit.</h1>
-            </div>
-            <div class="img">
-              <a href="images/00295.jpg" target="_blank"><img src="images/00295-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-	</main>
-  <main>
-		<section class="outer-container">
-			<div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h1 class="flushR">Real.</h1>
-            </div>
-            <div class="img">
-              <a href="images/00243.jpg" target="_blank"><img src="images/00243-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-	</main>
-  <main>
-		<section class="outer-container">
-			<div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCL">
-            <div class="title-card">
-              <h2 class="flushL">A torrent of tears takes one to the brink where anything is possible.</h2>
-            </div>
-            <div class="img">
-              <a href="images/00263.jpg" target="_blank"><img src="images/00263-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-	</main>
-  <main>
-		<section class="outer-container">
-			<div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h2 class="flushR adjust2">Shout it out the window. Scrawl it on the wall. <span class="special">Tattoo it over your heart.</span></h2>
-            </div>
-            <div class="img">
-              <a href="images/00342.jpg" target="_blank"><img src="images/00342-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-	</main>
-  <main>
-		<section class="outer-container">
-			<div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCL">
-            <div class="title-card">
-              <h1 class="flushR">He Wept.</h1>
-            </div>
-            <div class="img">
-              <a href="images/00030.jpg" target="_blank"><img src="images/00030-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-	</main>
-  <main>
-		<section class="outer-container">
-			<div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h3 class="flushR">WHAT YOU ARE ABOUT TO EXPERIENCE IS A WORK OF FICTION.</h3>
-              <h3 class="flushR">ANY RESEMBLANCE TO ACTUAL PERSONS, PLACES, THEMES, OR EVENTS IS PURELY COINCIDENTAL.</h3>
-            </div>
-            <div class="img">
-              <a href="images/00339.jpg" target="_blank"><img src="images/00339-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-	</main>
-  <main>
-		<section class="outer-container">
-      <a name="home"></a>
-			<div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCL">
-            <div class="title-card">
-              <h2 class="flushL">He Wept by <span class="nowrap">Carmine Vile.</span></h2>
-              <p class="flushL">
-                <a href="teasers.html">TEASERS &nbsp;&nbsp;</a>
-                <a href="a-to-z.html">A TO Z &nbsp;&nbsp;</a>
-                <a href="the-premise.html"><span class="nowrap">THE PREMISE &nbsp;&nbsp;</span></a>
-                <a href="an-interview.html"><span class="nowrap">AN INTERVIEW &nbsp;&nbsp;</span></a>
-                <a href="lets-talk.html"><span class="nowrap">LET'S TALK &nbsp;&nbsp;</span></a>
-                <a href="#top">INTRO</a>
-              </p>
-            </div>
-            <div class="img">
-              <a href="images/00328.jpg" target="_blank"><img src="images/00328-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-	</main>
-  <main>
-		<section class="outer-container">
-			<div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h2 class="flushR" style="line-height:1.4;">Coming Soon / Próximamente.</h2>
-              <p class="flushR"><a href="teasers/trato-de-novios.html" target="_blank">TRATO DE NOVIOS</a></p>
-              <h2 class="flushR" class="adjust">All the Rest Is <span class="nowrap">Up to You.</span></h2>
-              <p class="flushR">
-                <a href="https://www.instagram.com/carmine_vile/" target="_blank">INSTAGRAM &nbsp;&nbsp;</a>
-                <a href="https://onlyfans.com/u219318829" target="_blank">ONLY FANS &nbsp;&nbsp;</a>
-                <a href="https://twitter.com/CarmineVile" target="_blank">TWITTER</a>
-              </p>
-            </div>
-            <div class="img">
-              <a href="images/00327.jpg" target="_blank"><img src="images/00327-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-	</main>
+  <div class="flex-container-title">
+    <div>
+      <p class="intro">Nobody writes like <span class="nowrap">Carmine Vile.</span> Nobody.</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00185.jpg" target="_blank"><img src="images/00185-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00033.jpg" target="_blank"><img src="images/00033-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title">
+    <div> 
+      <p class="intro">He Wept. Original fiction that bleeds.</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00050.jpg" target="_blank"><img src="images/00050-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00191.jpg" target="_blank"><img src="images/00191-300.jpg" alt="" class="border"></a>      
+    </div>  
+  </div>
+  <div class="flex-container-title">
+    <div>
+      <p class="intro">Poignant. Provocative. Profane.</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00243.jpg" target="_blank"><img src="images/00243-300.jpg" alt="" class="border"></a>
+    </div>   
+    <div>
+      <a href="images/00318.jpg" target="_blank"><img src="images/00318-300.jpg" alt="" class="border"></a>
+    </div>  
+  </div>
+  <div class="flex-container-title">
+    <div>
+      <p class="intro">Authentic. Urgent. Explicit.</p>
+    </div> 
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00194.jpg" target="_blank"><img src="images/00194-300.jpg" alt="" class="border"></a>
+    </div>   
+    <div>
+      <a href="images/00210.jpg" target="_blank"><img src="images/00210-300.jpg" alt="" class="border"></a>
+    </div>  
+  </div>
+  <div class="flex-container-title">
+    <div>
+      <p class="intro">Real.</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00218.jpg" target="_blank"><img src="images/00218-300.jpg" alt="" class="border"></a>
+    </div>   
+    <div>
+      <a href="images/00224.jpg" target="_blank"><img src="images/00224-300.jpg" alt="" class="border"></a>
+    </div>  
+  </div>
+  <div class="flex-container-title">
+    <div>
+      <p class="intro">A torrent of tears takes one to the brink where anything is possible.</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00188.jpg" target="_blank"><img src="images/00188-300.jpg" alt="" class="border"></a>
+    </div>   
+    <div>
+      <a href="images/00263.jpg" target="_blank"><img src="images/00263-300.jpg" alt="" class="border"></a>
+    </div>  
+  </div>
+  <div class="flex-container-title">
+    <div>
+      <p class="intro">Shout it out the window. Scrawl it on the wall. <span class="nowrap">Tattoo it over your heart.</span></p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00342.jpg" target="_blank"><img src="images/00342-300.jpg" alt="" class="border"></a>
+    </div>   
+    <div>
+      <a href="images/00347.jpg" target="_blank"><img src="images/00347-300.jpg" alt="" class="border"></a>
+    </div>  
+  </div>
+  <div class="flex-container-title"> 
+    <div>
+      <p class="intro">He Wept.</p>
+    </div> 
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00030.jpg" target="_blank"><img src="images/00030-300.jpg" alt="" class="border"></a>
+    </div>   
+    <div>
+      <a href="images/00240.jpg" target="_blank"><img src="images/00240-300.jpg" alt="" class="border"></a>
+    </div>  
+  </div>
+  <div class="flex-container-title">
+    <div>
+      <p class="disclaimer">What you are about to experience is a work of fiction. Any resemblance to actual persons, places, themes, or events is purely coincidental.</p>
+    </div>  
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00255.jpg" target="_blank"><img src="images/00255-300.jpg" alt="" class="border"></a>
+    </div>   
+    <div>
+      <a href="images/00257.jpg" target="_blank"><img src="images/00257-300.jpg" alt="" class="border"></a>
+    </div>  
+  </div>
+  <a name="home"></a>
+  <div class="flex-container-menu-title">
+    <div>
+      <p class="intro">He Wept by <span class="nowrap">Carmine Vile.</p>
+    </div>  
+  </div>
+  <div class="flex-container-menu">
+    <div><a href="teasers.html">TEASERS</a></div>
+    <div><a href="a-to-z.html">A TO Z</a></div>
+    <div><a href="the-premise.html"><span class="nowrap">THE PREMISE</span></a></div>
+    <div><a href="an-interview.html"><span class="nowrap">AN INTERVIEW</span></a></div>
+    <div><a href="lets-talk.html"><span class="nowrap">LET'S TALK</span></a></div>
+    <div><a href="#top">INTRO</a></div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00328.jpg" target="_blank"><img src="images/00328-300.jpg" alt="" class="border"></a>
+    </div>   
+    <div>
+      <a href="images/00327.jpg" target="_blank"><img src="images/00327-300.jpg" alt="" class="border"></a>
+    </div>  
+  </div>
+  <div class="flex-container-menu-title">
+    <p class="intro">Coming Soon / Próximamente.</p>
+  </div>
+  <div class="flex-container-menu">
+    <div><a href="teasers/trato-de-novios.html" target="_blank">TRATO DE NOVIOS</a></div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00271.jpg" target="_blank"><img src="images/00271-300.jpg" alt="" class="border"></a>
+    </div>   
+    <div>
+      <a href="images/00238.jpg" target="_blank"><img src="images/00238-300.jpg" alt="" class="border"></a>
+    </div>  
+  </div>
+  <div class="flex-container-menu-title">
+    <p class="intro">All the Rest Is <span class="nowrap">Up to You.</span></p>
+  </div>
+  <div class="flex-container-menu">
+    <div><a href="https://www.instagram.com/carmine_vile/" target="_blank">INSTAGRAM</a></div>
+    <div><a href="https://onlyfans.com/u219318829" target="_blank">ONLY FANS</a></div>
+    <div><a href="https://twitter.com/CarmineVile" target="_blank">TWITTER</a></div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00285.jpg" target="_blank"><img src="images/00285-300.jpg" alt="" class="border"></a>
+    </div>   
+    <div>
+      <a href="images/00312.jpg" target="_blank"><img src="images/00312-300.jpg" alt="" class="border"></a>
+    </div>  
+  </div>
+  <footer><small>&copy; Copyright 2021-2023, He Wept by Carmine Vile. All Rights Reserved.</small></footer>
 </body>
 </html>
