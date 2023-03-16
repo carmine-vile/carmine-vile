@@ -14,26 +14,27 @@
     /* END RESET */
     html{font-size:100%;background-color:#f5f5f5;}
     body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;color:#212427;
-      max-width:900px;margin:auto;}
+      max-width:900px;margin:auto;padding:2rem;}
     h1{font-size:2.2rem;line-height:1.5;}
     h2{font-size:1.8rem;line-height:1.5;}
     h3{font-size:1.4rem;line-height:1.5;}
     h4{font-size:1.0;line-height:1.6;}
     p{line-height:1.6;margin:0;padding:0;}
     p.intro{font-size:2.2rem;line-height:1.5;text-align:center;margin:auto;padding:2rem;}
-    p.disclaimer{font-size:1.8rem;line-height:1.5;text-align:center;margin:auto;padding:2rem;}
+    p.disclaimer{font-size:1.2rem;line-height:1.5;text-align:center;margin:auto;padding:2rem;text-transform:uppercase;}
     img{margin:1rem;border-radius:15px;}
     a, a:hover, a:visited{color:#454545;text-decoration:none;padding:0 1rem;}
     .border{border:1px solid #454545;}
-    .flex-container-title{display:flex;height:300px;justify-content:center;align-items:center;align-content:space-around;}
-    .flex-container-images{display:flex;height:auto;flex-flow: row wrap;justify-content:center;align-items:center;align-content:space-around;}
-    .flex-container-menu{display:flex;height:100px;flex-flow: row wrap;justify-content:space-around;align-items:center;align-content:space-between;}
-    .flex-container-menu-title{display:flex;height:200px;justify-content:center;align-items:center;align-content:space-around;}
+    .flex-container-title{display:flex;height:300px;flex-flow: row wrap;justify-content:center;align-items:center;align-content:space-around;}
+    .flex-container-title-menu{display:flex;height:200px;flex-flow: row wrap;justify-content:center;align-items:flex-end;}
+    .flex-container-menu{display: flex;height: 150px;  justify-content:space-around;  align-items: flex-start;}
+    .flex-container-images{display:flex;height:auto;flex-flow: row wrap;justify-content:center;align-items:center;}
     .nowrap{white-space:nowrap;}
     footer{text-align:center;margin:2em;}
-    @media (max-width: 600px) {
+    @media (orientation: portrait) {
       p{line-height:1.6;text-align:left;margin:0 2rem;}
       p.intro{font-size:2.2rem;line-height:1.5;text-align:center;margin:0 2rem;}
+      .flex-container-menu{display: flex;height: 150px; flex-flow: row wrap; align-items:flex-start;}
       }
   </style>
 </head>
@@ -156,18 +157,30 @@
     </div>  
   </div>
   <a name="home"></a>
-  <div class="flex-container-menu-title">
+  <div class="flex-container-title-menu">
     <div>
       <p class="intro">He Wept by <span class="nowrap">Carmine Vile.</p>
     </div>  
   </div>
   <div class="flex-container-menu">
-    <div><a href="teasers.html">TEASERS</a></div>
-    <div><a href="a-to-z.html">A TO Z</a></div>
-    <div><a href="the-premise.html"><span class="nowrap">THE PREMISE</span></a></div>
-    <div><a href="an-interview.html"><span class="nowrap">AN INTERVIEW</span></a></div>
-    <div><a href="lets-talk.html"><span class="nowrap">LET'S TALK</span></a></div>
-    <div><a href="#top">INTRO</a></div>
+    <div>
+      <a href="teasers.html">TEASERS</a>
+    </div>
+    <div>
+      <a href="a-to-z.html"><span class="nowrap">A TO Z</span></a>
+    </div>
+    <div>
+      <a href="the-premise.html"><span class="nowrap">THE PREMISE</span></a>
+    </div>
+    <div>
+      <a href="an-interview.html"><span class="nowrap">AN INTERVIEW</span></a>
+    </div>
+    <div>
+      <a href="lets-talk.html"><span class="nowrap">LET'S TALK</span></a>
+    </div>
+    <div>
+      <a href="#top">INTRO</a>
+    </div>
   </div>
   <div class="flex-container-images">
     <div>
@@ -177,11 +190,15 @@
       <a href="images/00327.jpg" target="_blank"><img src="images/00327-300.jpg" alt="" class="border"></a>
     </div>  
   </div>
-  <div class="flex-container-menu-title">
-    <p class="intro">Coming Soon / Próximamente.</p>
+  <div class="flex-container-title-menu">
+    <div>
+      <p class="intro">Coming Soon / Próximamente.</p>
+    </div>
   </div>
   <div class="flex-container-menu">
-    <div><a href="teasers/trato-de-novios.html" target="_blank">TRATO DE NOVIOS</a></div>
+    <div>
+      <a href="teasers/trato-de-novios.html" target="_blank">TRATO DE NOVIOS</a>
+    </div>
   </div>
   <div class="flex-container-images">
     <div>
@@ -191,13 +208,21 @@
       <a href="images/00238.jpg" target="_blank"><img src="images/00238-300.jpg" alt="" class="border"></a>
     </div>  
   </div>
-  <div class="flex-container-menu-title">
-    <p class="intro">All the Rest Is <span class="nowrap">Up to You.</span></p>
+  <div class="flex-container-title-menu">
+    <div>
+      <p class="intro">All the Rest Is <span class="nowrap">Up to You.</span></p>
+    </div>
   </div>
   <div class="flex-container-menu">
-    <div><a href="https://www.instagram.com/carmine_vile/" target="_blank">INSTAGRAM</a></div>
-    <div><a href="https://onlyfans.com/u219318829" target="_blank">ONLY FANS</a></div>
-    <div><a href="https://twitter.com/CarmineVile" target="_blank">TWITTER</a></div>
+    <div>
+      <a href="https://www.instagram.com/carmine_vile/" target="_blank">INSTAGRAM</a>
+    </div>
+    <div>
+      <a href="https://onlyfans.com/u219318829" target="_blank">ONLY FANS</a>
+    </div>
+    <div>
+      <a href="https://twitter.com/CarmineVile" target="_blank">TWITTER</a>
+    </div>
   </div>
   <div class="flex-container-images">
     <div>
@@ -207,6 +232,6 @@
       <a href="images/00312.jpg" target="_blank"><img src="images/00312-300.jpg" alt="" class="border"></a>
     </div>  
   </div>
-  <footer><small>&copy; Copyright 2021-2023, He Wept by Carmine Vile. All Rights Reserved.</small></footer>
+  <footer><small>&copy; Copyright 2021-2023, He Wept by Carmine Vile. <span class="nowrap">All Rights Reserved.</span></small></footer>
 </body>
 </html>
