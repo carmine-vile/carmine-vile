@@ -10,155 +10,153 @@
   <link rel="shortcut icon" href="https://carminevile.com/favicon.png">
   <style>
     /* RESET*/
-    html, body, p, a, img {margin:0;padding:0;}
+    * {margin:0;padding:0;}
     /* END RESET */
-    html{font-size:100%;}
-    body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      max-width:900px;margin:auto}
-    h1{font-size:2.2rem;line-height:1.6;}
-    h2{font-size:1.8rem;line-height:1.6;}
-    h3{font-size:1.4rem;line-height:1.6;}
+    html{font-size:100%;background-color:#f5f5f5;}
+    body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;color:#212427;
+      max-width:900px;margin:auto;padding:2rem;}
+    h1{font-size:2.2rem;line-height:1.5;}
+    h2{font-size:1.8rem;line-height:1.5;}
+    h3{font-size:1.4rem;line-height:1.5;}
     h4{font-size:1.0;line-height:1.6;}
-    p{line-height:1.6;margin:1rem 0;}
-    a, a:hover, a:visited{color:#454545;text-decoration:none;padding:}
-    .flushR{text-align:right;}
-    .flushL{text-align:left;}
+    p{line-height:1.6;margin:auto;padding:0.5rem;max-width:75%;}
+    p.intro{font-size:2.2rem;line-height:1.5;text-align:center;max-width:100%;}
+    p.disclaimer{font-size:1.2rem;line-height:1.5;text-align:center;text-transform:uppercase;}
+    img{margin:0.75rem;border-radius:15px;}
+    a, a:hover, a:visited{color:#454545;text-decoration:none;margin:0 1rem;padding:0 1rem;}
     .border{border:1px solid #454545;}
-    .title-card{padding:0 0 2.5% 0;}
-    .img{padding: 2.5% 0 0 0;}
-    .outer-container{display: grid;grid-template-columns: 1fr;gap:0;}
-    .inner-container {width:80%;padding:10%;}
-    .columnA{height:100%;margin:0;padding:0;background-color: #faf9f6;}
-    .columnB{height:100%;margin:0;padding:0;background-color: #f2f3f4;}
-    .grid{display:grid;place-items:center;}
-    .gridCL{display:grid;place-items:center left;}
-    .gridCR{display:grid;place-items:center right;}
+    .flex-container-title{display:flex;height:300px;flex-flow: row wrap;justify-content:center;align-items:center;align-content:space-around;}
+    .flex-container-title-menu{display:flex;height:200px;flex-flow: row wrap;justify-content:center;align-items:flex-end;}
+    .flex-container-interview{display:flex;height:400px;flex-flow: row wrap;justify-content:center;align-items:center;align-content:space-around;}
+    .flex-container-menu{display: flex;height: 150px;  justify-content:center;  align-items: flex-start;}
+    .flex-container-images{display:flex;height:auto;flex-flow: row wrap;justify-content:center;align-items:center;}
     .nowrap{white-space:nowrap;}
-    @media (max-width: 600px) {
-    .columnA, .columnB {height:100%;}
-    /* .grid, .gridCL, .gridCR {display:grid;place-items:center left;} */
-    /*.flushL, .flushR {text-align:left;} */
-    .adjust{width:75%;}
+    footer{text-align:center;margin:2em;}
+    @media (orientation: portrait) {
+      html{font-size:80%%;background-color:#f5f5f5;}
+      p.intro{font-size:2.2rem;line-height:1.5;text-align:center;margin:0 2rem;}
+      img{margin:1rem;border-radius:15px;}
+      .flex-container-interview{display:flex;height:600px;flex-flow: row wrap;justify-content:center;align-items:center;align-content:space-around;}
+      .flex-container-menu{display: flex;height: 150px; flex-flow: row wrap; align-items:flex-start;justify-content:center; }
+      }
   </style>
 </head>
 <body>
-	<main>
-		<section class="outer-container">
-			<div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h1 class="flushR">Excerpt from an Interview.</h1>
-            </div>
-            <div class="img">
-              <a href="images/00177.jpg" target="_blank"><img src="images/00177-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-	</main>
-  <main>
-		<section class="outer-container">
-      <div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCL">
-            <div class="title-card">
-              <h2 class="flushL">Carmine Vile crafts fiction.</h2>
-            </div>
-            <div class="img">
-              <a href="images/00345.jpg" target="_blank"><img src="images/00345-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
-  <main>
-		<section class="outer-container">
-      <div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h2 class="flushR">That resonates where it must.</h2>
-              <h2 class="flushR">And liberates where it can.</h2>
-            </div>
-            <div class="img">
-              <a href="images/00346.jpg" target="_blank"><img src="images/00346-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
-  <main>
-		<section class="outer-container">
-      <div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCL">
-            <div class="title-card">
-              <h2 class="flushR" class="adjust">All the rest is <span class="nowrap">up to you.</span></h2>
-            </div>
-            <div class="img">
-              <a href="images/00199.jpg" target="_blank"><img src="images/00199-300.jpg" alt="" class="border"></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
-  <main>
-		<section class="outer-container">
-      <div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <p class="flushR">Born and raised in the Bronx&mdash;a transplant to Miami&mdash;Carmine has worked in a bindery, as a bar tender, in a flea market, and on a fishing boat in the Keys.</p>
-              <p class="flushR">Storytelling goes way back.</p>
-              </div>
-            <div class="img">
-              <a href="images/00148.jpg" target="_blank"><img src="images/00148-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
-  <main>
-		<section class="outer-container">
-      <div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCL">
-            <div class="title-card">
-              <p class="flushL"><em>"PS 185 sat in the middle of city housing, separated by a patch of asphalt surrounded by a chain link fence. Recess was a time of discovery&mdash;you got to see who visited your building during the day&mdash;who came and went when others weren't around. Sometimes mom would peek out the window and shout. The far side of the fence had a gate so tall it touched the sky. Chained shut, the gate budged a little if you pushed it&mdash;kids were always trying to squeeze through. Hector Rodriguez got stuck once&mdash;the fire department came to get him out."</em></p>
-              <p class="flushL"><em>"In six years of primary school I never saw that gate open&mdash;not even once."</em></p>
-              <p class="flushL"><em>"You just had to use your imagination."</em></p>      
-            </div>
-            <div class="img">
-              <a href="images/PS185.jpg" target="_blank"><img src="images/PS185-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
-  <main>
-		<section class="outer-container">
-      <div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h3 class="flushR">He Wept by Carmine Vile.</h3>
-              <p class="flushR"><a href="a-to-z.html">A TO Z</a> &nbsp;&nbsp;<a href="index.html#home">HOME</a></p>
-              <p class="flushR">He Wept &copy; 2022 Carmine Vile</p>
-            </div>
-            <div class="img">
-              <a href="images/00265.jpg" target="_blank"><img src="images/00265-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
+  <div class="flex-container-title">
+    <div>
+      <p class="intro">Excerpt from an Interview.</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00177.jpg" target="_blank"><img src="images/00177-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00344.jpg" target="_blank"><img src="images/00344-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title">
+    <div>
+      <p class="intro">Carmine Vile crafts fiction.</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00345.jpg" target="_blank"><img src="images/00345-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00336.jpg" target="_blank"><img src="images/00336-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title">
+    <div>
+      <p class="intro">That resonates where it must.</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00346.jpg" target="_blank"><img src="images/00346-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00334.jpg" target="_blank"><img src="images/00334-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title">
+    <div>
+      <p class="intro">And liberates where it can.</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00199.jpg" target="_blank"><img src="images/00199-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00330.jpg" target="_blank"><img src="images/00330-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title">
+    <div>
+      <p class="intro">All the rest is <span class="nowrap">up to you.</span></p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00007.jpg" target="_blank"><img src="images/00007-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00317.jpg" target="_blank"><img src="images/00317-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title">
+    <div>
+      <p>Born and raised in the Bronx&mdash;a transplant to Miami&mdash;Carmine has worked in a bindery, as a bar tender, in a flea market, and on a fishing boat in the Keys.</p>
+      <p>Storytelling goes way back.</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00148.jpg" target="_blank"><img src="images/00148-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00307.jpg" target="_blank"><img src="images/00307-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-interview">
+    <div>
+      <p><em>"PS 185 sat in the middle of city housing, separated by a patch of asphalt surrounded by a chain link fence. Recess was a time of discovery&mdash;you got to see who visited your building during the day&mdash;who came and went when others weren't around. Sometimes mom would peek out the window and shout. The far side of the fence had a gate so tall it touched the sky. Chained shut, the gate budged a little if you pushed it&mdash;kids were always trying to squeeze through. Hector Rodriguez got stuck once&mdash;the fire department came to get him out."</em></p>
+      <p><em>"In six years of primary school I never saw that gate open&mdash;not even once."</em></p>
+      <p><em>"You just had to use your imagination."</em></p>   
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/PS185.jpg" target="_blank"><img src="images/PS185-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00037.jpg" target="_blank"><img src="images/00037-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+	<div class="flex-container-title-menu">
+    <div>
+      <p class="intro">He Wept by <span class="nowrap">Carmine Vile.</span><br><br></p>
+    </div>
+  </div>
+  <div class="flex-container-menu">
+    <div>
+      <a href="a-to-z.html">A TO Z</a>
+    </div>
+    <div>
+      <a href="index.html#home">HOME</a>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00265.jpg" target="_blank"><img src="images/00265-300.jpg" alt="" class="border"></a>
+    </div>   
+    <div>
+      <a href="images/00250.jpg" target="_blank"><img src="images/00250-300.jpg" alt="" class="border"></a>
+    </div>  
+  </div>
+  <footer><small>&copy; Copyright 2021-2023, He Wept by Carmine Vile. <span class="nowrap">All Rights Reserved.</span></small></footer>
 </body>
 </html>
