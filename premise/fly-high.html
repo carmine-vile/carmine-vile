@@ -10,113 +10,118 @@
   <link rel="shortcut icon" href="https://carminevile.com/favicon.png">
   <style>
     /* RESET*/
-    html, body, p, a, img {margin:0;padding:0;}
+    * {margin:0;padding:0;}
     /* END RESET */
-    html{font-size:100%;}
-    body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      max-width:900px;margin:auto}
-    h1{font-size:2.2rem;line-height:1.6;}
-    h2{font-size:1.8rem;line-height:1.6;}
-    h3{font-size:1.4rem;line-height:1.6;}
+    html{font-size:100%;background-color:#f5f5f5;}
+    body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;color:#212427;
+      max-width:900px;margin:auto;padding:2rem;}
+    h1{font-size:2.2rem;line-height:1.5;}
+    h2{font-size:1.8rem;line-height:1.5;}
+    h3{font-size:1.4rem;line-height:1.5;}
     h4{font-size:1.0;line-height:1.6;}
-    p{line-height:1.6;margin:1rem 0;}
-    a, a:hover, a:visited{color:#454545;text-decoration:none;padding:}
-    .flushR{text-align:right;}
-    .flushL{text-align:left;}
+    p{line-height:1.6;margin:auto;padding:0.5rem;max-width:75%;}
+    p.intro{font-size:2.2rem;line-height:1.5;text-align:center;max-width:100%;}
+    p.disclaimer{font-size:1.2rem;line-height:1.5;text-align:center;text-transform:uppercase;}
+    img{margin:0.75rem;border-radius:15px;}
+    a, a:hover, a:visited{color:#454545;text-decoration:none;margin:0 1rem;padding:0 1rem;}
+    #body{padding:0 0 1.5rem 0;width:80%;margin:4rem auto;}
     .border{border:1px solid #454545;}
-    .title-card{padding:0 0 2.5% 0;}
-    .img{padding: 2.5% 0 0 0;}
-    .outer-container{display: grid;grid-template-columns: 1fr;gap:0;}
-    .inner-container {width:80%;padding:10%;}
-    .columnA{height:100%;margin:0;padding:0;background-color: #faf9f6;}
-    .columnB{height:100%;margin:0;padding:0;background-color: #f2f3f4;}
-    .grid{display:grid;place-items:center;}
-    .gridCL{display:grid;place-items:center left;}
-    .gridCR{display:grid;place-items:center right;}
+    .flex-container-title{display:flex;height:300px;flex-flow: row wrap;justify-content:center;align-items:center;align-content:space-around;}
+    .flex-container-title-menu{display:flex;height:200px;flex-flow: row wrap;justify-content:center;align-items:flex-end;}
+    .flex-container-menu{display: flex;height: 150px;  justify-content:center;  align-items: flex-start;}
+    .flex-container-images{display:flex;height:auto;flex-flow: row wrap;justify-content:center;align-items:center;}
     .nowrap{white-space:nowrap;}
-    @media (max-width: 600px) {
-    .columnA, .columnB {height:100%;}
-    /*.grid, .gridCL, .gridCR {display:grid;place-items:center left;}*/
-    /*.flushL, .flushR {text-align:left;}*/
+    footer{text-align:center;margin:2em;}
+    @media (orientation: portrait) {
+      html{font-size:80%%;background-color:#f5f5f5;}
+      p.intro{font-size:2.2rem;line-height:1.5;text-align:center;margin:0 2rem;}
+      img{margin:1rem;border-radius:15px;}
+      .flex-container-interview{display:flex;height:600px;flex-flow: row wrap;justify-content:center;align-items:center;align-content:space-around;}
+      .flex-container-menu{display: flex;height: 150px; flex-flow: row wrap; align-items:flex-start;justify-content:center; }
+      }
   </style>
 </head>
 <body>
-	<main>
-		<section class="outer-container">
-			<div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h2 class="flushR">Fly High.</h2>
-                <div class="img">
-                  <a href="../images/bleachers.jpg" target="_blank"><img src="../images/bleachers300.jpg" alt="" class="border"></a>
-                </div> 
-            </div>
-          </div>
-        </div>
+  <div class="flex-container-title">
+    <div>
+      <p class="intro">Fly High.</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="../images/00132.jpg" target="_blank"><img src="../images/00132-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="../images/00049.jpg" target="_blank"><img src="../images/00049-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+	<div id="body">
+    <div>
+      <p>Un día de estos.</p>
+      <p><em>We'll be able to say the following.</em></p>
+      <p>He Wept&trade; is a brand of high concept entertainment (drama, even comedy) available online and beyond.</p>
+      <p><em>Speaking as if we were already there.</em></p>
+      <p>He Wept&trade; rises above the din. Easily found. Easily shared. On your mind. Everywhere you look. <strong>Conspicuous.</strong></p>
+      <p>He Wept&trade; delivers fresh, original, riveting content that speaks the unspoken and reveals the unseen, that empowers by inviting new perspectives, that captivates the audience like nothing else out there. <strong>Credible.</strong></p>
+      <p>He Wept&trade; is easy to use and fits like a glove. It looks just as good on you as it does on the shelf. <strong>Style.</strong></p>
+      <p>He Wept&trade; showcases insight oriented, multimedia storytelling that explores the search for meaning, freedom, and love in contemporary society, that highlights the struggle of ordinary men and women to grow, change, and live life to the fullest. <strong>Substance.</strong></p>
+      <p>He Wept&trade; creates exclusive content that is provocative, poignant, persuasive, profound, and memorable, that motivates, transforms, and inspires, that makes hope seem like less of a waste of time and dreams like less of a lost cause. <strong>Value.</strong></p>
+      <p>He Wept&trade; gets under your skin and doesn't let go.</p>
+      <p>You can't live without it, and you can't get it anywhere else.</p>
+      <p>We're setting the bar very high here.</p>
+      <p>You might even say it's in the stratosphere.</p>
+      <p>How high do you want to fly?</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="../images/00005.jpg" target="_blank"><img src="../images/00005-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="../images/00078.jpg" target="_blank"><img src="../images/00078-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title">
+      <div>
+        <p>
+          <a href="resurrection.html"><span class="nowrap"><strong>NEXT. </strong>This Is Not Entertainment.</span></a>
+        </p>
       </div>
-		</section>
-	</main>
-  <main>
-		<section class="outer-container">
-      <div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCL">
-            <div class="title-card">
-              <h3 class="flushL">Un día de estos.</h3>
-              <p class="flushL"><em>We'll be able to say the following.</em></p>
-              <p class="flushL">He Wept&trade; is a brand of high concept entertainment (drama, even comedy) available online and beyond.</p>
-              <p class="flushL"><em>Speaking as if we were already there.</em></p>
-              <p class="flushL">He Wept&trade; rises above the din. Easily found. Easily shared. On your mind. Everywhere you look. <strong>Conspicuous.</strong></p>
-              <p class="flushL">He Wept&trade; delivers fresh, original, riveting content that speaks the unspoken and reveals the unseen, that empowers by inviting new perspectives, that captivates the audience like nothing else out there. <strong>Credible.</strong></p>
-              <p class="flushL">He Wept&trade; is easy to use and fits like a glove. It looks just as good on you as it does on the shelf. <strong>Style.</strong></p>
-              <p class="flushL">He Wept&trade; showcases insight oriented, multimedia storytelling that explores the search for meaning, freedom, and love in contemporary society, that highlights the struggle of ordinary men and women to grow, change, and live life to the fullest. <strong>Substance.</strong></p>
-              <p class="flushL">He Wept&trade; creates exclusive content that is provocative, poignant, persuasive, profound, and memorable, that motivates, transforms, and inspires, that makes hope seem like less of a waste of time and dreams like less of a lost cause. <strong>Value.</strong></p>
-              <p class="flushL">He Wept&trade; gets under your skin and doesn't let go.</p>
-              <p class="flushL">You can't live without it, and you can't get it anywhere else.</p>
-              <p class="flushL">We're setting the bar very high here.</p>
-              <p class="flushL">You might even say it's in the stratosphere.</p>
-              <p class="flushL">How high do you want to fly?</p>
-            </div>
-          </div>
-        </div>
+      <div>
+        <p>
+          <a href="your-words.html"><span class="nowrap"><strong>BACK. </strong>Your Words Hurt My Ears.</span></a>
+        </p>
       </div>
-		</section>
-  </main>
-  <main>
-		<section class="outer-container">
-      <div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-                <h4 class="flushR">NEXT&nbsp;&nbsp;<a href="resurrection.html">This Is Not Entertainment.</a></h4>
-                <h4 class="flushR">BACK&nbsp;&nbsp;<a href="your-words.html">Your Words Hurt My Ears.</a></h4>        
-            </div>
-            <div class="img">
-              <a href="../images/fuselage.jpg" target="_blank"><img src="../images/fuselage300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
+    </div>
+    <div class="flex-container-images">
+      <div>
+        <a href="../images/00066.jpg" target="_blank"><img src="../images/00066-300.jpg" alt="" class="border"></a>
       </div>
-		</section>
-  </main>
-  <main>
-	<section class="outer-container">
-      <div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCRL">
-            <div class="title-card">
-              <h3 class="flushL">He Wept by Carmine Vile.</h3>
-              <p class="flushL"><a href="../index.html#home">HOME</a> &nbsp;&nbsp;<a href="../the-premise.html">THE PREMISE</a></p>
-              <p class="flushL">He Wept &copy; 2022 Carmine Vile</p>
-            </div>
-            <div class="img">
-              <a href="../images/stairwell.jpg" target="_blank"><img src="../images/stairwell300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
+      <div>
+        <a href="../images/00122.jpg" target="_blank"><img src="../images/00122-300.jpg" alt="" class="border"></a>
       </div>
-	</section>
-  </main>
-</body>
-</html>
+    </div>
+    <div class="flex-container-title-menu">
+              <div>
+                <p class="intro">He Wept by <span class="nowrap">Carmine Vile.</span><br><br></p>
+              </div>
+            </div>
+            <div class="flex-container-menu">
+              <div>
+                <a href="../the-premise.html">THE PREMISE</a>
+              </div>
+              <div>
+                <a href="../index.html#home">HOME</a>
+              </div>
+            </div>
+            <div class="flex-container-images">
+              <div>
+                <a href="../images/00265.jpg" target="_blank"><img src="../images/00265-300.jpg" alt="" class="border"></a>
+              </div>   
+              <div>
+                <a href="../images/00250.jpg" target="_blank"><img src="../images/00250-300.jpg" alt="" class="border"></a>
+              </div>  
+            </div>
+            <footer><small>&copy; Copyright 2021-2023, He Wept by Carmine Vile. <span class="nowrap">All Rights Reserved.</span></small></footer>
+          </body>
+          </html>

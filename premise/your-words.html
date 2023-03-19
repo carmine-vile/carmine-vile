@@ -10,128 +10,133 @@
   <link rel="shortcut icon" href="https://carminevile.com/favicon.png">
   <style>
     /* RESET*/
-    html, body, p, a, img {margin:0;padding:0;}
+    * {margin:0;padding:0;}
     /* END RESET */
-    html{font-size:100%;}
-    body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      max-width:900px;margin:auto}
-    h1{font-size:2.2rem;line-height:1.6;}
-    h2{font-size:1.8rem;line-height:1.6;}
-    h3{font-size:1.4rem;line-height:1.6;}
+    html{font-size:100%;background-color:#f5f5f5;}
+    body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;color:#212427;
+      max-width:900px;margin:auto;padding:2rem;}
+    h1{font-size:2.2rem;line-height:1.5;}
+    h2{font-size:1.8rem;line-height:1.5;}
+    h3{font-size:1.4rem;line-height:1.5;}
     h4{font-size:1.0;line-height:1.6;}
-    p{line-height:1.6;margin:1rem 0;}
-    a, a:hover, a:visited{color:#454545;text-decoration:none;padding:}
-    .flushR{text-align:right;}
-    .flushL{text-align:left;}
+    p{line-height:1.6;margin:auto;padding:0.5rem;max-width:75%;}
+    p.intro{font-size:2.2rem;line-height:1.5;text-align:center;max-width:100%;}
+    p.disclaimer{font-size:1.2rem;line-height:1.5;text-align:center;text-transform:uppercase;}
+    img{margin:0.75rem;border-radius:15px;}
+    a, a:hover, a:visited{color:#454545;text-decoration:none;margin:0 1rem;padding:0 1rem;}
+    #body{padding:0 0 1.5rem 0;width:80%;margin:4rem auto;}
     .border{border:1px solid #454545;}
-    .title-card{padding:0 0 2.5% 0;}
-    .img{padding: 2.5% 0 0 0;}
-    .outer-container{display: grid;grid-template-columns: 1fr;gap:0;}
-    .inner-container {width:80%;padding:10%;}
-    .columnA{height:100%;margin:0;padding:0;background-color: #faf9f6;}
-    .columnB{height:100%;margin:0;padding:0;background-color: #f2f3f4;}
-    .grid{display:grid;place-items:center;}
-    .gridCL{display:grid;place-items:center left;}
-    .gridCR{display:grid;place-items:center right;}
+    .flex-container-title{display:flex;height:300px;flex-flow: row wrap;justify-content:center;align-items:center;align-content:space-around;}
+    .flex-container-title-menu{display:flex;height:200px;flex-flow: row wrap;justify-content:center;align-items:flex-end;}
+    .flex-container-menu{display: flex;height: 150px;  justify-content:center;  align-items: flex-start;}
+    .flex-container-images{display:flex;height:auto;flex-flow: row wrap;justify-content:center;align-items:center;}
     .nowrap{white-space:nowrap;}
-    @media (max-width: 600px) {
-    .columnA, .columnB {height:100%;}
-    /*.grid, .gridCL, .gridCR {display:grid;place-items:center left;}*/
-    /*.flushL, .flushR {text-align:left;}*/
+    footer{text-align:center;margin:2em;}
+    @media (orientation: portrait) {
+      html{font-size:80%%;background-color:#f5f5f5;}
+      p.intro{font-size:2.2rem;line-height:1.5;text-align:center;margin:0 2rem;}
+      img{margin:1rem;border-radius:15px;}
+      .flex-container-interview{display:flex;height:600px;flex-flow: row wrap;justify-content:center;align-items:center;align-content:space-around;}
+      .flex-container-menu{display: flex;height: 150px; flex-flow: row wrap; align-items:flex-start;justify-content:center; }
+      }
   </style>
 </head>
 <body>
-	<main>
-		<section class="outer-container">
-			<div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h2 class="flushR">Your Words Hurt <span class="nowrap">My Ears.</span></h2>
+  <div class="flex-container-title">
+    <div>
+      <p class="intro">Your Words Hurt <span class="nowrap">My Ears.</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="../images/00132.jpg" target="_blank"><img src="../images/00132-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="../images/00049.jpg" target="_blank"><img src="../images/00049-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+	<div id="body">
+    <div>
+      <p>Just Say It&trade;</p>
+      <p><em>No vamos muy lejos, mi amor. Todavía no.</em></p>
+      <p>Something comes first.</p>
+      <div class="flex-container-images">
+        <a href="../images/tipper-sticker.jpg" target="_blank"><img src ="../images/tipper-sticker-300.jpg" alt="" class="border"></a>
+      </div>
+      <p>Half the time, maybe most of the time, those parental advisory stickers are more a marketing ploy that zeros in on a target demographic than any kind of disincentive. They're not a warning; they're an invitation. Look Here&mdash;This Speaks to You&trade;. </p>
+      <p>Just being honest.</p>
+      <p>So how do we approach vulgarity and profanity, responsibly?</p>
+      <p>Look at it this way.</p>
+      <p>Given half a chance folks will tell you what they want and show you how they get it.</p>
+      <p>You've just got to sit still and listen, stand back and watch.</p>
+      <p>Dialogue tells you not just what characters want or think but how they feel about life and their place in it. Dialogue gives you a feel for what they're capable of. Dialogue lets you get to know them intimately.</p>
+      <p>It boils down to this.</p>
+      <p><em>The right word at the right time in the right place for the right reason can move a freaking mountain.</em></p>
+      <p>These pages feature honest and frank portrayals of Americans in turmoil. Not celebrities. Not superheroes. Real people whose dreams get derailed before they go down the drain or up in smoke.</p>
+      <p>Look around. Everything's an up sell. Everyone is reading off a script. Checking boxes on a list. Managing your perception.</p>
+      <p>What does it take to tell the truth, to stop using each other, to value things that last, to learn to let go?</p>
+      <p>What does it take to change the channel when all the programs are the same?</p>
+      <p>What does it take to reinvent real?</p>
+      <p>Sure, they stopped handing out opiates. But all they did was replace them with another drug.</p>
+      <p><em>He Wept is an intervention.</em> <strong>No topic is off limits</strong> so long as it is approached with respect for the ultimate dignity of those involved.</p>
+      <p>We don't settle for pat answers or cliches. We Go Down Dark Alleys Alone&trade;. This isn't Hallmark.</p>
+      <p>Oh yeah, there's something more.</p>
+      <div class="flex-container-images">
+      <a href="../images/not-seen.png" target="_blank"><img src="../images/not-seen-300.png" alt="" class="border"></a>
+        </div>
+      <p><strong>NOT SOLD IN STORES, EITHER.</strong></p>
+      <p>You knew THAT was coming, right?</p>
+      </div>
+    </div>
+    <div class="flex-container-images">
+      <div>
+        <a href="../images/00005.jpg" target="_blank"><img src="../images/00005-300.jpg" alt="" class="border"></a>
+      </div>
+      <div>
+        <a href="../images/00078.jpg" target="_blank"><img src="../images/00078-300.jpg" alt="" class="border"></a>
+      </div>
+    </div>
+    <div class="flex-container-title">
+      <div>
+        <p>
+          <a href="fly-high.html"><span class="nowrap"><strong>NEXT. </strong>Fly High.</span></a>
+        </p>
+      </div>
+      <div>
+        <p>
+          <a href="shout-louder.html"><span class="nowrap"><strong>BACK. </strong>Shout Louder.</span></a>
+        </p>
+      </div>
+    </div>
+    <div class="flex-container-images">
+      <div>
+        <a href="../images/00066.jpg" target="_blank"><img src="../images/00066-300.jpg" alt="" class="border"></a>
+      </div>
+      <div>
+        <a href="../images/00122.jpg" target="_blank"><img src="../images/00122-300.jpg" alt="" class="border"></a>
+      </div>
+    </div>
+    <div class="flex-container-title-menu">
+              <div>
+                <p class="intro">He Wept by <span class="nowrap">Carmine Vile.</span><br><br></p>
               </div>
-            <div class="img">
-              <a href="../images/decor.jpg" target="_blank"><img src="../images/decor300.jpg" alt="" class="border"></a>
             </div>
-          </div>
-        </div>
-      </div>
-		</section>
-	</main>
-  <main>
-		<section class="outer-container">
-      <div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCL">
-            <div class="title-card">
-              <h3 class=""flushL>Just Say It&trade;</h3>
-              <p class="flushL"><em>No vamos muy lejos, mi amor. Todavía no.</em></p>
-              <p class="flushL">Something comes first.</p>
-                <div class="img" style="padding:1rem 0 1rem 0;">
-                <a href="../images/tipper-sticker.jpg" target="_blank"><img src="../images/tipper-sticker-300.jpg" alt="" class="border"></a>
-                </div>
-              <p class="flushL">Half the time, maybe most of the time, those parental advisory stickers are more a marketing ploy that zeros in on a target demographic than any kind of disincentive. They're not a warning; they're an invitation. Look Here&mdash;This Speaks to You&trade;. </p>
-              <p class="flushL">Just being honest.</p>
-              <p class="flushL">So how do we approach vulgarity and profanity, responsibly?</p>
-              <p class="flushL">Look at it this way.</p>
-              <p class="flushL">Given half a chance folks will tell you what they want and show you how they get it.</p>
-              <p class="flushL">You've just got to sit still and listen, stand back and watch.</p>
-              <p class="flushL"><Dialogue tells you not just what characters want or think but how they feel about life and their place in it. Dialogue gives you a feel for what they're capable of. Dialogue lets you get to know them intimately.</p>
-              <p class="flushL">It boils down to this.</p>
-              <p class="flushL"><em>The right word at the right time in the right place for the right reason can move a freaking mountain.</em></p>
-              <p class="flushL">These pages feature honest and frank portrayals of Americans in turmoil. Not celebrities. Not superheroes. Real people whose dreams get derailed before they go down the drain or up in smoke.</p>
-              <p class="flushL">Look around. Everything's an up sell. Everyone is reading off a script. Checking boxes on a list. Managing your perception.</p>
-              <p class="flushL">What does it take to tell the truth, to stop using each other, to value things that last, to learn to let go?</p>
-              <p class="flushL">What does it take to change the channel when all the programs are the same?</p>
-              <p class="flushL">What does it take to reinvent real?</p>
-              <p class="flushL">Sure, they stopped handing out opiates. But all they did was replace them with another drug.</p>
-              <p class="flushL"><em>He Wept is an intervention.</em> <strong>No topic is off limits</strong> so long as it is approached with respect for the ultimate dignity of those involved.</p>
-              <p class="flushL">We don't settle for pat answers or cliches. We Go Down Dark Alleys Alone&trade;. This isn't Hallmark.</p>
-              <p class="flushL">Oh yeah, there's something more.</p>
-                <div class="img" style="padding:1rem 0 1rem 0;">
-              <a href="../images/not-seen.png" target="_blank"><img src="../images/not-seen-300.png" alt="" class="border"></a>
-               </div>
-              <p class="flushL"><strong>NOT SOLD IN STORES, EITHER.</strong></p>
-              <p class="flushL">You knew THAT was coming, right?</p>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
-  <main>
-		<section class="outer-container">
-      <div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h4 class="flushR">NEXT&nbsp;<a href="fly-high.html">Fly High.</a></h4>
-              <h4 class="flushR">BACK&nbsp;<a href="shout-louder.html">Shout Louder.</a></h4>              
+            <div class="flex-container-menu">
+              <div>
+                <a href="../the-premise.html">THE PREMISE</a>
               </div>
-            <div class="img">
-              <a href="../images/frosted-pane.jpg" target="_blank"><img src="../images/frosted-pane300.jpg" alt="" class="border"></a>
+              <div>
+                <a href="../index.html#home">HOME</a>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
-  <main>
-	<section class="outer-container">
-      <div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCRL">
-            <div class="title-card">
-              <h3 class="flushL">He Wept by Carmine Vile.</h3>
-              <p class="flushL"><a href="../index.html#home">HOME</a> &nbsp;&nbsp;<a href="../the-premise.html">THE PREMISE</a></p>
-              <p class="flushL">He Wept &copy; 2022 Carmine Vile</p>
+            <div class="flex-container-images">
+              <div>
+                <a href="../images/00265.jpg" target="_blank"><img src="../images/00265-300.jpg" alt="" class="border"></a>
+              </div>   
+              <div>
+                <a href="../images/00250.jpg" target="_blank"><img src="../images/00250-300.jpg" alt="" class="border"></a>
+              </div>  
             </div>
-            <div class="img">
-              <a href="../images/wreath.jpg" target="_blank"><img src="../images/wreath300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-	</section>
-  </main>
-</body>
-</html>
+            <footer><small>&copy; Copyright 2021-2023, He Wept by Carmine Vile. <span class="nowrap">All Rights Reserved.</span></small></footer>
+          </body>
+          </html>        

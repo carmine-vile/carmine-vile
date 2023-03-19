@@ -10,107 +10,113 @@
   <link rel="shortcut icon" href="https://carminevile.com/favicon.png">
   <style>
     /* RESET*/
-    html, body, p, a, img {margin:0;padding:0;}
+    * {margin:0;padding:0;}
     /* END RESET */
-    html{font-size:100%;}
-    body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      max-width:900px;margin:auto}
-    h1{font-size:2.2rem;line-height:1.6;}
-    h2{font-size:1.8rem;line-height:1.6;}
-    h3{font-size:1.4rem;line-height:1.6;}
+    html{font-size:100%;background-color:#f5f5f5;}
+    body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;color:#212427;
+      max-width:900px;margin:auto;padding:2rem;}
+    h1{font-size:2.2rem;line-height:1.5;}
+    h2{font-size:1.8rem;line-height:1.5;}
+    h3{font-size:1.4rem;line-height:1.5;}
     h4{font-size:1.0;line-height:1.6;}
-    p{line-height:1.6;margin:1rem 0;}
-    a, a:hover, a:visited{color:#454545;text-decoration:none;padding:}
-    .flushR{text-align:right;}
-    .flushL{text-align:left;}
+    p{line-height:1.6;margin:auto;padding:0.5rem;max-width:75%;}
+    p.intro{font-size:2.2rem;line-height:1.5;text-align:center;max-width:100%;}
+    p.disclaimer{font-size:1.2rem;line-height:1.5;text-align:center;text-transform:uppercase;}
+    img{margin:0.75rem;border-radius:15px;}
+    a, a:hover, a:visited{color:#454545;text-decoration:none;margin:0 1rem;padding:0 1rem;}
+    #body{padding:0 0 1.5rem 0;width:80%;margin:4rem auto;}
     .border{border:1px solid #454545;}
-    .title-card{padding:0 0 2.5% 0;}
-    .img{padding: 2.5% 0 0 0;}
-    .outer-container{display: grid;grid-template-columns: 1fr;gap:0;}
-    .inner-container {width:80%;padding:10%;}
-    .columnA{height:100%;margin:0;padding:0;background-color: #faf9f6;}
-    .columnB{height:100%;margin:0;padding:0;background-color: #f2f3f4;}
-    .grid{display:grid;place-items:center;}
-    .gridCL{display:grid;place-items:center left;}
-    .gridCR{display:grid;place-items:center right;}
+    .flex-container-title{display:flex;height:300px;flex-flow: row wrap;justify-content:center;align-items:center;align-content:space-around;}
+    .flex-container-title-menu{display:flex;height:200px;flex-flow: row wrap;justify-content:center;align-items:flex-end;}
+    .flex-container-menu{display: flex;height: 150px;  justify-content:center;  align-items: flex-start;}
+    .flex-container-images{display:flex;height:auto;flex-flow: row wrap;justify-content:center;align-items:center;}
     .nowrap{white-space:nowrap;}
-    @media (max-width: 600px) {
-    .columnA, .columnB {height:100%;}
-    /*.grid, .gridCL, .gridCR {display:grid;place-items:center left;}*/
-    /*.flushL, .flushR {text-align:left;}*/
+    footer{text-align:center;margin:2em;}
+    @media (orientation: portrait) {
+      html{font-size:80%%;background-color:#f5f5f5;}
+      p.intro{font-size:2.2rem;line-height:1.5;text-align:center;margin:0 2rem;}
+      img{margin:1rem;border-radius:15px;}
+      .flex-container-interview{display:flex;height:600px;flex-flow: row wrap;justify-content:center;align-items:center;align-content:space-around;}
+      .flex-container-menu{display: flex;height: 150px; flex-flow: row wrap; align-items:flex-start;justify-content:center; }
+      }
   </style>
 </head>
 <body>
-	<main>
-		<section class="outer-container">
-			<div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h2 class="flushR">Thinking Out Loud.</h2>
-            <div class="img">
-              <a href="../images/state-line.jpg" target="_blank"><img src="../images/state-line300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
+  <div class="flex-container-title">
+    <div>
+      <p class="intro">Thinking Out Loud.</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="../images/00132.jpg" target="_blank"><img src="../images/00132-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="../images/00049.jpg" target="_blank"><img src="../images/00049-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+	<div id="body">
+    <div>
+      <p>What is a brand?</p>
+      <p>You know one when you see one, but putting your finger on exactly what it takes to build one from scratch turns out to be more challenging than it first sounds.</p>
+      <p>Here's a start.</p>
+      <p>Brands are <strong>conspicuous</strong> and <strong>credible</strong>. They radiate <strong>style</strong>. They deliver <strong>substance</strong>. They impart <strong>value</strong>. When you consume a brand, you get what you came for. And you always come back for more.</p>
+      <p>It's a Commodified Life&trade;. Brands give it meaning, don't leave you empty-handed, and won't let you go it alone. Think intimate partner. Huh? Yeah, it's that intense&mdash;in the shadows, of course. Sure, you've got boundaries, but even they are branded.</p>
+      <p>That which makes someone or something unique and desirable in the eyes of the beholder forms the basis of a brand. The smart kids with their marketing acumen and freelance design gigs take over from there. A pinnacle is reached when exclusive intersects with essential. "You can't live without this, and you can only get it here."</p>
+      <p>A brand speaks to you, relates to you, understands you, is there for you, and above all loves you back.</p>
+      <p>Brands happen by design.</p>
+      <p>Let's build a brand.</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="../images/00005.jpg" target="_blank"><img src="../images/00005-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="../images/00078.jpg" target="_blank"><img src="../images/00078-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title">
+      <div>
+        <p>
+          <a href="attention-please.html"><span class="nowrap"><strong>NEXT. </strong>Audience Participation.</span></a>
+        </p>
       </div>
-		</section>
-	</main>
-  <main>
-		<section class="outer-container">
-      <div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCL">
-            <div class="title-card">
-            <h3 class="flushL">What is a brand?</h3>
-            <p class="flushL">You know one when you see one, but putting your finger on exactly what it takes to build one from scratch turns out to be more challenging than it first sounds.</p>
-            <p class="flushL">Here's a start.</p>
-            <p class="flushL">Brands are <strong>conspicuous</strong> and <strong>credible</strong>. They radiate <strong>style</strong>. They deliver <strong>substance</strong>. They impart <strong>value</strong>. When you consume a brand, you get what you came for. And you always come back for more.</p>
-            <p class="flushL">It's a Commodified Life&trade;. Brands give it meaning, don't leave you empty-handed, and won't let you go it alone. Think intimate partner. Huh? Yeah, it's that intense&mdash;in the shadows, of course. Sure, you've got boundaries, but even they are branded.</p>
-            <p class="flushL">That which makes someone or something unique and desirable in the eyes of the beholder forms the basis of a brand. The smart kids with their marketing acumen and freelance design gigs take over from there. A pinnacle is reached when exclusive intersects with essential. "You can't live without this, and you can only get it here."</p>
-            <p class="flushL">A brand speaks to you, relates to you, understands you, is there for you, and above all loves you back.</p>
-            <p class="flushL">Brands happen by design.</p>
-            <p class="flushL">Let's build a brand.</p>
-            </div>
-          </div>
-        </div>
+      <div>
+        <p>
+          <a href="algo-mas.html"><span class="nowrap"><strong>BACK. </strong>Hay algo más que hacer.</span></a>
+        </p>
       </div>
-		</section>
-  </main>
-  <main>
-		<section class="outer-container">
-      <div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h4 class="flushR">NEXT&nbsp;<a href="attention-please.html">Audience Participation.</a></h4>
-              <h4 class="flushR">BACK&nbsp;<a href="algo-mas.html">Hay algo más que hacer.</a></h4>              
+    </div>
+    <div class="flex-container-images">
+      <div>
+        <a href="../images/00066.jpg" target="_blank"><img src="../images/00066-300.jpg" alt="" class="border"></a>
+      </div>
+      <div>
+        <a href="../images/00122.jpg" target="_blank"><img src="../images/00122-300.jpg" alt="" class="border"></a>
+      </div>
+    </div>
+              <div class="flex-container-title-menu">
+                <div>
+                  <p class="intro">He Wept by <span class="nowrap">Carmine Vile.</span><br><br></p>
+                </div>
               </div>
-            <div class="img">
-              <a href="../images/pizza-pizza.jpg" target="_blank"><img src="../images/pizza-pizza300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
-  <main>
-	<section class="outer-container">
-      <div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCRL">
-            <div class="title-card">
-              <h3 class="flushL">He Wept by Carmine Vile.</h3>
-              <p class="flushL"><a href="../index.html#home">HOME</a> &nbsp;&nbsp;<a href="../the-premise.html">THE PREMISE</a></p>
-              <p class="flushL">He Wept &copy; 2022 Carmine Vile</p>
-            </div>
-            <div class="img">
-              <a href="../images/three-holes.jpg" target="_blank"><img src="../images/three-holes300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-	</section>
-  </main>
-</body>
-</html>
+              <div class="flex-container-menu">
+                <div>
+                  <a href="../the-premise.html">THE PREMISE</a>
+                </div>
+                <div>
+                  <a href="../index.html#home">HOME</a>
+                </div>
+              </div>
+              <div class="flex-container-images">
+                <div>
+                  <a href="../images/00265.jpg" target="_blank"><img src="../images/00265-300.jpg" alt="" class="border"></a>
+                </div>   
+                <div>
+                  <a href="../images/00250.jpg" target="_blank"><img src="../images/00250-300.jpg" alt="" class="border"></a>
+                </div>  
+              </div>
+              <footer><small>&copy; Copyright 2021-2023, He Wept by Carmine Vile. <span class="nowrap">All Rights Reserved.</span></small></footer>
+            </body>
+            </html>

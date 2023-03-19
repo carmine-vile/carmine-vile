@@ -10,115 +10,120 @@
   <link rel="shortcut icon" href="https://carminevile.com/favicon.png">
   <style>
     /* RESET*/
-    html, body, p, a, img {margin:0;padding:0;}
+    * {margin:0;padding:0;}
     /* END RESET */
-    html{font-size:100%;}
-    body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      max-width:900px;margin:auto}
-    h1{font-size:2.2rem;line-height:1.6;}
-    h2{font-size:1.8rem;line-height:1.6;}
-    h3{font-size:1.4rem;line-height:1.6;}
+    html{font-size:100%;background-color:#f5f5f5;}
+    body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;color:#212427;
+      max-width:900px;margin:auto;padding:2rem;}
+    h1{font-size:2.2rem;line-height:1.5;}
+    h2{font-size:1.8rem;line-height:1.5;}
+    h3{font-size:1.4rem;line-height:1.5;}
     h4{font-size:1.0;line-height:1.6;}
-    p{line-height:1.6;margin:1rem 0;}
-    a, a:hover, a:visited{color:#454545;text-decoration:none;padding:}
-    .flushR{text-align:right;}
-    .flushL{text-align:left;}
+    p{line-height:1.6;margin:auto;padding:0.5rem;max-width:75%;}
+    p.intro{font-size:2.2rem;line-height:1.5;text-align:center;max-width:100%;}
+    p.disclaimer{font-size:1.2rem;line-height:1.5;text-align:center;text-transform:uppercase;}
+    img{margin:0.75rem;border-radius:15px;}
+    a, a:hover, a:visited{color:#454545;text-decoration:none;margin:0 1rem;padding:0 1rem;}
+    #body{padding:0 0 1.5rem 0;width:80%;margin:4rem auto;}
     .border{border:1px solid #454545;}
-    .title-card{padding:0 0 2.5% 0;}
-    .img{padding: 2.5% 0 0 0;}
-    .outer-container{display: grid;grid-template-columns: 1fr;gap:0;}
-    .inner-container {width:80%;padding:10%;}
-    .columnA{height:100%;margin:0;padding:0;background-color: #faf9f6;}
-    .columnB{height:100%;margin:0;padding:0;background-color: #f2f3f4;}
-    .grid{display:grid;place-items:center;}
-    .gridCL{display:grid;place-items:center left;}
-    .gridCR{display:grid;place-items:center right;}
+    .flex-container-title{display:flex;height:300px;flex-flow: row wrap;justify-content:center;align-items:center;align-content:space-around;}
+    .flex-container-title-menu{display:flex;height:200px;flex-flow: row wrap;justify-content:center;align-items:flex-end;}
+    .flex-container-menu{display: flex;height: 150px;  justify-content:center;  align-items: flex-start;}
+    .flex-container-images{display:flex;height:auto;flex-flow: row wrap;justify-content:center;align-items:center;}
     .nowrap{white-space:nowrap;}
-    @media (max-width: 600px) {
-    .columnA, .columnB {height:100%;}
-    /*.grid, .gridCL, .gridCR {display:grid;place-items:center left;}*/
-    /*.flushL, .flushR {text-align:left;}*/
+    footer{text-align:center;margin:2em;}
+    @media (orientation: portrait) {
+      html{font-size:80%%;background-color:#f5f5f5;}
+      p.intro{font-size:2.2rem;line-height:1.5;text-align:center;margin:0 2rem;}
+      img{margin:1rem;border-radius:15px;}
+      .flex-container-interview{display:flex;height:600px;flex-flow: row wrap;justify-content:center;align-items:center;align-content:space-around;}
+      .flex-container-menu{display: flex;height: 150px; flex-flow: row wrap; align-items:flex-start;justify-content:center; }
+      }
   </style>
 </head>
 <body>
-	<main>
-		<section class="outer-container">
-			<div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h2 class="flushR">Audience Participation.</h2>
-              </div>
-            <div class="img">
-              <a href="../images/tele-tubbie.jpg" target="_blank"><img src="../images/tele-tubbie300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
+  <div class="flex-container-title">
+    <div>
+      <p class="intro">Audience Participation.</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="../images/00132.jpg" target="_blank"><img src="../images/00132-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="../images/00049.jpg" target="_blank"><img src="../images/00049-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+	<div id="body">
+    <div>
+      <p>There won't be an intermission.</p>
+      <p>But you're free to get up and roam around.</p>
+      <p>Here's the thing with the internet.</p>
+      <p>Everybody is trying to sell you something.</p>
+      <p>Why?</p>
+      <p>Because you're buying. That's why.</p>
+      <p>It's not always about credit cards and shipping preferences. You're looking for answers. Solutions to a problem.</p>
+      <p>Even if it's just how to kill the next ten minutes.</p>
+      <p>Never before in the history of mankind has the distance been shorter between those who want your attention (<strong>to get you to do things that benefit them</strong>) and you. Forty-two years ago somebody sang, "I've got thirteen channels of s*** on the TV to choose from." You can no longer count the distractions available&mdash;many even appear free at first glance&mdash;if you don't count the time wasted, the opportunity thrown away. (But then sometimes that's what you're after&mdash;isn't it?)</p>
+      <p>The cynical tell us we're being played, but by whom? Retailers? Manufacturers? The mass media that serves them? Nobody put a gun to your head. You signed up for all this, for free&mdash;remember?</p>
+      <p>Here's a thought. What if the players and the playees are one and the same? What if it really is All About You&trade;, like they've been telling you all along? I know, I know. You didn't invent Google. Your needs did.</p>
+      <p>Look at it this way. The whole thing is theater, and we are both the actors and the audience. We're being played. but we wanted it this way&mdash;we wrote the script. We bought the tickets. We'll stay for the encore.</p>
+      <p>Sure, there's a man behind the curtain" (a reference most kids today won't get), but he's only there to entertain us, and <strong>if we didn't respond to his pulling the levers and turning the dials</strong>, he'd be sitting at home collecting benefits and dreaming of opening a dispensary like everybody else.</p>
+      <p>At the end of the day, every day, we're being catered to, courted, cajoled, and conned because we've got something they want&mdash;discretionary income, votes, consent, acquiescence, a role to play&mdash;and they've got something we want&mdash;comfort and convenience, sure, but it's bigger than that. Answers. Solutions. Relief. A way to kill the next ten minutes. Or the next thirty years.</p>
+      <p><em>Following today's program, the souvenir stand will remain open as patrons exit the theatre. Posters, shot glasses, commemorative T-shirts. Buy One Get One Free!*</em></p>
+      <p class="flushL" style="font-size;75%;">* Exclusions apply. While supplies last. Taxes and fees extra. Sustainably sourced. No micro-organisms were harmed in the making of these products.</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="../images/00005.jpg" target="_blank"><img src="../images/00005-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="../images/00078.jpg" target="_blank"><img src="../images/00078-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title">
+      <div>
+        <p>
+          <a href="get-real.html"><span class="nowrap"><strong>NEXT. </strong>Get Real. Buy Now.</span></a>
+        </p>
       </div>
-		</section>
-	</main>
-  <main>
-		<section class="outer-container">
-      <div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCL">
-            <div class="title-card">
-                <h3 class="flushL">There won't be an intermission.</h3>
-                <p class="flushL">But you're free to get up and roam around.</p>
-                <p class="flushL">Here's the thing with the internet.</p>
-                <p class="flushL">Everybody is trying to sell you something.</p>
-                <p class="flushL">Why?</p>
-                <p class="flushL">Because you're buying. That's why.</p>
-                <p class="flushL">It's not always about credit cards and shipping preferences. You're looking for answers. Solutions to a problem.</p>
-                <p class="flushL">Even if it's just how to kill the next ten minutes.</p>
-                <p class="flushL">Never before in the history of mankind has the distance been shorter between those who want your attention (<strong>to get you to do things that benefit them</strong>) and you. Forty-two years ago somebody sang, "I've got thirteen channels of s*** on the TV to choose from." You can no longer count the distractions available&mdash;many even appear free at first glance&mdash;if you don't count the time wasted, the opportunity thrown away. (But then sometimes that's what you're after&mdash;isn't it?)</p>
-                <p class="flushL">The cynical tell us we're being played, but by whom? Retailers? Manufacturers? The mass media that serves them? Nobody put a gun to your head. You signed up for all this, for free&mdash;remember?</p>
-                <p class="flushL">Here's a thought. What if the players and the playees are one and the same? What if it really is All About You&trade;, like they've been telling you all along? I know, I know. You didn't invent Google. Your needs did.</p>
-                <p class="flushL">Look at it this way. The whole thing is theater, and we are both the actors and the audience. We're being played. but we wanted it this way&mdash;we wrote the script. We bought the tickets. We'll stay for the encore.</p>
-                <p class="flushL">Sure, there's a man behind the curtain" (a reference most kids today won't get), but he's only there to entertain us, and <strong>if we didn't respond to his pulling the levers and turning the dials</strong>, he'd be sitting at home collecting benefits and dreaming of opening a dispensary like everybody else.</p>
-                <p class="flushL">At the end of the day, every day, we're being catered to, courted, cajoled, and conned because we've got something they want&mdash;discretionary income, votes, consent, acquiescence, a role to play&mdash;and they've got something we want&mdash;comfort and convenience, sure, but it's bigger than that. Answers. Solutions. Relief. A way to kill the next ten minutes. Or the next thirty years.</p>
-                <p class="flushL"><em>Following today's program, the souvenir stand will remain open as patrons exit the theatre. Posters, shot glasses, commemorative T-shirts. Buy One Get One Free!*</em></p>
-                <p class="flushL" style="font-size;75%;">* Exclusions apply. While supplies last. Taxes and fees extra. Sustainably sourced. No micro-organisms were harmed in the making of these products.</p>
-              </div>
-          </div>
-        </div>
+      <div>
+        <p>
+          <a href="out-loud.html"><span class="nowrap"><strong>BACK. </strong>Thinking Out Loud.</span></a>
+        </p>
       </div>
-		</section>
-  </main>
-  <main>
-		<section class="outer-container">
-      <div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h4 class="flushR">NEXT&nbsp;<a href="get-real.html">Get Real. Buy Now.</a></h4>
-              <h4 class="flushR">BACK&nbsp;<a href="out-loud.html">Thinking Out Loud.</a></h4>              
-              </div>
-            <div class="img">
-              <a href="../images/mid-america.jpg" target="_blank"><img src="../images/mid-america300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
-  <main>
-	<section class="outer-container">
-      <div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCRL">
-            <div class="title-card">
-              <h3 class="flushL">He Wept by Carmine Vile.</h3>
-              <p class="flushL"><a href="../index.html#home">HOME</a> &nbsp;&nbsp;<a href="../the-premise.html">THE PREMISE</a></p>
-              <p class="flushL">He Wept &copy; 2022 Carmine Vile</p>
-            </div>
-            <div class="img">
-              <a href="../images/table.jpg" target="_blank"><img src="../images/table300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-	</section>
-  </main>
+    </div>
+    <div class="flex-container-images">
+      <div>
+        <a href="../images/00066.jpg" target="_blank"><img src="../images/00066-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+        <a href="../images/00122.jpg" target="_blank"><img src="../images/00122-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title-menu">
+    <div>
+      <p class="intro">He Wept by <span class="nowrap">Carmine Vile.</span><br><br></p>
+    </div>
+  </div>
+  <div class="flex-container-menu">
+    <div>
+      <a href="../the-premise.html">THE PREMISE</a>
+    </div>
+    <div>
+      <a href="../index.html#home">HOME</a>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="../images/00265.jpg" target="_blank"><img src="../images/00265-300.jpg" alt="" class="border"></a>
+    </div>   
+    <div>
+      <a href="../images/00250.jpg" target="_blank"><img src="../images/00250-300.jpg" alt="" class="border"></a>
+    </div>  
+  </div>
+  <footer><small>&copy; Copyright 2021-2023, He Wept by Carmine Vile. <span class="nowrap">All Rights Reserved.</span></small></footer>
 </body>
 </html>
