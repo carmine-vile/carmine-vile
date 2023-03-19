@@ -10,205 +10,232 @@
   <link rel="shortcut icon" href="https://carminevile.com/favicon.png">
   <style>
     /* RESET*/
-    html, body, p, a, img {margin:0;padding:0;}
+    * {margin:0;padding:0;}
     /* END RESET */
-    html{font-size:100%;}
-    body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      max-width:900px;margin:auto}
-    h1{font-size:2.2rem;line-height:1.6;}
-    h2{font-size:1.8rem;line-height:1.6;}
-    h3{font-size:1.4rem;line-height:1.6;}
+    html{font-size:100%;background-color:#f5f5f5;}
+    body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;color:#212427;
+      max-width:900px;margin:auto;padding:2rem;}
+    h1{font-size:2.2rem;line-height:1.5;}
+    h2{font-size:1.8rem;line-height:1.5;}
+    h3{font-size:1.4rem;line-height:1.5;}
     h4{font-size:1.0;line-height:1.6;}
-    p{line-height:1.6;margin:1rem 0;}
-    a, a:hover, a:visited{color:#454545;text-decoration:none;padding:}
-    .flushR{text-align:right;}
-    .flushL{text-align:left;}
+    p{line-height:1.6;margin:auto;padding:0.5rem;max-width:75%;}
+    p.intro{font-size:2.2rem;line-height:1.5;text-align:center;max-width:100%;}
+    p.disclaimer{font-size:1.2rem;line-height:1.5;text-align:center;text-transform:uppercase;}
+    img{margin:0.75rem;border-radius:15px;}
+    a, a:hover, a:visited{color:#454545;text-decoration:none;margin:0 1rem;padding:0 1rem;}
+    a.more, a:hover.more, a:visited.more{color:#454545;text-decoration:none;margin:0;padding:0;}
+    .premise-teaser{padding:0 0 0 0;width:80%;margin:1rem auto 4rem;}
     .border{border:1px solid #454545;}
-    .title-card{padding:0 0 2.5% 0;}
-    .img{padding: 2.5% 0 0 0;}
-    .outer-container{display: grid;grid-template-columns: 1fr;gap:0;}
-    .inner-container {width:80%;padding:10%;}
-    .columnA{height:100%;margin:0;padding:0;background-color: #faf9f6;}
-    .columnB{height:100%;margin:0;padding:0;background-color: #f2f3f4;}
-    .grid{display:grid;place-items:center;}
-    .gridCL{display:grid;place-items:center left;}
-    .gridCR{display:grid;place-items:center right;}
+    .flex-container-title{display:flex;height:300px;flex-flow: row wrap;justify-content:center;align-items:center;align-content:space-around;}
+    .flex-container-title-menu{display:flex;height:200px;flex-flow: row wrap;justify-content:center;align-items:flex-end;}
+    .flex-container-menu{display: flex;height: 150px;  justify-content:center;  align-items: flex-start;}
+    .flex-container-images{display:flex;height:auto;flex-flow: row wrap;justify-content:center;align-items:center;}
     .nowrap{white-space:nowrap;}
-    @media (max-width: 600px) {
-    .columnA, .columnB {height:100%;}
-    /* .grid, .gridCL, .gridCR {display:grid;place-items:center left;} */
-    /* .flushL, .flushR {text-align:left;} */
+    footer{text-align:center;margin:2em;}
+    @media (orientation: portrait) {
+      html{font-size:80%%;background-color:#f5f5f5;}
+      p.intro{font-size:2.2rem;line-height:1.5;text-align:center;margin:0 2rem;}
+      img{margin:1rem;border-radius:15px;}
+      .flex-container-interview{display:flex;height:600px;flex-flow: row wrap;justify-content:center;align-items:center;align-content:space-around;}
+      .flex-container-menu{display: flex;height: 150px; flex-flow: row wrap; align-items:flex-start;justify-content:center; }
+      }
   </style>
 </head>
 <body>
-	<main>
-		<section class="outer-container">
-			<div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h2 class="flushR">Hay algo más que hacer.</h2>
-              <p class="flushR">The carousel at Neptune Park has a brass ring just out of reach of the riders. A few give it a shot. Most simply never bother.</p>
-              <p class="flushR">There's a brass ring in everybody's life.</p>
-              <p class="flushR"><a href="premise/algo-mas.html">MORE&hellip;</a></p>
-              </div>
-            <div class="img">
-              <a href="images/00095.jpg" target="_blank"><img src="images/00095-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-	</main>
-  <main>
-		<section class="outer-container">
-      <div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCL">
-            <div class="title-card">
-              <h2 class="flushL">Thinking Out Loud.</h2>
-              <p class="flushL">You know one when you see one, but putting your finger on exactly what it takes to build one from scratch turns out to be more challenging than it first sounds.</p>
-              <p class="flushL"><a href="premise/out-loud.html">MORE&hellip;</a></p>
-              </div>
-            <div class="img">
-              <a href="images/00300.jpg" target="_blank"><img src="images/00300-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
-  <main>
-		<section class="outer-container">
-      <div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h2 class="flushR">Audience Participation.</h2>
-              <p class="flushR">There won't be an intermission.</p>
-              <p class="flushR">Never before in the history of mankind has the distance been shorter between those who want your attention and you.</p>
-              <p class="flushR"><a href="premise/attention-please.html">MORE&hellip;</a></p>
-              </div>
-            <div class="img">
-              <a href="images/00021.jpg" target="_blank"><img src="images/00021-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
-  <main>
-		<section class="outer-container">
-      <div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCL">
-            <div class="title-card">
-              <h2 class="flushL">Get Real. Buy Now.</h2>
-              <p class="flushL">Why do brands matter?</p>
-              <p class="flushL">We can talk about individual and social psychology, and we should, but the straightest path to answering this question is to ask another. "What's in it for me?"</p>
-              <p class="flushL"><a href="premise/get-real.html">MORE&hellip;</a></p>           
-              </div>
-            <div class="img">
-              <a href="images/00114.jpg" target="_blank"><img src="images/00114-300.jpg" alt="" class="border"></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
-  <main>
-		<section class="outer-container">
-      <div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h2 class="flushR">Shout Louder.</h2>
-              <p class="flushR">This isn't about labels on cans of peas.</p>
-              <p class="flushR">Or sexy underwear in suburban shopping malls or smart phones designed to do less, not more.</p>
-              <p class="flushR"><a href="premise/shout-louder.html">MORE&hellip;</a></p>           
-              </div>
-            <div class="img">
-              <a href="images/00164.jpg" target="_blank"><img src="images/00164-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
-  <main>
-		<section class="outer-container">
-      <div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCL">
-            <div class="title-card">
-              <h2 class="flushL">Your Words Hurt <span class="nowrap">My Ears.</span></h2>
-              <p class="flushL">Just Say It&trade;&period;</p>
-              <p class="flushL">What does it take to tell the truth, to stop using each other, to value things that last, to learn to let go?</p>
-              <p class="flushL">What does it take to reinvent real?</p>
-              <p class="flushL"><a href="premise/your-words.html">MORE&hellip;</a></p>
-            </div>
-            <div class="img">
-              <a href="images/00343.jpg" target="_blank"><img src="images/00343-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
-  <main>
-		<section class="outer-container">
-      <div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h2 class="flushR">Fly High.</h2>
-              <p class="flushR">He Wept&trade; gets under your skin and doesn't let go.</p>
-              <p class="flushR">You can't live without it, and you can't get it anywhere else.</p>
-              <p class="flushR"><a href="premise/fly-high.html">MORE&hellip;</a></p>
-            </div>
-            <div class="img">
-              <a href="images/00039.jpg" target="_blank"><img src="images/00039-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
-  <main>
-		<section class="outer-container">
-      <div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCL">
-            <div class="title-card">
-              <h2 class="flushL">This Is Not Entertainment.</h2>
-              <p class="flushL">From spectator to participant. From witness to accomplice.</p>
-              <p class="flushL"><a href="premise/resurrection.html">MORE&hellip;</a></p>
-            </div>
-            <div class="img">
-              <a href="images/00158.jpg" target="_blank"><img src="images/00158-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
-  <main>
-		<section class="outer-container">
-      <div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h3 class="flushR">He Wept by Carmine Vile.</h3>
-              <p class="flushR"><a href="a-to-z.html">A to Z</a> &nbsp;&nbsp;<a href="index.html#home">HOME</a></p>
-              <p class="flushR">He Wept &copy; 2022 Carmine Vile</p>
-            </div>
-            <div class="img">
-              <a href="images/00227.jpg" target="_blank"><img src="images/00227-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
+  <div class="flex-container-title">
+    <div>
+      <p class="intro">The Premise.</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00095.jpg" target="_blank"><img src="images/00095-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00112.jpg" target="_blank"><img src="images/00112-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title-menu">
+    <div>
+      <p class="intro">Hay algo más que hacer.</p>
+    </div>
+  </div>
+  <div class="premise-teaser">
+    <div>
+      <p>The carousel at Neptune Park has a brass ring just out of reach of the riders. A few give it a shot. Most simply never bother.</p>
+      <p>There's a brass ring in everybody's life.</p>
+      <p><a class="more" href="premise/algo-mas.html">MORE&hellip;</a></p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00046.jpg" target="_blank"><img src="images/00046-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00109.jpg" target="_blank"><img src="images/00109-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title-menu">
+    <div>
+      <p class="intro">Thinking Out Loud.</p>
+    </div>
+  </div>
+  <div class="premise-teaser">
+    <div>
+      <p>You know one when you see one, but putting your finger on exactly what it takes to build one from scratch turns out to be more challenging than it first sounds.</p>
+      <p><a class="more" href="premise/out-loud.html">MORE&hellip;</a></p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00300.jpg" target="_blank"><img src="images/00300-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00094.jpg" target="_blank"><img src="images/00094-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title-menu">
+    <div>
+      <p class="intro">Audience Participation.</p>
+    </div>
+  </div>
+  <div class="premise-teaser">
+    <div>
+      <p>There won't be an intermission.</p>
+      <p>Never before in the history of mankind has the distance been shorter between those who want your attention and you.</p>
+      <p><a class="more" href="premise/attention-please.html">MORE&hellip;</a></p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00021.jpg" target="_blank"><img src="images/00021-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00078.jpg" target="_blank"><img src="images/00078-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title-menu">
+    <div>
+      <p class="intro">Get Real. Buy Now.</p>
+    </div>
+  </div>
+  <div class="premise-teaser">
+    <div>
+      <p>Why do brands matter?</p>
+      <p>We can talk about individual and social psychology, and we should, but the straightest path to answering this question is to ask another. "What's in it for me?"</p>
+      <p><a class="more" href="premise/get-real.html">MORE&hellip;</a></p>     
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00114.jpg" target="_blank"><img src="images/00114-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00061.jpg" target="_blank"><img src="images/00061-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title-menu">
+    <div>
+      <p class="intro">Shout Louder.</p>
+    </div>
+  </div>
+  <div class="premise-teaser">
+    <div>
+      <p>This isn't about labels on cans of peas.</p>
+      <p>Or sexy underwear in suburban shopping malls or smart phones designed to do less, not more.</p>
+      <p><a class="more" href="premise/shout-louder.html">MORE&hellip;</a></p>       
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00164.jpg" target="_blank"><img src="images/00164-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00051.jpg" target="_blank"><img src="images/00051-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title-menu">
+    <div>
+      <p class="intro">Your Words Hurt <span class="nowrap">My Ears.</p>
+    </div>
+  </div>
+  <div class="premise-teaser">
+    <div>
+      <p>Just Say It&trade;&period;</p>
+      <p>What does it take to tell the truth, to stop using each other, to value things that last, to learn to let go?</p>
+      <p>What does it take to reinvent real?</p>
+      <p><a class="more" href="premise/your-words.html">MORE&hellip;</a></p>  
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00343.jpg" target="_blank"><img src="images/00343-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00044.jpg" target="_blank"><img src="images/00044-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title-menu">
+    <div>
+      <p class="intro">Fly High.</p>
+    </div>
+  </div>
+  <div class="premise-teaser">
+    <div>
+      <p>He Wept&trade; gets under your skin and doesn't let go.</p>
+      <p>You can't live without it, and you can't get it anywhere else.</p>
+      <p><a class="more" href="premise/fly-high.html">MORE&hellip;</a></p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00039.jpg" target="_blank"><img src="images/00039-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00034.jpg" target="_blank"><img src="images/00034-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title-menu">
+    <div>
+      <p class="intro">This Is Not Entertainment.</p>
+    </div>
+  </div>
+  <div class="premise-teaser">
+    <div>
+      <p>From spectator to participant. From witness to accomplice.</p>
+      <p><a class="more" href="premise/resurrection.html">MORE&hellip;</a></p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00158.jpg" target="_blank"><img src="images/00158-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00022.jpg" target="_blank"><img src="images/00022-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title-menu">
+    <div>
+      <p class="intro">He Wept by <span class="nowrap">Carmine Vile.</span><br><br></p>
+    </div>
+  </div>
+  <div class="flex-container-menu">
+    <div>
+      <a href="a-to-z.html">A TO Z</a>
+    </div>
+    <div>
+      <a href="index.html#home">HOME</a>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00227.jpg" target="_blank"><img src="images/00227-300.jpg" alt="" class="border"></a>
+    </div>   
+    <div>
+      <a href="images/00015.jpg" target="_blank"><img src="images/00015-300.jpg" alt="" class="border"></a>
+    </div>  
+  </div>
+  <footer><small>&copy; Copyright 2021-2023, He Wept by Carmine Vile. <span class="nowrap">All Rights Reserved.</span></small></footer>
 </body>
 </html>
