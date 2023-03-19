@@ -10,167 +10,166 @@
   <link rel="shortcut icon" href="https://carminevile.com/favicon.png">
   <style>
     /* RESET*/
-    html, body, p, a, img {margin:0;padding:0;}
+    * {margin:0;padding:0;}
     /* END RESET */
-    html{font-size:100%;}
-    body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      max-width:900px;margin:auto}
-    h1{font-size:2.2rem;line-height:1.6;}
-    h2{font-size:1.8rem;line-height:1.6;}
-    h3{font-size:1.4rem;line-height:1.6;}
+    html{font-size:100%;background-color:#f5f5f5;}
+    body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;color:#212427;
+      max-width:900px;margin:auto;padding:2rem;}
+    h1{font-size:2.2rem;line-height:1.5;}
+    h2{font-size:1.8rem;line-height:1.5;}
+    h3{font-size:1.4rem;line-height:1.5;}
     h4{font-size:1.0;line-height:1.6;}
-    p{line-height:1.6;margin:1rem 0;}
-    a, a:hover, a:visited{color:#454545;text-decoration:none;padding:}
-    .flushR{text-align:right;}
-    .flushL{text-align:left;}
+    p{line-height:1.6;margin:auto;padding:0.5rem;max-width:75%;}
+    p.intro{font-size:2.2rem;line-height:1.5;text-align:center;max-width:100%;}
+    p.disclaimer{font-size:1.2rem;line-height:1.5;text-align:center;text-transform:uppercase;}
+    img{margin:0.75rem;border-radius:15px;}
+    a, a:hover, a:visited{color:#454545;text-decoration:none;margin:0 1rem;padding:0 1rem;}
+    #solicitation{padding:0 0 1.5rem 0;width:80%;margin:4rem auto;}
     .border{border:1px solid #454545;}
-    .title-card{padding:0 0 2.5% 0;}
-    .img{padding: 2.5% 0 0 0;}
-    .outer-container{display: grid;grid-template-columns: 1fr;gap:0;}
-    .inner-container {width:80%;padding:10%;}
-    .columnA{height:100&;margin:0;padding:0;background-color: #faf9f6;}
-    .columnB{height:100%;margin:0;padding:0;background-color: #f2f3f4;}
-    .grid{display:grid;place-items:center;}
-    .gridCL{display:grid;place-items:center left;}
-    .gridCR{display:grid;place-items:center right;}
+    .flex-container-title{display:flex;height:300px;flex-flow: row wrap;justify-content:center;align-items:center;align-content:space-around;}
+    .flex-container-title-menu{display:flex;height:200px;flex-flow: row wrap;justify-content:center;align-items:flex-end;}
+    .flex-container-menu{display: flex;height: 150px;  justify-content:center;  align-items: flex-start;}
+    .flex-container-images{display:flex;height:auto;flex-flow: row wrap;justify-content:center;align-items:center;}
     .nowrap{white-space:nowrap;}
-    @media (max-width: 600px) {
-    .columnA, .columnB {height:100%;}
-    /* .grid, .gridCL, .gridCR {display:grid;place-items:center left;} */
-    /* .flushL, .flushR {text-align:left;} */
+    footer{text-align:center;margin:2em;}
+    @media (orientation: portrait) {
+      html{font-size:80%%;background-color:#f5f5f5;}
+      p.intro{font-size:2.2rem;line-height:1.5;text-align:center;margin:0 2rem;}
+      img{margin:1rem;border-radius:15px;}
+      .flex-container-interview{display:flex;height:600px;flex-flow: row wrap;justify-content:center;align-items:center;align-content:space-around;}
+      .flex-container-menu{display: flex;height: 150px; flex-flow: row wrap; align-items:flex-start;justify-content:center; }
+      }
   </style>
 </head>
 <body>
-	<main>
-		<section class="outer-container">
-			<div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h1 class="flushR">I like making things catch your eye and capture your imagination.</h1>
-            </div>
-            <div class="img">
-              <a href="images/00132.jpg" target="_blank"><img src="images/00132-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-	</main>
-  <main>
-		<section class="outer-container">
-      <div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCL">
-            <div class="title-card">
-              <h1 class="flushL">I like making heads turn, jaws drop, and hearts skip a beat.</h1>
-            </div>
-            <div class="img">
-              <a href="images/00002.jpg" target="_blank"><img src="images/00002-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
-  <main>
-		<section class="outer-container">
-      <div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h1 class="flushR">I like making a difference.</h1>
-            </div>
-            <div class="img">
-              <a href="images/00056.jpg" target="_blank"><img src="images/00056-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
-  <main>
-		<section class="outer-container">
-      <div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCL">
-            <div class="title-card">
-              <p class="flushL">I'm always open to collaboration with the right person on the right project.</p>
-              <p class="flushL"><strong>Think</strong> we might click and accomplish something <strong>big</strong>?</p>
-              <p class="flushL">Échame un grito. Let's talk.</p>
-              <p class="flushL">Hasta pronto.</p>
-              <p class="flushL">Carmine</p>
-            </div>
-            <div class="img">
-              <a href="images/00005.jpg" target="_blank"><img src="images/00005-300.jpg" alt="" class="border"></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
-  <main>
-		<section class="outer-container">
-      <div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h4 class="flushR">I'M HERE.</h4>
-              <p class="flushR">create@carminevile.com</p>
-              <p class="flushR">+52 81 2190 5907</p>
-              <p class="flushR">
-                <a href="https://api.whatsapp.com/send?phone=528121905907" target="_blank" rel="noreferrer noopener">WHATSAPP</a>
-                <a href="https://t.me/he_wept_by_carmine_vile" target="_blank"> &nbsp;&nbsp;TELEGRAM</a>
-              </p>
-              <p class="flushR">
-                <a href="https://www.instagram.com/carmine_vile/" target="_blank">INSTAGRAM &nbsp;&nbsp;</a>
-                <a href="https://onlyfans.com/u219318829" target="_blank">ONLY FANS &nbsp;&nbsp;</a>
-                <a href="https://twitter.com/CarmineVile" target="_blank">TWITTER</a>
-              </p>
-            </div>
-            <div class="img">
-              <a href="images/00124.jpg" target="_blank"><img src="images/00124-300.jpg" alt="" class="border"></a></h4>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
-  <main>
-		<section class="outer-container">
-      <div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCL">
-            <div class="title-card">
-              <h3 class="flushL">This Site.</h3>
-              <p class="flushL">HTML5, CSS3, and that's it. Loads fast. Easy on the eyes. Gets right to the point.</p>
-              <p class="flushL">Photos are original, purchased, or reproduced with permission. Selecting an image opens a higher resolution version of the same.</p>
-              <p class="flushL">Songs by Falafel on the Corner / Bicycle to Tokyo. Thank you, Slava.</p>            </div>
-            <div class="img">
-              <a href="images/00066.jpg" target="_blank"><img src="images/00066-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
-  <main>
-		<section class="outer-container">
-      <div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h3 class="flushR">He Wept by Carmine Vile.</h3>
-              <p class="flushR"><a href="a-to-z.html">A TO Z</a> &nbsp;&nbsp;<a href="index.html#home">HOME</a></p>
-              <p class="flushR">He Wept &copy; 2022 Carmine Vile</p>
-            </div>
-            <div class="img">
-              <a href="images/00004.jpg" target="_blank"><img src="images/00004-300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-		</section>
-  </main>
+  <div class="flex-container-title">
+    <div>
+      <p class="intro">I like making things catch your eye and capture your&nbsp;imagination.</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00132.jpg" target="_blank"><img src="images/00132-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00049.jpg" target="_blank"><img src="images/00049-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+	<div class="flex-container-title">
+    <div>
+      <p class="intro">I like making heads turn, jaws drop, and hearts skip a&nbsp;beat.</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00069.jpg" target="_blank"><img src="images/00069-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00344.jpg" target="_blank"><img src="images/00344-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title">
+    <div>
+      <p class="intro">I like making a difference.</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00056.jpg" target="_blank"><img src="images/00056-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00071.jpg" target="_blank"><img src="images/00071-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div id="solicitation">
+    <div>
+      <p>I'm always open to collaboration with the right person on the right project.</p>
+      <p><strong>Think</strong> we might click and accomplish something <strong>big</strong>?</p>
+      <p>Échame un grito. Let's talk.</p>
+      <p>Hasta pronto.</p>
+      <p>Carmine.</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00005.jpg" target="_blank"><img src="images/00005-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00078.jpg" target="_blank"><img src="images/00078-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title-menu">
+    <div>
+      <p class="intro">I'M HERE.<br><br></p>
+    </div>
+  </div>
+  <div class="flex-container-menu">
+    <div>
+      <a>create@carminevile.com</a>
+    </div>
+    <div>
+      <a><span class="nowrap">+52 81 2190 5907</span></a>
+    </div>
+    <div>
+      <a href="https://api.whatsapp.com/send?phone=528121905907" target="_blank" rel="noreferrer noopener">WHATSAPP</a>
+    </div>
+    <div>
+      <a href="https://t.me/he_wept_by_carmine_vile" target="_blank"> TELEGRAM</a>
+    </div>
+    <div>
+      <a href="https://www.instagram.com/carmine_vile/" target="_blank">INSTAGRAM</a>
+    </div>
+    <div>
+      <a href="https://onlyfans.com/u219318829" target="_blank"><span class="nowrap">ONLY FANS</span></a>
+    </div>
+    <div>
+      <a href="https://twitter.com/CarmineVile" target="_blank">TWITTER</a>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00124.jpg" target="_blank"><img src="images/00124-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00200.jpg" target="_blank"><img src="images/00200-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title">
+    <div>
+      <p>This site. HTML5, CSS3, and that's it. Loads fast. Easy on the eyes. Gets right to the point.</p>
+      <p>Photos are original, purchased, or reproduced with permission. Selecting an image opens a higher resolution version of the same.</p>
+      <p>Songs by Falafel on the Corner / Bicycle to Tokyo. Thank you, Slava.</p>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00066.jpg" target="_blank"><img src="images/00066-300.jpg" alt="" class="border"></a>
+    </div>
+    <div>
+      <a href="images/00122.jpg" target="_blank"><img src="images/00122-300.jpg" alt="" class="border"></a>
+    </div>
+  </div>
+  <div class="flex-container-title-menu">
+    <div>
+      <p class="intro">He Wept by <span class="nowrap">Carmine Vile.</span><br><br></p>
+    </div>
+  </div>
+  <div class="flex-container-menu">
+    <div>
+      <a href="a-to-z.html">A TO Z</a>
+    </div>
+    <div>
+      <a href="index.html#home">HOME</a>
+    </div>
+  </div>
+  <div class="flex-container-images">
+    <div>
+      <a href="images/00265.jpg" target="_blank"><img src="images/00265-300.jpg" alt="" class="border"></a>
+    </div>   
+    <div>
+      <a href="images/00250.jpg" target="_blank"><img src="images/00250-300.jpg" alt="" class="border"></a>
+    </div>  
+  </div>
+  <footer><small>&copy; Copyright 2021-2023, He Wept by Carmine Vile. <span class="nowrap">All Rights Reserved.</span></small></footer>
 </body>
 </html>

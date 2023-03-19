@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="description" content="En orden alfabético">
-  <meta name="keywords" content="NEW, COMING SOON, content, table of contents, in alphabetical order, list, links">
+  <meta name="keywords" content="NEW, COMING SOON, content, table of toc, in alphabetical order, list, links">
   <meta name="author" content="Carmine Vile">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>A to Z.</title>
@@ -19,15 +19,14 @@
     h2{font-size:1.8rem;line-height:1.5;}
     h3{font-size:1.4rem;line-height:1.5;}
     h4{font-size:1.0;line-height:1.6;}
-    p{line-height:1.6;margin:0;padding:0;}
+    p{line-height:1.6;text-align:left;margin:0;padding:0;}
+    p.toc{line-height:1.6;text-align:left;padding:0 0 2rem 0;}
     p.intro{font-size:2.2rem;line-height:1.5;text-align:center;}
     p.disclaimer{font-size:1.2rem;line-height:1.5;text-align:center;text-transform:uppercase;}
     img{margin:0 0.75rem;border-radius:15px;}
     a, a:hover, a:visited{color:#454545;text-decoration:none;margin:0 1rem;padding:0 1rem;}
-    a, a:hover, a:visited.contents{color:#454545;text-decoration:none;padding:0;}
-    ul{list-style-type: none;line-height:1.6;text-align:center;max-width:75%;margin: auto;padding:0;}
-    li{margin:2rem 0;}
-    #table-of-contents{padding:0 0 2rem 0;}
+    a.toc, a:hover.toc, a:visited.toc{color:#454545;text-decoration:none;margin:0;padding:0;}
+    #table-of-contents{padding:0 0 1.5rem 0;width:75%;margin:2rem auto;}
     .border{border:1px solid #454545;}
     .flex-container-title{display:flex;height:300px;flex-flow: row wrap;justify-content:center;align-items:center;align-content:space-around;}
     .flex-container-title-menu{display:flex;height:200px;flex-flow: row wrap;justify-content:center;align-items:flex-end;}
@@ -63,65 +62,63 @@
     </div>
   </div>
   <div id="table-of-contents">
-  <ul>
-    <li>
-      <a class="contents" href="teasers/angels-mercy.html"><strong>Angel's Mercy.</strong> <em>For once she had somebody who really loved her.</em></a>
-    </li>
-    <li>
-      <a class="contents"href="teasers/departures.html"><strong>Departures.</strong> <em>To celebrate, to condemn, to ask a question, to tell a story.</em></a>
-    </li>
-    <li>
-       <a class="contents"href="teasers/en-colores.html"><strong>En Colores.</strong> <em>No todo es blanco y negro.</em></a>
-    </li>
-    <li>
-       <a class="contents"href="teasers/encounters.html"><strong>Encounters.</strong> <em>What we tell ourselves about ourselves. What we tell ourselves about others.</em></a>
-    </li>
-    <li>
-       <a class="contents"href="an-interview.html"><strong>Excerpt from an Interview.</strong> <em>The far side of the fence had a gate so tall it touched the sky.</em></a>
-    </li>
-    <li>
-       <a href="teasers/grace-land.html"><strong>Grace Land.</strong> <em>Doctors hand out pills like candy nowadays, the good kind and the ones you agree to take to get them to give you the good kind.</em></a>
-    </li>
-    <li>
-       <a href="teasers/here-i-am.html"><strong>Here I Am.</strong> <em>The whole thing is a house of cards that depends on somebody else keeping his promises.</em></a>
-    </li>
-    <li>
-       <a href="teasers/jump.html"><strong>Jump. <span style="color:orange;">NEW</span></strong> <em>This is not about a virus or a vaccine.</em></a>
-    </li>
-    <li>
-       <a href="teasers/language.html"><strong>Language of the Illiterate.</strong> <em>That homeboys is a feeling you ain't had before.</em></a>
-    </li>
-    <li>
-      <a href="lets-talk.html"><strong>Let's Talk.</strong> <em>Holler or shout.</em></a>
-    </li>
-    <li>
-     <a href="teasers/my-masquerade.html"><strong>My Masquerade.</strong> <em>Maybe you drive down deserted streets before the sun comes up trying to score with a girl who's poor.</em></a>
-    </li>
-    <li>
-      <a href="the-premise.html"><strong>Premise.</strong> <em>Sure, materialism keeps the economy going, but what does it do to your soul?</em></a>
-    </li>
-    <li>
-      <a href="teasers/ready-in-minutes.html"><strong>Ready in Minutes.</strong> <em>They went home in a pocket to be set aside, forgotten like dreams and other things you bought.</em></a>
-    </li>
-    <li>
-      <a href="teasers/sonidos.html"><strong>Banda Sonora.</strong> <em>The other half of the story.</em></a>
-    </li>
-      <li>
-      <a href="teasers/the-fat-guy.html"><strong>The Fat Guy and the Little Boy Who Did Not Forget.</strong> <em>He walks in and sits in the back where nobody will see. He can leave quickly if he has to.</em></a>
-    </li>
-    <li>
-      <a href="teasers/trato-de-novios.html"><strong>Trato de Novios. <span style="color:orange;">NEW</span></strong> <em>There's only one thing money can't buy. Sincerity.</em></a>
-    </li>
-    <li>
-      <a href="teasers/waiting-for-me.html"><strong>Waiting for Me.</strong> <em>You think I would have gotten up and walked out when I saw that.</em></a>
-    </li>
-    <li>
-      <a href="teasers/where-are-you-going.html"><strong>Where Are You Going?</strong> <em>I stopped listening as soon as I saw that I didn't have to.</em></a>
-    </li>
-    <li>
-      <a href="teasers/white-ruffles.html"><strong>White Ruffles.</strong> <em>Was it 1987 we celebrated New Year's Eve in the laundromat?</em></a>
-    </li>
-  </ul>
+    <p class="toc">
+      <a class="toc" href="teasers/angels-mercy.html"><strong>Angel's Mercy.</strong><br><em>For once she had somebody who really loved her.</em></a>
+    </p>
+    <p class="toc">
+      <a class="toc" href="teasers/departures.html"><strong>Departures.</strong><br><em>To celebrate, to condemn, to ask a question, to tell a story.</em></a>
+    </p>
+    <p class="toc">
+       <a class="toc" href="teasers/en-colores.html"><strong>En Colores.</strong><br><em>No todo es blanco y negro.</em></a>
+    </p>
+    <p class="toc">
+       <a class="toc" href="teasers/encounters.html"><strong>Encounters.</strong><br><em>What we tell ourselves about ourselves. What we tell ourselves about others.</em></a>
+    </p>
+    <p class="toc">
+       <a class="toc" href="an-interview.html"><strong>Excerpt from an Interview.</strong><br><em>The far side of the fence had a gate so tall it touched the sky.</em></a>
+    </p>
+    <p class="toc">
+       <a class="toc" href="teasers/grace-land.html"><strong>Grace Land.</strong><br><em>Doctors hand out pills like candy nowadays, the good kind and the ones you agree to take to get them to give you the good kind.</em></a>
+    </p>
+    <p class="toc">
+       <a class="toc" href="teasers/here-i-am.html"><strong>Here I Am.</strong><br><em>The whole thing is a house of cards that depends on somebody else keeping his promises.</em></a>
+    </p>
+    <p class="toc">
+       <a class="toc" href="teasers/jump.html"><strong>Jump. <span style="color:orange;">NEW</span></strong><br><em>This is not about a virus or a vaccine.</em></a>
+    </p>
+    <p class="toc">
+       <a class="toc" href="teasers/language.html"><strong>Language of the Illiterate.</strong><br><em>That homeboys is a feeling you ain't had before.</em></a>
+    </p>
+    <p class="toc">
+      <a class="toc" href="lets-talk.html"><strong>Let's Talk.</strong><br><em>Holler or shout.</em></a>
+    </p>
+    <p class="toc">
+     <a class="toc" href="teasers/my-masquerade.html"><strong>My Masquerade.</strong><br><em>Maybe you drive down deserted streets before the sun comes up trying to score with a girl who's poor.</em></a>
+    </p>
+    <p class="toc">
+      <a class="toc" href="the-premise.html"><strong>Premise.</strong><br><em>Sure, materialism keeps the economy going, but what does it do to your soul?</em></a>
+    </p>
+    <p class="toc">
+      <a class="toc" href="teasers/ready-in-minutes.html"><strong>Ready in Minutes.</strong><br><em>They went home in a pocket to be set aside, forgotten like dreams and other things you bought.</em></a>
+    </p>
+    <p class="toc">
+      <a class="toc" href="teasers/sonidos.html"><strong>Banda Sonora.</strong><br><em>The other half of the story.</em></a>
+    </p>
+    <p class="toc">
+      <a class="toc" href="teasers/the-fat-guy.html"><strong>The Fat Guy and the Little Boy Who Did Not Forget.</strong><br><em>He walks in and sits in the back where nobody will see. He can leave quickly if he has to.</em></a>
+    </p>
+    <p class="toc">
+      <a class="toc" href="teasers/trato-de-novios.html"><strong>Trato de Novios. <span style="color:orange;">NEW</span></strong><br><em>There's only one thing money can't buy. Sincerity.</em></a>
+    </p>
+    <p class="toc">
+      <a class="toc" href="teasers/waiting-for-me.html"><strong>Waiting for Me.</strong><br><em>You think I would have gotten up and walked out when I saw that.</em></a>
+    </p>
+    <p class="toc">
+      <a class="toc" href="teasers/where-are-you-going.html"><strong>Where Are You Going?</strong><br><em>I stopped listening as soon as I saw that I didn't have to.</em></a>
+    </p>
+    <p class="toc">
+      <a class="toc" href="teasers/white-ruffles.html"><strong>White Ruffles.</strong><br><em>Was it 1987 we celebrated New Year's Eve in the laundromat?</em></a>
+    </p>
   </div>
   <div class="flex-container-images">
     <div>
@@ -138,10 +135,10 @@
   </div>
   <div class="flex-container-menu">
     <div>
-      <a href="teasers.html">TEASERS</a>
+      <p><a href="teasers.html">TEASERS</a></p>
     </div>
     <div>
-      <a href="index.html#home">HOME</a>
+      <p><a href="index.html#home">HOME</a></p>
     </div>
   </div>
   <div class="flex-container-images">
