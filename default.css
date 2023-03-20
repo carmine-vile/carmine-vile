@@ -1,0 +1,40 @@
+/* RESET*/
+    * {margin:0;padding:0;}
+    /* END RESET */
+    html{font-size:100%;background-color:#f5f5f5;}
+    body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;color:#212427;
+      max-width:700px;margin:auto;}
+    h1{font-size:2.2rem;line-height:1.5;}
+    h2{font-size:1.8rem;line-height:1.5;}
+    h3{font-size:1.4rem;line-height:1.5;}
+    h4{font-size:1.0;line-height:1.6;}
+    p{line-height:1.6;margin:auto;padding:0.5rem 0;}
+    p.intro{font-size:2.2rem;line-height:1.5;text-align:center;}
+    p.disclaimer{font-size:1.2rem;line-height:1.5;text-align:center;text-transform:uppercase;}
+    img{border-radius:15px;}
+    a, a:hover, a:visited{color:#454545;text-decoration:none;margin:0;padding:0;}
+    a.menu, a:hover.menu, a:visited.menu{color:#454545;text-decoration:none;margin:0 1rem;padding:1rem;}
+    a.more, a:hover.more, a:visited.more{color:#454545;text-decoration:none;margin:0;padding:0;}
+    #body{padding:0;margin:4rem auto;}
+    #colofón{padding:0;margin:4rem auto;}
+    #solicitation{padding:0;margin:4rem auto;}
+    #table-of-contents{padding:0;margin:2rem 0 4rem auto;}
+    .premise-teaser{padding:0 0 0 0;margin:4rem auto;}
+    .teaser-teaser{padding:0 0 0 0;margin:4rem auto;}
+    blockquote{display: block;font-size:1.5rem;font-weight: bold;font-style: italic;margin:2rem 1rem;}
+    blockquote:before{content: open-quote;}
+    blockquote:after{content: close-quote;}
+    .border{border:1px solid #454545;}
+    .flex-container-title{display:flex;height:300px;flex-flow:row wrap;justify-content:center;align-items:center;}
+    .flex-container-title-menu{display:flex;height:200px;flex-flow:row wrap;justify-content:center;align-items:flex-end;}
+    .flex-container-menu{display:flex;height:150px;flex-flow:row wrap;justify-content:center;}
+    .flex-container-images{display:flex;height:auto;flex-flow:row wrap;justify-content:space-between;}
+    .nowrap{white-space:nowrap;}
+    footer{text-align:center;margin:2em;}
+    @media (orientation: portrait) {
+      html{font-size:80%%;background-color:#f5f5f5;}
+      p.intro{font-size:2.2rem;line-height:1.5;text-align:center;margin:0 2rem;}
+      img{border-radius:15px;}
+      .flex-container-interview{display:flex;height:600px;flex-flow: row wrap;justify-content:center;align-items:center;align-content:space-around;}
+      .flex-container-menu{display: flex;height: 150px; flex-flow: row wrap; align-items:flex-start;justify-content:center; }
+      }

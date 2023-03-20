@@ -7,64 +7,27 @@
   <meta name="author" content="Carmine Vile">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My Masquerade.</title>
+  <link rel="stylesheet" href="../default.css">
   <link rel="shortcut icon" href="https://carminevile.com/favicon.png">
-  <style>
-    /* RESET*/
-    html, body, p, a, img {margin:0;padding:0;}
-    /* END RESET */
-    html{font-size:100%;}
-    body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      max-width:900px;margin:auto}
-    h1{font-size:2.2rem;line-height:1.6;}
-    h2{font-size:1.8rem;line-height:1.6;}
-    h3{font-size:1.4rem;line-height:1.6;}
-    h4{font-size:1.0;line-height:1.6;}
-    p{line-height:1.6;margin:1rem 0;}
-    a, a:hover, a:visited{color:#454545;text-decoration:none;padding:}
-    .flushR{text-align:right;}
-    .flushL{text-align:left;}
-    .border{border:1px solid #454545;}
-    .title-card{padding:0 0 2.5% 0;}
-    .img{padding: 2.5% 0 0 0;}
-    .outer-container{display: grid;grid-template-columns: 1fr;gap:0;}
-    .inner-container {width:80%;padding:10%;}
-    .columnA{height:100%;margin:0;padding:0;background-color: #faf9f6;}
-    .columnB{height:100%;margin:0;padding:0;background-color: #f2f3f4;}
-    .grid{display:grid;place-items:center;}
-    .gridCL{display:grid;place-items:center left;}
-    .gridCR{display:grid;place-items:center right;}
-    .nowrap{white-space:nowrap;}
-    @media (max-width: 600px) {
-    .columnA, .columnB {height:100%;}
-/*   .grid, .gridCL, .gridCR {display:grid;place-items:center left;}  */
-/*  .flushL, .flushR {text-align:left;} */
-  </style>
 </head>
 <body>
-	<main>
-		<section class="outer-container">
-			<div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">
-              <h2 class="flushR">My Masquerade.</h2>
-              </div>
-            <div class="img">
-              <a href="../images/.jpg" target="_blank"><img src="../images/300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
+   <div class="flex-container-title">
+      <div>
+        <p class="intro">My Masquerade.</p>
+        <p class="intro">(No One Can Take That Away.)</p>
       </div>
-		</section>
-	</main>
-  <main>
-		<section class="outer-container">
-      <div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCL">
-            <div class="title-card">
-              <h3 class="flushL">No One Can Take That Away.</h3>
-              <p class="flushL">Mendoza.</p>
+    </div>
+    <div class="flex-container-images">
+      <div>
+        <a href="../images/00307.jpg" target="_blank"><img src="../images/00307-300.jpg" alt="" class="border"></a>
+      </div>
+      <div>
+        <a href="../images/00307.jpg" target="_blank"><img src="../images/00307-300.jpg" alt="" class="border"></a>
+      </div>
+    </div>
+    <div id="body">
+      <div>
+              <p>Mendoza.</p>
               <p><em>Men-doh-zuh.</em></p>
               <p>Maria Mendoza.</p>
               <p>What do you picture when you read my name for the first time? What do you assume is true about my life?</p>
@@ -79,7 +42,7 @@
               <p>Maybe you drive down deserted streets before the sun comes up trying to score with a girl who's poor.</p>
               <p>Sure, picture me. Tell me who I am and what I'm good for. Tell me what I can and can't achieve. Tell me where I belong and how far I can go.</p>
               <p>Tell me all those slogans and cliches about what it takes to succeed and be somebody. Tell me that they apply to those already seated at the table and not just those struggling to get in the door.</p>
-              <h3><em>...Do you know how black the sky appears at 3 AM? Or how empty it can seem at three in the afternoon?</em></h3>
+              <blockquote>Do you know how black the sky appears at 3 AM? Or how empty it can seem at three in the afternoon?</blockquote>
               <p>Do you know what it's like to want something so badly that your throat feels tight and your skin crawls at the thought of not having it, because you know what it's like to go without, and that's no longer an option?</p>
               <p>Do you know what it's like to want to be somebody you've never been, because it hurts too much to be the person you are?</p>
               <p>Do you know what it's like to be driven by fear and self-contempt because the alternative seems ridiculous and so far out of reach it might as well be on the moon? Do you know how black the sky appears at 3AM? Or how empty it can seem at three in the afternoon?</p>
@@ -95,42 +58,40 @@
               <p>Maria.</p>
               </div>
           </div>
-        </div>
+ <div class="flex-container-images">
+      <div>
+        <a href="../images/00332.jpg" target="_blank"><img src="../images/00332-300.jpg" alt="" class="border"></a>
       </div>
-		</section>
-  </main>
-  <main>
-		<section class="outer-container">
-      <div class="columnB grid">
-        <div class="inner-container">
-          <div class="gridCR">
-            <div class="title-card">       
-              </div>
-            <div class="img">
-              <a href="../images/.jpg" target="_blank"><img src="../images/300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
+      <div>
+        <a href="../images/00078.jpg" target="_blank"><img src="../images/00078-300.jpg" alt="" class="border"></a>
       </div>
-		</section>
-  </main>
-  <main>
-	<section class="outer-container">
-      <div class="columnA grid">
-        <div class="inner-container">
-          <div class="gridCRL">
-            <div class="title-card">
-              <h3 class="flushL">He Wept by Carmine Vile.</h3>
-              <p class="flushL"><a href="../index.html#home">HOME</a>&nbsp;&nbsp;<a href="../teasers.html#19">TEASERS</a> &nbsp;&nbsp;<a href="../a-to-z.html">A TO Z</a></p>
-              <p class="flushL">He Wept &copy; 2022 Carmine Vile</p>
-            </div>
-            <div class="img">
-              <a href="../images/.jpg" target="_blank"><img src="../images/300.jpg" alt="" class="border"></a>
-            </div>
-          </div>
-        </div>
+    </div>
+     <div class="flex-container-title-menu">
+      <div>
+        <p class="intro">
+          He Wept by <span class="nowrap">Carmine Vile.</span><br><br>
+        </p>
       </div>
-	</section>
-  </main>
-</body>
+    </div>
+    <div class="flex-container-menu">
+      <div>
+        <a class="menu" href="../teasers.html#19">TEASERS</a>
+      </div>
+      <div>
+        <a class="menu" href="../index.html#home">HOME</a>
+      </div>
+    </div>
+    <div class="flex-container-images">
+      <div>
+        <a href="../images/00265.jpg" target="_blank"><img src="../images/00265-300.jpg" alt="" class="border"></a>
+      </div>
+      <div>
+        <a href="../images/00250.jpg" target="_blank"><img src="../images/00250-300.jpg" alt="" class="border"></a>
+      </div>
+    </div>
+    <footer>
+      <small>&copy; Copyright 2021-2023, He Wept by Carmine Vile.
+        <span class="nowrap">All Rights Reserved.</span></small>
+    </footer>
+  </body>
 </html>
