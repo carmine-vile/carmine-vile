@@ -36,7 +36,7 @@
       p{line-height:1.6;padding:0.5rem 0;margin:0 3rem;}
       p.intro{font-size:2.2rem;line-height:1.5;text-align:center;margin:0 2rem;}
       img{margin:2rem 0;border-radius:15px;}
-      .flex-container-interview{display:flex;height:600px;flex-flow: row wrap;justify-content:center;align-items:center;align-content:space-around;}
+      .flex-container-interview{display:flex;height:800px;flex-flow: row wrap;justify-content:center;align-items:center;align-content:space-around;}
       .flex-container-menu{display: flex;height: 150px; flex-flow: row wrap; align-items:flex-start;justify-content:center; }
       .flex-container-images{display:flex;height:auto;flex-flow:row wrap;justify-content:center;align-content:space-between;}
       video{max-width:90%;padding:0 2rem;}
