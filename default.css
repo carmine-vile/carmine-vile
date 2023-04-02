@@ -4,14 +4,10 @@
     html{font-size:100%;background-color:#f5f5f5;}
     body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;color:#212427;
       max-width:700px;margin:auto;}
-    h1{font-size:2.2rem;line-height:1.5;}
-    h2{font-size:1.8rem;line-height:1.5;}
-    h3{font-size:1.4rem;line-height:1.5;}
-    h4{font-size:1.0;line-height:1.6;}
     p{line-height:1.6;margin:auto;padding:0.5rem 0;}
     p.intro{font-size:2.2rem;line-height:1.5;text-align:center;}
     p.disclaimer{font-size:1.2rem;line-height:1.5;text-align:center;text-transform:uppercase;}
-    img{border-radius:15px;}
+    img{max-inline-size: 100%;block-size: auto;aspect-ratio: 2/1;object-fit: cover;object-position: top center;}
     a, a:hover, a:visited{color:#454545;text-decoration:none;margin:0;padding:0;}
     a.menu, a:hover.menu, a:visited.menu{color:#454545;text-decoration:none;margin:0 1rem;padding:1rem;}
     a.more, a:hover.more, a:visited.more{color:#454545;text-decoration:none;margin:0;padding:0;}
@@ -29,20 +25,17 @@
     .flex-container-title{display:flex;height:300px;flex-flow:row wrap;justify-content:center;align-items:center;}
     .flex-container-title-menu{display:flex;height:200px;flex-flow:row wrap;justify-content:center;align-items:flex-end;}
     .flex-container-menu{display:flex;height:150px;flex-flow:row wrap;justify-content:center;}
-    .flex-container-images{display:flex;height:auto;flex-flow:row wrap;justify-content:space-between;}
     .nowrap{white-space:nowrap;}
     footer{text-align:center;margin:2em;}
     @media (orientation: portrait) {
       html{font-size:90%%;background-color:#f5f5f5;}
       p{line-height:1.6;padding:0.5rem 0;margin:0 3rem;}
       p.intro{font-size:2.2rem;line-height:1.5;text-align:center;margin:0 2rem;}
-      img{margin:2rem 0;border-radius:15px;}
-      #body{padding:0;margin:4rem auto;}
+      img{max-inline-size: 99%;block-size: auto;aspect-ratio: 2/1;object-fit: cover;object-position: top center;}     #body{padding:0;margin:4rem auto;}
       #colofón{padding:0;margin:4rem auto;}
       #excerpt{padding:0;margin:4rem auto;}
       #solicitation{padding:0;margin:4rem auto;}
       #table-of-contents{padding:0;margin:2rem 0 4rem auto;}
       .flex-container-menu{display: flex;height: 150px; flex-flow: row wrap; align-items:flex-start;justify-content:center; }
-      .flex-container-images{display:flex;height:auto;flex-flow:row wrap;justify-content:center;align-content:space-between;}
       video{max-width:90%;padding:0 2rem;}
       }
