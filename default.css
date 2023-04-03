@@ -7,7 +7,7 @@
     p{line-height:1.6;margin:auto;padding:0.5rem 0;}
     p.intro{font-size:2.2rem;line-height:1.5;text-align:center;}
     p.disclaimer{font-size:1.2rem;line-height:1.5;text-align:center;text-transform:uppercase;}
-    img{max-inline-size: 100%;block-size: auto;aspect-ratio: 2/1;object-fit: cover;object-position: top center;border:1px solid #454545;}
+    img{max-inline-size: 100%;block-size: auto;aspect-ratio: 1.67/1;object-fit: cover;object-position: top center;border:1px solid #454545;}
     a, a:hover, a:visited{color:#454545;text-decoration:none;margin:0;padding:0;}
     a.menu, a:hover.menu, a:visited.menu{color:#454545;text-decoration:none;margin:0 1rem;padding:1rem;}
     a.more, a:hover.more, a:visited.more{color:#454545;text-decoration:none;margin:0;padding:0;}
