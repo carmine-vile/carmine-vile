@@ -25,7 +25,7 @@ blockquote:before{content: open-quote;}
 blockquote:after{content: close-quote;}
 .border{border:1px solid #454545;}
 .flex-container-title{display:flex;height:300px;flex-flow:row wrap;justify-content:center;align-items:center;}
-.flex-container-title-menu{display:flex;height:200px;flex-flow:row wrap;justify-content:center;align-items:flex-end;}
+.flex-container-title-menu{display:flex;height:300px;flex-flow:row wrap;justify-content:center;align-items:flex-end;}
 .flex-container-menu{display: flex;height: 150px; flex-flow: row wrap; align-items:flex-start;justify-content:center; }
 .nowrap{white-space:nowrap;}
 footer{text-align:center;margin:2em;}
