@@ -1,13 +1,16 @@
 /* RESET*/
 * {margin:0;padding:0;}
 /* END RESET */
+/* BEGIN FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/* END FONTS */
 /* MOBILE FIRST */
 @media (orientation: portrait) {
 html{font-size:100%%;background-color:#f5f5f5;}
 body{font-size:1rem;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;color:#212427;
 max-width:700px;margin:auto;}
 p{line-height:1.7;padding:0.5rem 0;margin:0 3rem;}
-p.intro{font-size:2.4rem;line-height:1.7;text-align:center;margin:0 2rem;}
+p.intro{font-family:"Oswald", san-serif;font-weight:700;font-size:2.4rem;line-height:1.7;text-align:center;margin:0 2rem;}
 p.disclaimer{font-size:1.2rem;line-height:1.5;text-align:center;text-transform:uppercase;}
 img{max-inline-size: 99%;block-size: auto;aspect-ratio: 1.1/1;object-fit: cover;object-position: top center;border:0px solid #454545;}
 a, a:hover, a:visited{color:#454545;text-decoration:none;margin:0;padding:0;}
