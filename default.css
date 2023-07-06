@@ -115,14 +115,6 @@
 		padding: 0;
 		margin: 2rem 0 4rem auto;
 	}
-	.premise-teaser {
-		padding: 0;
-		margin: 0 0 3rem 0;
-	}
-	.teaser-teaser {
-		padding: 0;
-		margin: 0 0 4rem 0;
-	}
 	blockquote {
 		display: block;
 		font-size: 1.5rem;
@@ -284,14 +276,6 @@
 	#table-of-contents {
 		padding: 0;
 		margin: 2rem 0 4rem auto;
-	}
-	.premise-teaser {
-		padding: 0;
-		margin: 1rem 0 4rem 0;
-	}
-	.teaser-teaser {
-		padding: 0;
-		margin: 1rem 0 4rem 0;
 	}
 	blockquote {
 		display: block;
