@@ -5,10 +5,10 @@
     "images_path": "./public/images/photos",
     "thumbnails_path": "./public/images/thumbnails",
     "thumbnail_height": 160,
-    "title": "Permanent Gallery",
-    "description": "All the rest is up to you.",
-    "background_photo": "bayside.jpg",
-    "url": "https://carminevile.com",
+    "title": "He Wept.",
+    "description": "CARMINE VILE",
+    "background_photo": "uaNcbedc.jpg",
+    "url": "https://carminevile.com/gallery/index.html",
     "background_photo_offset": 30,
     "disable_captions": false
 }
