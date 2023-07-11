@@ -5,9 +5,9 @@
     "images_path": "./public/images/photos",
     "thumbnails_path": "./public/images/thumbnails",
     "thumbnail_height": 160,
-    "title": "He Wept.",
-    "description": "CARMINE VILE",
-    "background_photo": "uaNcbedc.jpg",
+    "title": "He Wept",
+    "description": "Carmine Vile",
+    "background_photo": "EW1CD63K.jpg",
     "url": "https://carminevile.com/gallery/index.html",
     "background_photo_offset": 30,
     "disable_captions": false
