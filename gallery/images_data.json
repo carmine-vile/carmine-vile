@@ -3183,6 +3183,22 @@
             160
         ]
     },
+    "alameda.jpg": {
+        "src": "images/photos/alameda.jpg",
+        "mtime": 1689097398.53543,
+        "date": "",
+        "size": [
+            2000,
+            1333
+        ],
+        "type": "image",
+        "description": "",
+        "thumbnail": "images/thumbnails/alameda.jpg",
+        "thumbnail_size": [
+            240,
+            160
+        ]
+    },
     "b2yrPtgD.jpg": {
         "src": "images/photos/b2yrPtgD.jpg",
         "mtime": 1688945627.197017,
