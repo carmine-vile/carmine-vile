@@ -21,7 +21,7 @@
 		line-height: 1.7;
 		color: #212427;
 		max-width: 700px;
-		margin: 0 1rem 2rem;
+		margin: 0 1rem1 1rem;
 	}
 	h1 {
 		font-family: 'Oswald', san-serif;
@@ -43,7 +43,7 @@
 	}
 	p {
 		padding: 0.75rem 0;
-		margin: 0 2rem;
+		margin: 0 1rem;
 	}
 	p.large {
 		font-family: 'Oswald', san-serif;
