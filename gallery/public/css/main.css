@@ -28,6 +28,7 @@ body {
 .gallery>a>img {
   display: block;
   width: 100%;
+  loading: lazy;
 }
 
 .header-image {
