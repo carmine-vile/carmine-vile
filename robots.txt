@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
-Allow: *
+Allow: /
 Sitemap: https://www.carminevile.com/sitemap.xml
