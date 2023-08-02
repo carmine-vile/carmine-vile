@@ -65,7 +65,7 @@
 		aspect-ratio: 1/1;
 		object-fit: cover;
 		object-position: top center;
-		border: 0px solid #454545;
+		border: 1px solid #454545;
 	}
 	a,
 	a:hover,
@@ -228,7 +228,7 @@
 		aspect-ratio: 1.5/1;
 		object-fit: cover;
 		object-position: top center;
-		border: 0px solid #454545;
+		border: 1px solid #454545;
 	}
 	a,
 	a:hover,
@@ -337,19 +337,19 @@ img.l {
 	aspect-ratio: 1.33/1;
 	object-fit: cover;
 	object-position: top center;
-	border: 0px solid #454545;
+	border: 1px solid #454545;
 }img.p {
 	max-inline-size: 100%;
 	block-size: auto;
 	aspect-ratio: 0.66/1;
 	object-fit: cover;
 	object-position: top center;
-	border: 0px solid #454545;
+	border: 1px solid #454545;
 }img.s {
 	max-inline-size: 100%;
 	block-size: auto;
 	aspect-ratio: 1/1;
 	object-fit: cover;
 	object-position: top center;
-	border: 0px solid #454545;
+	border: 1px solid #454545;
 }
