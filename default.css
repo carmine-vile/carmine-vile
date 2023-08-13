@@ -146,10 +146,10 @@
 		flex-flow: row wrap;
 		justify-content: left;
 		align-items: center;
-		scroll-snap-align: end;
 		scroll-snap-stop: always;
 	}
-	.menu {
+	.menu {		scroll-snap-align: start;
+
 		margin: 0 0 8rem 0;
 	}
 	.nowrap {
@@ -161,6 +161,7 @@
 	footer {
 		text-align: left;
 		margin: 0 0 0 1rem;
+		scroll-snap-align: start;
 	}
 	video {
 		max-width: 90%;
@@ -320,7 +321,7 @@
 		flex-flow: row wrap;
 		justify-content: left;
 		align-items: center;
-		scroll-snap-align: end;
+		scroll-snap-align: start;
 		scroll-snap-stop: always;
 	}
 	.menu {
@@ -334,6 +335,7 @@
 	}
 	footer {
 		text-align: left;
+		scroll-snap-align: start;
 	}
 	/* RESPONSIVE LIST */
 	.hlist {
