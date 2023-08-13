@@ -99,21 +99,27 @@
 		margin: 0;
 		padding: 0;
 	}
+	/* Merch, More, all other content */
 	#body {
 		padding: 0;
 		margin: 4rem auto;
+		scroll-snap-align: start;
+		scroll-snap-stop: normal;
 	}
+	/* Landing Page */
 	#disclaimer {
 		border: 1px solid #454545;
 		margin: 0 1rem;
 		padding: 1rem;
 	}
+	/* Interview */
 	#excerpt {
 		padding: 0;
 		margin: 4rem auto;
 		scroll-snap-align: center;
 		scroll-snap-stop: normal;
 	}
+	/* A to Z */
 	#table-of-contents {
 		padding: 0;
 		margin: 2rem 0 4rem auto;
@@ -216,12 +222,12 @@
 		font-family: 'Oswald', san-serif;
 		font-weight: 400;
 		font-size: 2.5rem;
-		line-height: 1.3;
+		line-height: 1.2;
 		text-align: left;
 		padding: 1rem 0 0 0;
 	}
 	p {
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		font-weight: 500;
 		padding: 0.75rem 0;
 		margin: auto;
@@ -271,20 +277,26 @@
 		margin: 0;
 		padding: 0;
 	}
+	/* Merch, More, all other content */
 	#body {
 		padding: 0;
 		margin: 4rem auto;
+		scroll-snap-align: start;
+		scroll-snap-stop: normal;
 	}
+	/* Landing Page */
 	#disclaimer {
 		border: 1px solid #454545;
 		padding: 2rem;
 	}
+	/* Interview */
 	#excerpt {
 		padding: 0;
 		margin: 2rem auto;
 		scroll-snap-align: center;
 		scroll-snap-stop: normal;
 	}
+	/* A to Z */
 	#table-of-contents {
 		padding: 0;
 		margin: 2rem 0 4rem auto;
