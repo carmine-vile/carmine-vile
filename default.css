@@ -78,14 +78,14 @@
 	p.graffiti1 {
 		font-family: 'FatWandalsAlt';
 		font-weight: 500;
-		font-size: 3rem;
+		font-size: 2.25rem;
 		text-align: right;
 		transform: skewY(15deg);
 	}
 	p.graffiti2 {
 		font-family: 'FatWandalsAlt';
 		font-weight: 500;
-		font-size: 7rem;
+		font-size: 5.5rem;
 		text-align: left;
 		line-height: 1.5;
 		transform: skewY(25deg);
@@ -182,6 +182,7 @@
 		align-items: center;
 		scroll-snap-align: start;
 		scroll-snap-stop: always;
+		overflow: hidden;
 	}
 	.flex-container-100vh {
 		display: flex;
