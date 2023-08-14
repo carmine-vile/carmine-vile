@@ -82,15 +82,16 @@
 		line-height:1.7;
 		text-align: right;
 		transform: skewY(20deg);
-		padding: 4rem 2rem 0 0;
+		padding: 2rem 2rem 0 0;
 	}
 	p.graffiti2 {
 		font-family: 'FatWandalsAlt';
 		font-weight: 500;
-		font-size: 5rem;
+		font-size: 4.5rem;
 		text-align: left;
 		line-height: 1;
-		transform: skewY(-15deg);
+		transform: skewY(25deg);
+		padding: 5rem 0 0 0;
 	}
 	.graffiti {
 		font-family: 'FatWandalsAlt';
