@@ -87,9 +87,9 @@
 	p.graffiti2 {
 		font-family: 'FatWandalsAlt';
 		font-weight: 500;
-		font-size: 4.5rem;
-		text-align: left;
-		line-height: 1;
+		font-size: 4.25rem;
+		text-align: center;
+		line-height: 0.75;
 		transform: skewY(25deg);
 		padding: 5rem 0 0 0;
 	}
@@ -304,7 +304,7 @@
 		font-weight: 500;
 		font-size: 5.5rem;
 		text-align: left;
-		line-height: 1;
+		line-height: 0.5;
 		transform: skewY(-15deg);
 	}
 	.graffiti {
@@ -440,13 +440,10 @@
 
 /* UNIVERSAL */
 
-p, li, h1, h2, h3, h4 {
-  // Help prevent overflow of long words/names/URLs
-  overflow-wrap: break-word;
-
-  // Optional, not supported for all languages
-  hyphens: auto;
-}
+	p, li, h1, h2, h3, h4 {
+  		overflow-wrap: break-word;	
+  		hyphens: auto;
+	}
 
 img.l {
 	max-inline-size: 100%;
