@@ -101,6 +101,13 @@
 		object-position: top center;
 		border: 1px solid #454545;
 	}
+	img.normal {
+		max-inline-size: 100%;
+		block-size: auto;
+		object-fit: contain;
+		object-position: top center;
+		border: none;
+	}
 	a,
 	a:hover,
 	a:visited {
@@ -306,6 +313,13 @@
 		object-fit: cover;
 		object-position: top center;
 		border: 1px solid #454545;
+	}
+	img.normal {
+		max-inline-size: 100%;
+		block-size: auto;
+		object-fit: contain;
+		object-position: top center;
+		border: none;
 	}
 	a,
 	a:hover,
