@@ -452,14 +452,16 @@ img.l {
 	object-fit: cover;
 	object-position: top center;
 	border: 1px solid #454545;
-}img.p {
+}
+img.p {
 	max-inline-size: 100%;
 	block-size: auto;
 	aspect-ratio: 0.66/1;
 	object-fit: cover;
 	object-position: top center;
 	border: 1px solid #454545;
-}img.s {
+}
+img.s {
 	max-inline-size: 100%;
 	block-size: auto;
 	aspect-ratio: 1/1;
@@ -467,3 +469,7 @@ img.l {
 	object-position: top center;
 	border: 1px solid #454545;
 }
+#spacer75{
+	height: 75vh;
+}
+
