@@ -22,7 +22,7 @@
 		background-color: #f5f5f5;
 		background-position: center center;
 		background-size: 100vw 100vh;
-		background-attachment: local;
+		background-attachment: fixed;
 		background-repeat: no-repeat;
 		scroll-behavior: smooth;
 		scroll-snap-type: y mandatory;
