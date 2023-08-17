@@ -111,7 +111,7 @@
 		text-align: center;
 		line-height: 0.75;
 		transform: skewY(25deg);
-		padding: 5rem 0 0 0;
+		padding: 5rem 0 0 1rem;
 	}
 	.graffiti {
 		font-family: 'FatWandalsAlt';
