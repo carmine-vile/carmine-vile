@@ -394,7 +394,7 @@
 	}
 	/* Merch, More, all other content */
 	#body {
-		padding: 0 0 75vh 0;
+		padding: 0 0 50vh 0;
 		margin: 4rem auto;
 		scroll-snap-align: start;
 		scroll-snap-stop: normal;
