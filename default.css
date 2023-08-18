@@ -235,8 +235,8 @@
 		scroll-snap-align: start;
 	}
 	video {
-		max-width: 90%;
-		padding: 0 2rem;
+		width: 100%;
+		padding: 0 0 2rem 0;
 	}
 	/* RESPONSIVE LISTS*/
 	.hlist {
@@ -468,6 +468,10 @@
 	footer {
 		text-align: left;
 		scroll-snap-align: start;
+	}
+	video {
+		width: 100%;
+		padding: 0 0 2rem 0;
 	}
 	/* RESPONSIVE LIST */
 	.hlist {
