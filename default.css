@@ -31,7 +31,7 @@
 	}
 	body {
 		font-family: 'Roboto', sans-serif;
-		font-size: 1rem;
+		font-size: min(max(1rem, 4vw), 22px);
 		font-weight: 400;
 		line-height: 1.7;
 		color: #212427;
@@ -522,5 +522,8 @@
 	}
 	strong {
 		font-weight: 900;
+	}
+	em {
+		font-weight: 700;
 	}
 
