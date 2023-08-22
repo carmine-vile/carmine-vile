@@ -122,7 +122,7 @@
 		aspect-ratio: 1/1;
 		object-fit: cover;
 		object-position: top center;
-		border: 1px solid #454545;
+		border: 2px solid #454545;
 	}
 	img.normal {
 		max-inline-size: 100%;
@@ -167,16 +167,23 @@
 	}
 	/* Landing Page */
 	#disclaimer {
-		border: 1px solid #454545;
+		border: 2px solid #454545;
 		margin: 0 1rem;
 		padding: 1rem;
 	}
+	/* An Interview */
+	#bio {
+		border: 2px solid #454545;
+		margin: 0 1rem;
+		padding: 1rem;
+	}
+	/* Let's Talk */
 	#solicitud {
-		border: 1px solid #454545;
+		border: 2px solid #454545;
 		margin: 0 1rem;
 		padding: 1rem;
 	}
-	/* Interview */
+	/* An Interview */
 	#excerpt {
 		padding: 20vh 0 100vh 0;
 		margin: 0 auto;
@@ -204,7 +211,7 @@
 		content: close-quote;
 	}
 	.border {
-		border: 1px solid #454545;
+		border: 2px solid #454545;
 	}
 	.flex-container-100vh-center {
 		display: flex;
@@ -365,7 +372,7 @@
 		aspect-ratio: 1.5/1;
 		object-fit: cover;
 		object-position: top center;
-		border: 1px solid #454545;
+		border: 2px solid #454545;
 	}
 	img.normal {
 		max-inline-size: 100%;
@@ -410,14 +417,20 @@
 	}
 	/* Landing Page */
 	#disclaimer {
-		border: 1px solid #454545;
+		border: 2px solid #454545;
 		padding: 2rem;
 	}
+	/* An Interview */
+	#bio {
+		border: 2px solid #454545;
+		padding: 2rem;
+	}
+	/* Let's Talk */
 	#solicitud {
 		border: 2px solid #454545;
 		padding: 2rem;
 	}
-	/* Interview */
+	/* An Interview */
 	#excerpt {
 		padding: 20vh 0 80vh 0;
 		margin: 0 auto;
