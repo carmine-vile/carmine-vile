@@ -152,6 +152,12 @@
 		scroll-snap-align: start;
 		scroll-snap-stop: normal;
 	}
+	.body {
+		padding: 20vh 0 100vh 0;
+		margin: 0 auto;
+		scroll-snap-align: start;
+		scroll-snap-stop: normal;
+	}
 	/* Landing Page */
 	#one-liner {
 		position: absolute;
@@ -393,6 +399,12 @@
 	}
 	/* Merch, More, all other content */
 	#body {
+		padding: 20vh 0 80vh 0;
+		margin: 0 auto;
+		scroll-snap-align: start;
+		scroll-snap-stop: normal;
+	}
+	.body {
 		padding: 20vh 0 80vh 0;
 		margin: 0 auto;
 		scroll-snap-align: start;
