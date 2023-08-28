@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" style="background-image: url(images/backgrounds/bg.svg);"><head>
+	<meta charset="UTF-8">
+	<meta content="Who do we think is listening? Who do we think is watching?" name="description">
+	<meta content="labels, Coke, Pepsi, RC, Democrats, Republicans, Presbyterians, Methodist, suburbs, shopping malls, Victoria's Secret, Apple iPhone, liberation, transformation, salvation, self absorbed bubble, conspicuous consumption of commodities, self, place, purpose, authenticity" name="keywords">
+	<meta content="Carmine Vile" name="author">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>Shout Louder!</title>
+	<link href="https://fonts.googleapis.com" rel="preconnect">
+	<link href="https://fonts.gstatic.com" rel="preconnect">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="../default.css" rel="stylesheet">
+	<link href="https://carminevile.com/favicon.png" rel="shortcut icon">
+</head>
+<body>
+	<div class="flex-container-100vh">
+		<div>
+			<p class="title">Shout Louder!</p>
+		</div>
+	</div>
+	<div id="body">
+		<div>
+			<p>Maybe They'll Hear You</p>
+			<p>This isn't about labels on cans of peas.</p>
+			<p>Or Coke vs Pepsi vs RC.</p>
+			<p>Or Democrats vs Republicans.</p>
+			<p>Or Presbyterians vs the Methodist.</p>
+			<p>It's not about sexy underwear in suburban shopping malls or smart phones designed to do less, not more.</p>
+			<p>Or blogs just starting out.</p>
+			<p>This is about associations we make, assumptions we hold, and great leaps of faith that we can't live without.</p>
+			<p>There's a world of difference between who we are and who we want to be.</p>
+			<p>There's a world of difference between who we are and who we are willing to think we are, with a little bit of prompting and a whole lot of guile.</p>
+			<p>The mercantile world responds to this by offering products that promise lush experiences&mdash;liberating, transformative, salvation-like if taken at face value.</p>
+			<p>Brands allow us to leap rather effortlessly over these divides while convincing ourselves that they no longer exist.</p>
+			<p>Brands give us distinction, let us see ourselves as special, even unique, rather than one of many or&mdash;the more devastating option&mdash;no one at all.</p>
+			<p>Brands tell a story all their own while inviting us to make it our own. The price of admission pales in comparison to the value of what we get to take home. Brands enable us to tell OUR story. And tell it convincingly.</p>
+			<p>It never seems to occur to anyone to ask the obvious. Who do we think is listening? Who do we think is watching? The neighbors? Strangers? Folks just like us?</p>
+			<p>You're standing in the center of the stage. That didn't take much effort. You strode right out there. Maybe that's human nature, but contemporary culture fans it to the hilt. The stark truth is you're alone. No audience in sight. The house is empty. Blink. Now it's full, but every ticket holder looks just like you&mdash;the star in the spotlight. The show ends. Walking across the parking lot elicits a passing glance from a stranger, but the truth is that he, like you, is too self absorbed to notice anything outside the bubble&mdash;the bought and paid for bubble that each inhabits as his own.</p>
+			<p>No one else is paying attention as we proclaim our significance, parade our uniqueness. Not really&mdash;why should they? But WE are.</p>
+			<p>Brands are identities that commodities are given by those who market them. They serve to distinguish otherwise similar products, to make them distinct in their appeal to the buying public, and to maximize that appeal by conveying an aura of value that far exceeds a mere product. Consumers bring something to the table as well&mdash;call it gullibility or wishful thinking, but there's a willingness, readiness, eagerness to believe the hype, to idolize, to embrace and enshrine the conspicuous consumption of commodities as a path to describing self, defining place, and finding purpose.</p>
+			<p>At the end of the day and well into the night, brands give us the opportunity to be somebody&mdash;somebody good&mdash;to feel like individuals who matter and are in control and have lives worth living. To call authentic the thing derived from everything that isn't. To convince ourselves that we are everything we're not.</p>
+			<p>And where can you find a better deal than that?</p>
+			
+		</div>
+	</div>
+	<div class="flex-container-100vh">
+		<div>
+			<ul class="hlist">
+				<li><a class="menu" href="your-words.html"><span class="nowrap"><strong>NEXT.</strong> Your Words Hurt My Ears.</span></a></li>
+				<li><a class="menu" href="get-real.html"><span class="nowrap"><strong>BACK.</strong> Get Real. Buy Now.</span></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="flex-container-100vh">
+		<div>
+			<p class="title">He Wept by <span class="nowrap graffiti">Carmine Vile.</span></p>
+			<ul class="hlist">
+				<li><a class="menu" href="../the-premise.html">THE PREMISE</a></li>
+				<li><a class="menu" href="../home.html">HOME</a></li>
+			</ul>
+		</div>
+	</div>
+	<footer>
+		<small>&copy; Copyright 2021-2023, He Wept by Carmine Vile. <span class="nowrap">All Rights Reserved.</span></small>
+	</footer>
+</body>
+</html>
