@@ -95,6 +95,11 @@
 	p.one-liner {
 		font-size: x-small;
 	}
+	p.wayback{
+		font-size: 0.75rem;;
+		font-weight: 500;
+		line-height: 1.3;
+	}
 	p.graffiti {
 		font-family: 'FatWandalsAlt';
 		font-weight: 500;
@@ -162,6 +167,14 @@
 	#one-liner {
 		position: absolute;
 		bottom: 1.5vh;
+	}
+	#wayback {
+		border: 2px solid #454545;
+		margin: 0 1rem;
+		padding: 1rem;
+	}
+	#wayback-container {
+		padding: 30vh 0 0 0;
 	}	
 	/* Landing Page */
 	#disclaimer {
@@ -345,6 +358,11 @@
 	p.one-liner {
 		font-size: x-small;
 	}
+	p.wayback{
+		font-size: 1rem;;
+		font-weight: 500;
+		line-height: 1.5;
+	}
 	p.graffiti {
 		font-family: 'FatWandalsAlt';
 		font-weight: 500;
@@ -414,6 +432,13 @@
 	#one-liner {
 		position: absolute;
 		bottom: 3vh;
+	}
+	#wayback {
+		border: 2px solid #454545;
+		padding: 2rem;
+	}
+	#wayback-container {
+		padding: 30vh 0 0 0;
 	}
 	/* Landing Page */
 	#disclaimer {
