@@ -182,6 +182,12 @@
 		margin: 0 1rem;
 		padding: 1rem;
 	}
+	/* Trato de Novios */
+	#advisory {
+		border: 2px solid #454545;
+		margin: 0 1rem;
+		padding: 1rem;
+	}
 	/* An Interview */
 	#bio {
 		border: 2px solid #454545;
@@ -442,6 +448,11 @@
 	}
 	/* Landing Page */
 	#disclaimer {
+		border: 2px solid #454545;
+		padding: 2rem;
+	}
+	/* trato de Novios */
+	#advisory {
 		border: 2px solid #454545;
 		padding: 2rem;
 	}
