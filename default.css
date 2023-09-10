@@ -19,6 +19,7 @@
 
 @media (orientation: portrait) {
 	html {
+		display: block;
 		font-size: min(max(1rem, 4vw), 20px);
 		background-color: #f5f5f5;
 		background-position: center center;
@@ -289,10 +290,11 @@
 
 @media (orientation: landscape) {
 	html {
+		display: block;
 		font-size: min(max(1rem, 4vw), 22px);
 		background-color: #f5f5f5;
 		background-position: center center;
-		background-size: cover;
+		background-size: 100% 100%;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 		scroll-behavior: smooth;
