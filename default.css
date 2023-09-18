@@ -629,6 +629,6 @@
 
 /* PHONE LANDSCAPE DENY */
 
-@media only screen and (max-height: 600px) {
+@media (max-height: 600px) and (orientation: landscape) {
 	html {display: none;}}
 
