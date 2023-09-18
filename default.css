@@ -22,10 +22,10 @@
 		display: block;
 		font-size: min(max(1rem, 4vw), 20px);
 		background-color: #f5f5f5;
-		background-position: center center;
+		/* background-position: center center;
 		background-size: 100% 100%;
 		background-attachment: fixed;
-		background-repeat: no-repeat;
+		background-repeat: no-repeat; */
 		scroll-behavior: smooth;
 		scroll-snap-type: y mandatory;
 		overflow-y: scroll;
@@ -36,6 +36,15 @@
 		font-weight: 400;
 		line-height: 1.7;
 		color: #212427;
+		background-position: center center;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		background-repeat: no-repeat; 
+		/*max-width: 700px;
+		padding: 0 1rem;
+		margin: 0 auto 2rem;*/
+	}
+	#column-container {
 		max-width: 700px;
 		padding: 0 1rem;
 		margin: 0 auto 2rem;
@@ -132,6 +141,13 @@
 		block-size: auto;
 		object-fit: contain;
 		object-position: top left;
+		border: none;
+	}
+	img.bg {
+		max-inline-size: 100%;
+		block-size: auto;
+		object-fit: fill;
+		object-position: center center;
 		border: none;
 	}
 	a,
@@ -300,10 +316,10 @@
 		display: block;
 		font-size: min(max(1rem, 4vw), 22px);
 		background-color: #f5f5f5;
-		background-position: center center;
+		/*background-position: center center;
 		background-size: 100% 100%;
 		background-attachment: fixed;
-		background-repeat: no-repeat;
+		background-repeat: no-repeat;*/
 		scroll-behavior: smooth;
 		scroll-snap-type: y mandatory;
 		overflow-y: scroll;
@@ -314,6 +330,15 @@
 		font-weight: 400;
 		line-height: 1.7;
 		color: #212427;
+		background-position: center center;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		/*max-width: 700px;
+		padding: 0 1rem;
+		margin: 0 auto 2rem;*/
+	}
+	#column-container {
 		max-width: 700px;
 		padding: 0 1rem;
 		margin: 0 auto 2rem;
