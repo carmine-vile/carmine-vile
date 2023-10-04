@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" style="background-image: url(images/backgrounds/bg.png);"><head>
+	<meta charset="UTF-8">
+	<meta content="There's only one thing left to do." name="description">
+	<meta content="instant photo booth, shopping mall, rainy day, landfill, mortailty" name="keywords">
+	<meta content="Carmine Vile" name="author">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>Ready in Minutes.</title>
+	<link href="https://fonts.googleapis.com" rel="preconnect">
+	<link href="https://fonts.gstatic.com" rel="preconnect">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="../default.css" rel="stylesheet">
+	<link href="https://carminevile.com/favicon.png" rel="shortcut icon">
+</head>
+<body>
+<div id="column-container">
+	<div class="flex-container-100vh">
+		<div>
+			<h1>Ready in Minutes.</h1>
+			<h2>You Never Knew How They Would Turn Out.</h2>
+		</div>
+	</div>
+	<div id="body">
+		<div>
+			<p>They never were much good those instant photos that came out of the machine at the mall.</p>
+			<p>Two dollars. Four poses. Ready in minutes.</p>
+			<p>You retrieved them from the chute, damp and sticky even after the blower switched off.</p>
+			<p>Forced smiles. Awkward, made-up expressions. It was hard not to blink.</p>
+			<p>The features were always blurred, the colors dark and run together or washed out when the chemicals needed changing.</p>
+			<p>Call them a keepsake, a memento, a souvenir. They went home in a pocket to be set aside, forgotten like dreams and other things you bought.</p>
+			<p>Then one day you discover them in a drawer of things that mattered once and marvel at who you were and who you've become and how the time has passed.</p>
+			<p>There's only one thing left to do.</p>
+			<p>Choose.</p>
+			<p>Save them for a rainy day? Another rainy day like today.</p>
+			<p>Or&mdash;</p>
+			<p>Embrace the knowledge that no one really cares. There's no one coming after you to whom they will matter.</p>
+			<p>The landfill awaits. Everything you ever cherished or thought you cherished or might cherish.</p>
+			<p>Everything in that drawer and on that shelf and in that box in the closet.</p>
+			<p>If you don't see it today, don't worry. A time will come when it is crystal clear.</p>
+			<p>The drawer they'll be closing is made of stainless steel and has you in it.</p>
+			
+		</div>
+	</div>
+	<div class="flex-container-100vh">
+		<div>
+			<p class="title">He Wept by <span class="nowrap graffiti">Carmine Vile.</span></p>
+
+			<ul class="hlist">
+				<li><a class="menu" href="../teasers.html#21">TEASERS</a></li>
+				<li><a class="menu" href="../home.html">HOME</a></li>
+			</ul>
+		</div>
+	</div>
+	<footer>
+		<small>&copy; Copyright 2021-2023, He Wept by Carmine Vile. <span class="nowrap">All Rights Reserved.</span></small>
+	</footer>
+</div></body>
+</html>
