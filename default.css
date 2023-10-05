@@ -594,7 +594,7 @@
 
 	p	{
 		overflow-wrap: break-word;	
-  		hyphens: auto;
+  		hyphens: none;
 	}
 	
 	li, h1, h2, h3, h4 {
