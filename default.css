@@ -21,11 +21,6 @@
 	html {
 		display: block;
 		font-size: min(max(1rem, 4vw), 20px);
-		background-color: #f5f5f5;
-		/* background-position: center center;
-		background-size: 100% 100%;
-		background-attachment: fixed;
-		background-repeat: no-repeat; */
 		scroll-behavior: smooth;
 		scroll-snap-type: y mandatory;
 		overflow-y: scroll;
@@ -40,9 +35,6 @@
 		background-size: 100% 100%;
 		background-attachment: fixed;
 		background-repeat: no-repeat; 
-		/*max-width: 700px;
-		padding: 0 1rem;
-		margin: 0 auto 2rem;*/
 	}
 	#column-container {
 		max-width: 700px;
@@ -57,6 +49,7 @@
 		text-align: left;
 		margin: 0 1rem;
 		padding: 4rem 0 0 0;
+		color: #f5f5f5;
 	}
 	h2 {
 		font-family: 'Oswald', san-serif;
@@ -114,10 +107,11 @@
 	p.graffiti {
 		font-family: 'FatWandalsAlt';
 		font-weight: 500;
-		font-size: 2.5rem;
+		font-size: 2.75rem;
 		line-height:1.5;
 		text-align: center;
 		transform: skewY(20deg);
+		
 	}
 	.graffiti {
 		font-family: 'FatWandalsAlt';
@@ -154,10 +148,8 @@
 	a,
 	a:hover,
 	a:visited {
-		color: #454545;
+		color: #212427;
 		text-decoration: none;
-		margin: 0;
-		padding: 0;
 	}
 	a.menu,
 	a:hover.menu,
@@ -169,10 +161,9 @@
 	a.more,
 	a:hover.more,
 	a:visited.more {
-		color: #454545;
+		color: #f5f5f5;
+		background: #439bbd;
 		text-decoration: none;
-		margin: 0;
-		padding: 0;
 	}
 	/* Merch, More, all other content */
 	#body {
@@ -273,9 +264,6 @@
 		scroll-snap-stop: always;
 		scroll-snap-align: start;
 	}
-	.menu {		
-		margin: 0 0 8rem 0;
-	}
 	.nowrap {
 		white-space: nowrap;
 	}
@@ -304,7 +292,6 @@
 		padding: 10px;
 		border-radius: 5px;
 		color: #f5f5f5;
-	/*	background: #2e68bf; */
 		background: #439bbd;
 	}
 }
@@ -316,10 +303,6 @@
 		display: block;
 		font-size: min(max(1rem, 4vw), 22px);
 		background-color: #f5f5f5;
-		/*background-position: center center;
-		background-size: 100% 100%;
-		background-attachment: fixed;
-		background-repeat: no-repeat;*/
 		scroll-behavior: smooth;
 		scroll-snap-type: y mandatory;
 		overflow-y: scroll;
@@ -334,9 +317,6 @@
 		background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
-		/*max-width: 700px;
-		padding: 0 1rem;
-		margin: 0 auto 2rem;*/
 	}
 	#column-container {
 		max-width: 700px;
@@ -350,6 +330,7 @@
 		line-height: 1.5;
 		text-align: left;
 		padding: 0 0 0 0;
+		color: #f5f5f5;
 	}
 	h2 {
 		font-family: 'Oswald', san-serif;
@@ -407,7 +388,7 @@
 	p.graffiti {
 		font-family: 'FatWandalsAlt';
 		font-weight: 500;
-		font-size: min(max(1rem,8vw), 80px);
+		font-size: min(max(1rem,8vw), 100px);
 		line-height: 1.5;
 		text-align: center;
 		transform: skewY(10deg);
@@ -442,10 +423,8 @@
 	a,
 	a:hover,
 	a:visited {
-		color: #454545;
+		color: #212427;
 		text-decoration: none;
-		margin: 0;
-		padding: 0;
 	}
 	a.menu,
 	a:hover.menu,
@@ -457,10 +436,9 @@
 	a.more,
 	a:hover.more,
 	a:visited.more {
-		color: #454545;
+		color: #f5f5f5;
+		background: #439bbd;
 		text-decoration: none;
-		margin: 0;
-		padding: 0;
 	}
 	/* Merch, More, all other content */
 	#body {
@@ -556,7 +534,7 @@
 		scroll-snap-stop: always;
 	}
 	.menu {
-		margin: 0 0 8rem 0;
+		margin: 0;
 	}
 	.nowrap {
 		white-space: nowrap;
@@ -584,8 +562,7 @@
 		margin: 5px;
 		padding: 10px;
 		border-radius: 5px;
-		color: #fff;
-	/*	background: #2e68bf; */
+		color: #f5f5f5;
 		background: #439bbd;
 	}
 }
