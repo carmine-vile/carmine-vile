@@ -407,7 +407,7 @@
 		padding: 0 0 2rem 0;
 	}
 	.scrim {
-		margin: 0 1rem;
+		margin: 0 0.5rem;
 		padding: 0.75rem 0.5rem;
 		background: rgba(0, 0, 0, 0.50);
 		border-radius:10px;
