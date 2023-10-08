@@ -133,6 +133,34 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+	#bg14{
+		background-image: url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg);
+		background-position: center center, bottom center, top center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg15{
+		background-image: url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg);
+		background-position: center center, bottom center, top center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg16{
+		background-image: url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg);
+		background-position: center center, bottom center, top center;
+		background-size: 100% 100%, 100% 100%, 100% 100%;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg17{
+		background-image: url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg);
+		background-position: center center, bottom center, top center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
 	h1 {
 		font-family: 'Oswald', san-serif;
 		font-weight: 700;
@@ -518,6 +546,34 @@
 	}
 	#bg13{
 		background-image: url(images/backgrounds/bg13.jpg), url(images/backgrounds/bg13.jpg), url(images/backgrounds/bg13.jpg);
+		background-position: center center, left center, right center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg14{
+		background-image: url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg);
+		background-position: center center, left center, right center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg15{
+		background-image: url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg);
+		background-position: center center, left center, right center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg16{
+		background-image: url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg);
+		background-position: center center, left center, right center;
+		background-size: 100% 100%, 100% 100%, 100% 100%;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg17{
+		background-image: url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg);
 		background-position: center center, left center, right center;
 		background-size: contain, contain, contain;
 		background-attachment: local, local, local;
