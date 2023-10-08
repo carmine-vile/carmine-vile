@@ -29,15 +29,109 @@
 		font-weight: 400;
 		line-height: 1.7;
 		color: #212427;
-		background-position: center center, bottom center, top center;
-		background-size: contain, contain, contain;
-		background-attachment: fixed, fixed, fixed;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
 	#column-container {
 		max-width: 700px;
 		padding: 0 1rem 2rem;
 		margin: 0 auto;
+	}
+	/* Backgrounds */
+	#bg1{
+		background-image: url(images/backgrounds/bg1.jpg), url(images/backgrounds/bg1.jpg), url(images/backgrounds/bg1.jpg);
+		background-position: center center, bottom center, top center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	.bg-dark{
+		background-color: #212427;
+	}
+	#bg2{
+		background-image: url(images/backgrounds/bg2.jpg), url(images/backgrounds/bg2.jpg), url(images/backgrounds/bg2.jpg);
+		background-position: center center, bottom center, top center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	.bg-light{
+		background-color: #f5f5f5;
+	}
+	#bg3{
+		background-image: url(images/backgrounds/bg3.jpg), url(images/backgrounds/bg3.jpg), url(images/backgrounds/bg3.jpg);
+		background-position: center center, bottom center, top center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg4{
+		background-image: url(images/backgrounds/bg4.jpg), url(images/backgrounds/bg4.jpg), url(images/backgrounds/bg4.jpg);
+		background-position: center center, bottom center, top center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg5{
+		background-image: url(images/backgrounds/bg5.jpg), url(images/backgrounds/bg5.jpg), url(images/backgrounds/bg5.jpg);
+		background-position: center center, bottom center, top center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg6{
+		background-image: url(images/backgrounds/bg6.jpg), url(images/backgrounds/bg6.jpg), url(images/backgrounds/bg6.jpg);
+		background-position: center center, bottom center, top center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg7{
+		background-image: url(images/backgrounds/bg7.jpg), url(images/backgrounds/bg7.jpg), url(images/backgrounds/bg7.jpg);
+		background-position: center center, bottom center, top center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg8{
+		background-image: url(images/backgrounds/bg8.jpg), url(images/backgrounds/bg8.jpg), url(images/backgrounds/bg8.jpg);
+		background-position: center center, bottom center, top center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg9{
+		background-image: url(images/backgrounds/bg9.jpg), url(images/backgrounds/bg9.jpg), url(images/backgrounds/bg9.jpg);
+		background-position: center center, bottom center, top center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg10{
+		background-image: url(images/backgrounds/bg10.jpg), url(images/backgrounds/bg10.jpg), url(images/backgrounds/bg10.jpg);
+		background-position: center center, bottom center, top center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg11{
+		background-image: url(images/backgrounds/bg11.jpg), url(images/backgrounds/bg11.jpg), url(images/backgrounds/bg11.jpg);
+		background-position: center center, bottom center, top center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg12{
+		background-image: url(images/backgrounds/bg12.jpg), url(images/backgrounds/bg12.jpg), url(images/backgrounds/bg12.jpg);
+		background-position: center center, bottom center, top center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg13{
+		background-image: url(images/backgrounds/bg13.jpg), url(images/backgrounds/bg13.jpg), url(images/backgrounds/bg13.jpg);
+		background-position: center center, bottom center, top center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
 	h1 {
 		font-family: 'Oswald', san-serif;
@@ -216,18 +310,17 @@
 		margin: 0 1rem;
 		padding: 1rem;
 	}
-	/* Let's Talk */
-	#solicitud {
-		border: 4px solid #454545;
-		margin: 0 1rem;
-		padding: 1rem;
-	}
-	/* An Interview */
 	#excerpt {
 		padding: 20vh 0 100vh 0;
 		margin: 0 auto;
 		scroll-snap-align: start;
 		scroll-snap-stop: normal;
+	}
+	/* Let's Talk */
+	#solicitud {
+		border: 4px solid #454545;
+		margin: 0 1rem;
+		padding: 1rem;
 	}
 	/* A to Z */
 	#table-of-contents {
@@ -271,16 +364,14 @@
 		scroll-snap-stop: always;
 		scroll-snap-align: start;
 	}
-	.nowrap {
-		white-space: nowrap;
-	}
 	hr {
 		margin: 0 2rem;
 	}
 	footer {
 		text-align: left;
-		margin: 0 0 0 1rem;
+		background-color: #212427;
 		scroll-snap-align: start;
+		padding: 1rem;
 	}
 	video {
 		width: 100%;
@@ -325,15 +416,110 @@
 		font-weight: 400;
 		line-height: 1.7;
 		color: #212427;
-		background-position: center center, left center, right center;
-		background-size: contain, contain, contain;
-		background-attachment: fixed, fixed, fixed;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
+		
 	}
-	#column-container {
+	.column-container {
 		max-width: 700px;
 		padding: 0 1rem 2rem;
 		margin: 0 auto;
+	}
+	/* Backgrounds */
+	#bg1{
+		background-image: url(images/backgrounds/bg1.jpg), url(images/backgrounds/bg1.jpg), url(images/backgrounds/bg1.jpg);
+		background-position: center center, left center, right center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	.bg-dark{
+		background-color: #212427;
+	}
+	#bg2{
+		background-image: url(images/backgrounds/bg2.jpg), url(images/backgrounds/bg2.jpg), url(images/backgrounds/bg2.jpg);
+		background-position: center center, left center, right center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	.bg-light{
+		background-color: #f5f5f5;
+	}
+	#bg3{
+		background-image: url(images/backgrounds/bg3.jpg), url(images/backgrounds/bg3.jpg), url(images/backgrounds/bg3.jpg);
+		background-position: center center, left center, right center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg4{
+		background-image: url(images/backgrounds/bg4.jpg), url(images/backgrounds/bg4.jpg), url(images/backgrounds/bg4.jpg);
+		background-position: center center, left center, right center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg5{
+		background-image: url(images/backgrounds/bg5.jpg), url(images/backgrounds/bg5.jpg), url(images/backgrounds/bg5.jpg);
+		background-position: center center, left center, right center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg6{
+		background-image: url(images/backgrounds/bg6.jpg), url(images/backgrounds/bg6.jpg), url(images/backgrounds/bg6.jpg);
+		background-position: center center, left center, right center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg7{
+		background-image: url(images/backgrounds/bg7.jpg), url(images/backgrounds/bg7.jpg), url(images/backgrounds/bg7.jpg);
+		background-position: center center, left center, right center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg8{
+		background-image: url(images/backgrounds/bg8.jpg), url(images/backgrounds/bg8.jpg), url(images/backgrounds/bg8.jpg);
+		background-position: center center, left center, right center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg9{
+		background-image: url(images/backgrounds/bg9.jpg), url(images/backgrounds/bg9.jpg), url(images/backgrounds/bg9.jpg);
+		background-position: center center, left center, right center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg10{
+		background-image: url(images/backgrounds/bg10.jpg), url(images/backgrounds/bg10.jpg), url(images/backgrounds/bg10.jpg);
+		background-position: center center, left center, right center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg11{
+		background-image: url(images/backgrounds/bg11.jpg), url(images/backgrounds/bg11.jpg), url(images/backgrounds/bg11.jpg);
+		background-position: center center, left center, right center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg12{
+		background-image: url(images/backgrounds/bg12.jpg), url(images/backgrounds/bg12.jpg), url(images/backgrounds/bg12.jpg);
+		background-position: center center, left center, right center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
+	}
+	#bg13{
+		background-image: url(images/backgrounds/bg13.jpg), url(images/backgrounds/bg13.jpg), url(images/backgrounds/bg13.jpg);
+		background-position: center center, left center, right center;
+		background-size: contain, contain, contain;
+		background-attachment: local, local, local;
+		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
 	h1 {
 		font-family: 'Oswald', san-serif;
@@ -488,7 +674,7 @@
 	}
 	/* Landing Page */
 	#disclaimer {
-		border: 2px solid #454545;
+		border: 4px solid #ebb834;
 		padding: 2rem;
 	}
 	/* Trato de Novios */
@@ -501,17 +687,16 @@
 		border: 4px solid #ebb834;
 		padding: 2rem;
 	}
-	/* Let's Talk */
-	#solicitud {
-		border: 4px solid ##ebb834;
-		padding: 2rem;
-	}
-	/* An Interview */
 	#excerpt {
 		padding: 20vh 0 80vh 0;
 		margin: 0 auto;
 		scroll-snap-align: start;
 		scroll-snap-stop: normal;
+	}
+	/* Let's Talk */
+	#solicitud {
+		border: 4px solid ##ebb834;
+		padding: 2rem;
 	}
 	/* A to Z */
 	#table-of-contents {
@@ -557,15 +742,14 @@
 	.menu {
 		margin: 0;
 	}
-	.nowrap {
-		white-space: nowrap;
-	}
 	hr {
 		margin: 0;
 	}
 	footer {
 		text-align: left;
+		background-color: #212427;
 		scroll-snap-align: start;
+		padding: 2rem 0 0 0;
 	}
 	video {
 		width: 100%;
@@ -594,15 +778,13 @@
 }
 
 /* UNIVERSAL */
-
-	p	{
-		overflow-wrap: break-word;	
-  		hyphens: none;
-	}
 	
-	li, h1, h2, h3, h4 {
+	p, li, h1, h2, h3, h4 {
   		overflow-wrap: break-word;	
   		hyphens: none;
+	}
+	.nowrap {
+		white-space: nowrap;
 	}
 	.reverse {
 		color: #f5f5f5;
