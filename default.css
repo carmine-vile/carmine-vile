@@ -602,7 +602,8 @@
 		transform: skewY(10deg);
 		width: 80vw;
 		padding: 0 0 10vh 0;
-	}p.graffiti-alt {
+	}
+	p.graffiti-alt {
 		font-family: 'FatWandalsAlt';
 		font-weight: 500;
 		font-size: min(max(1rem,8vw), 100px);
@@ -695,7 +696,7 @@
 	}
 	/* Let's Talk */
 	#solicitud {
-		border: 4px solid ##ebb834;
+		border: 4px solid #ebb834;
 		padding: 2rem;
 	}
 	/* A to Z */
@@ -833,4 +834,3 @@
 
 @media (max-height: 600px) and (orientation: landscape) {
 	html {display: none;}}
-
