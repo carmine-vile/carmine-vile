@@ -16,12 +16,6 @@
 /* END RESET */
 
 @media (orientation: portrait) {
-	
-	#column-container {
-		max-width: 700px;
-		padding: 0 2rem;
-		margin: 0 auto;
-	}
 
 	/* Backgrounds */
 
@@ -195,120 +189,12 @@
 		padding: 0 0 10vw 0;
 		}
 
-	/* Merch, More, other content */
-
-	#body {
-		padding: 20vh 0 100vh 0;
-		margin: 0 auto;
-		scroll-snap-align: start;
-		scroll-snap-stop: normal;
-	}
-
-	.body {
-		padding: 20vh 0 100vh 0;
-		margin: 0 auto;
-		scroll-snap-align: start;
-		scroll-snap-stop: normal;
-	}
-
-	#wayback {
-		margin: 0 1rem;
-		padding: 1rem;
-	}
-
-	#wayback-container {
-		padding: 30vh 0 0 0;
-	}	
-
-	/* Landing Page */
-
-	#disclaimer {
-		border: 4px solid #ebb834;	
-		margin: 0 1rem;
-		padding: 1rem;
-	}
-
-	/* Trato de Novios */
-
-	#advisory {
-		border: 4px solid #ebb834;
-		margin: 0 1rem;
-		padding: 1rem;
-	}
-
-	/* An Interview */
-
-	#bio {
-		border: 4px solid #ebb834;
-		margin: 0 1rem;
-		padding: 1rem;
-	}
-
-	#excerpt {
-		padding: 20vh 0 100vh 0;
-		margin: 0 auto;
-		scroll-snap-align: start;
-		scroll-snap-stop: normal;
-	}
-
-	/* Let's Talk */
-
-	#solicitud {
-		border: 4px solid #454545;
-		margin: 0 1rem;
-		padding: 1rem;
-	}
-
-	/* A to Z */
-
-	#table-of-contents {
-		padding: 20vh 0 100vh 0;
-		margin: 0 auto;
-		scroll-snap-align: start;
-		scroll-snap-stop: normal;
-	}
-
-	.flex-container-100vh-center {
-		display: flex;
-		height: 100vh;
-		flex-flow: row wrap;
-		justify-content: center;
-		align-items: center;
-		scroll-snap-align: start;
-		scroll-snap-stop: always;
-		overflow: hidden;
-	}
-
-	.flex-container-100vh {
-		display: flex;
-		height: 100vh;
-		flex-flow: row wrap;
-		justify-content: left;
-		align-items: center;
-		scroll-snap-stop: always;
-		scroll-snap-align: start;
-		padding: 0 0.75rem;
-	}
-
-	.scrim {
-		margin: 0 0.25rem;
-		padding: 0.75rem 0.5rem;
-		background: rgba(0, 0, 0, 0.50);
-		border-radius:10px;
-	}
-
 }
 
 /* LAPTOP -- DESKTOP -- MONITOR -- TV */
 
 @media (orientation: landscape) {
 	
-	.column-container {
-		max-width: 700px;
-		padding: 0 1rem 2rem;
-		margin: 0 auto;
-	}
-
 	/* Backgrounds */
 
 	#bg1{
@@ -481,92 +367,6 @@
 		padding: 0 0 10vh 0;
 	}
 
-	/* Merch, More, all other content */
-
-	#body {
-		padding: 30vh 0 100vh 0;
-		margin: 0 auto;
-		scroll-snap-align: start;
-		scroll-snap-stop: normal;
-	}
-
-	.body {
-		padding: 20vh 0 80vh 0;
-		margin: 0 auto;
-		scroll-snap-align: start;
-		scroll-snap-stop: normal;
-	}
-
-	#wayback {
-		padding: 2rem;
-	}
-
-	#wayback-container {
-		padding: 30vh 0 0 0;
-	}
-
-	/* Landing Page */
-
-	#disclaimer {
-		border: 4px solid #ebb834;
-		padding: 2rem;
-	}
-
-	/* Trato de Novios */
-
-	#advisory {
-		border: 4px solid #ebb834;
-		padding: 2rem;
-	}
-
-	/* An Interview */
-
-	#bio {
-		border: 4px solid #ebb834;
-		padding: 2rem;
-	}
-
-	#excerpt {
-		padding: 20vh 0 80vh 0;
-		margin: 0 auto;
-		scroll-snap-align: start;
-		scroll-snap-stop: normal;
-	}
-
-	/* Let's Talk */
-
-	#solicitud {
-		border: 4px solid #ebb834;
-		padding: 2rem;
-	}
-
-
-	.flex-container-100vh-center {
-		display: flex;
-		height: 100vh;
-		flex-flow: row wrap;
-		justify-content: center;
-		align-items: center;
-		scroll-snap-align: start;
-		scroll-snap-stop: always;
-	}
-
-	.flex-container-100vh {
-		display: flex;
-		height: 100vh;
-		flex-flow: row wrap;
-		justify-content: left;
-		align-items: center;
-		scroll-snap-align: start;
-		scroll-snap-stop: always;
-	}
-
-	.scrim {
-		padding: 0.75rem 1rem;
-		background: rgba(0, 0, 0, 0.50);
-		border-radius:10px;
-	}
-
 }
 
 /* UNIVERSAL */
@@ -583,6 +383,11 @@ html {
 body {
 	font-family: 'Roboto', sans-serif;
 	color: #212427;
+	}
+
+.column-container {
+	max-width: 700px;
+	margin: 0 auto;
 	}
 
 h1 {
@@ -643,14 +448,6 @@ p.reverse {
 	color: #f5f5f5;
 	padding: 0.75vw 0;
 	margin: 0 1vw;
-	}
-
-p.large {
-	font-family: 'Oswald', san-serif;
-	font-size: large;
-	font-weight: 400;
-	line-height: 1.5;
-	text-align: left;
 	}
 
 p.tiny {
@@ -756,6 +553,13 @@ hr {
 	margin: 0 2rem;
 	}
 
+/* Landing Page */
+
+#disclaimer {
+	border: 4px solid #ebb834;
+	padding: 3vw;
+	}
+
 /* A to Z */
 
 #table-of-contents {
@@ -764,6 +568,63 @@ hr {
 	scroll-snap-align: start;
 	scroll-snap-stop: normal;
 	}
+
+/* Let's Talk */
+
+#solicitud {
+	border: 4px solid #ebb834;
+	padding: 2vw;
+	}
+
+/* Trato de Novios */
+
+#advisory {
+	border: 4px solid #ebb834;
+	margin: 0 1rem;
+	padding: 1rem;
+	}
+
+/* An Interview */
+
+#bio {
+	border: 4px solid #ebb834;
+	margin: 0 1rem;
+	padding: 1rem;
+	}
+
+#excerpt {
+	padding: 20vh 0 100vh 0;
+	margin: 0 auto;
+	scroll-snap-align: start;
+	scroll-snap-stop: normal;
+	}
+
+/* Merch, More, other content */
+
+#body {
+	padding: 20vh 0 100vh 0;
+	margin: 0 auto;
+	scroll-snap-align: start;
+	scroll-snap-stop: normal;
+	}
+
+.body {
+	padding: 20vh 0 100vh 0;
+	margin: 0 auto;
+	scroll-snap-align: start;
+	scroll-snap-stop: normal;
+	}
+
+/* Cross Traffic */
+
+#wayback {
+	margin: 0 1rem;
+	padding: 1rem;
+	}
+
+#wayback-container {
+	padding: 30vh 0 0 0;
+	}	
 
 a,
 a:hover,
@@ -787,12 +648,40 @@ a:visited.more {
 	text-decoration: none;
 	}
 
+.scrim {
+	margin: 0 2vw;
+	padding: 1vw;
+	background: rgba(0, 0, 0, 0.50);
+	border-radius:10px;
+	}
+
 footer {
 	font-size: x-small;
 	text-align: center;
 	background-color: #212427;
 	scroll-snap-align: start;
 	padding: 2vmax 0;
+	}
+
+.flex-container-100vh-center {
+	display: flex;
+	height: 100vh;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	scroll-snap-align: start;
+	scroll-snap-stop: always;
+	overflow: hidden;
+	}
+
+.flex-container-100vh {
+	display: flex;
+	height: 100vh;
+	flex-flow: row wrap;
+	justify-content: left;
+	align-items: center;
+	scroll-snap-stop: always;
+	scroll-snap-align: start;
 	}
 
 /* RESPONSIVE LISTS*/
