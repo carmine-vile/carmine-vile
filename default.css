@@ -573,7 +573,7 @@
 	
 html {
 	display: block;
-	font-size: 2vw;
+	font-size: 1vw;
 	background-color: #f5f5f5;
 	scroll-behavior: smooth;
 	scroll-snap-type: y mandatory;
@@ -775,6 +775,7 @@ a:visited {
 a.menu,
 a:hover.menu,
 a:visited.menu {
+	font-size: small;
 	color: #f5f5f5;
 	text-decoration: none;
 	}
@@ -787,10 +788,11 @@ a:visited.more {
 	}
 
 footer {
+	font-size: x-small;
 	text-align: center;
 	background-color: #212427;
 	scroll-snap-align: start;
-	padding: 2vw 0;
+	padding: 2vmax 0;
 	}
 
 /* RESPONSIVE LISTS*/
