@@ -16,26 +16,15 @@
 /* END RESET */
 
 @media (orientation: portrait) {
-	html {
-		display: block;
-		font-size: min(max(1rem, 4vw), 20px);
-		scroll-behavior: smooth;
-		scroll-snap-type: y mandatory;
-		overflow-y: scroll;
-	}
-	body {
-		font-family: 'Roboto', sans-serif;
-		font-size: min(max(1rem, 4vw), 20px);
-		font-weight: 400;
-		line-height: 1.7;
-		color: #212427;
-	}
+	
 	#column-container {
 		max-width: 700px;
 		padding: 0 2rem;
 		margin: 0 auto;
 	}
+
 	/* Backgrounds */
+
 	#bg1{
 		background-image: url(images/backgrounds/bg1.jpg), url(images/backgrounds/bg1.jpg), url(images/backgrounds/bg1.jpg);
 		background-position: center center, bottom center, top center;
@@ -43,9 +32,11 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	.bg-dark{
 		background-color: #212427;
 	}
+
 	#bg2{
 		background-image: url(images/backgrounds/bg2.jpg), url(images/backgrounds/bg2.jpg), url(images/backgrounds/bg2.jpg);
 		background-position: center center, bottom center, top center;
@@ -53,9 +44,11 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	.bg-light{
 		background-color: #f5f5f5;
 	}
+
 	#bg3{
 		background-image: url(images/backgrounds/bg3.jpg), url(images/backgrounds/bg3.jpg), url(images/backgrounds/bg3.jpg);
 		background-position: center center, bottom center, top center;
@@ -63,6 +56,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg4{
 		background-image: url(images/backgrounds/bg4.jpg), url(images/backgrounds/bg4.jpg), url(images/backgrounds/bg4.jpg);
 		background-position: center center, bottom center, top center;
@@ -70,6 +64,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg5{
 		background-image: url(images/backgrounds/bg5.jpg), url(images/backgrounds/bg5.jpg), url(images/backgrounds/bg5.jpg);
 		background-position: center center, bottom center, top center;
@@ -77,6 +72,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg6{
 		background-image: url(images/backgrounds/bg6.jpg), url(images/backgrounds/bg6.jpg), url(images/backgrounds/bg6.jpg);
 		background-position: center center, bottom center, top center;
@@ -84,6 +80,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg7{
 		background-image: url(images/backgrounds/bg7.jpg), url(images/backgrounds/bg7.jpg), url(images/backgrounds/bg7.jpg);
 		background-position: center center, bottom center, top center;
@@ -91,6 +88,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg8{
 		background-image: url(images/backgrounds/bg8.jpg), url(images/backgrounds/bg8.jpg), url(images/backgrounds/bg8.jpg);
 		background-position: center center, bottom center, top center;
@@ -98,6 +96,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg9{
 		background-image: url(images/backgrounds/bg9.jpg), url(images/backgrounds/bg9.jpg), url(images/backgrounds/bg9.jpg);
 		background-position: center center, bottom center, top center;
@@ -105,6 +104,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg10{
 		background-image: url(images/backgrounds/bg10.jpg), url(images/backgrounds/bg10.jpg), url(images/backgrounds/bg10.jpg);
 		background-position: center center, bottom center, top center;
@@ -112,6 +112,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg11{
 		background-image: url(images/backgrounds/bg11.jpg), url(images/backgrounds/bg11.jpg), url(images/backgrounds/bg11.jpg);
 		background-position: center center, bottom center, top center;
@@ -119,6 +120,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg12{
 		background-image: url(images/backgrounds/bg12.jpg), url(images/backgrounds/bg12.jpg), url(images/backgrounds/bg12.jpg);
 		background-position: center center, bottom center, top center;
@@ -126,6 +128,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg13{
 		background-image: url(images/backgrounds/bg13.jpg), url(images/backgrounds/bg13.jpg), url(images/backgrounds/bg13.jpg);
 		background-position: center center, bottom center, top center;
@@ -133,6 +136,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg14{
 		background-image: url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg);
 		background-position: center center, bottom center, top center;
@@ -140,6 +144,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg15{
 		background-image: url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg);
 		background-position: center center, bottom center, top center;
@@ -147,6 +152,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg16{
 		background-image: url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg);
 		background-position: center center, bottom center, top center;
@@ -154,6 +160,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg17{
 		background-image: url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg);
 		background-position: center center, bottom center, top center;
@@ -161,76 +168,9 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
-	h1 {
-		font-family: 'Oswald', san-serif;
-		font-weight: 700;
-		font-size: 3.15rem;
-		line-height: 1.5;
-		text-align: left;
-		margin: 0 1rem;
-		color: #f5f5f5;
-	}
-	h2 {
-		font-family: 'Oswald', san-serif;
-		font-weight: 400;
-		font-size: 2rem;
-		line-height: 1.5;
-		text-align: left;
-		text-transform: uppercase;
-		margin: 0 1rem;
-		padding: 1rem 0 0 0;
-	}
-	h3 {
-		font-family: 'Oswald', san-serif;
-		font-weight: 400;
-		font-size: 1.77rem;
-		line-height: 1.5;
-		text-align: left;
-		padding: 1rem 0 0 0;
-	}
-	h4 {
-		font-family: 'Oswald', san-serif;
-		font-weight: 400;
-		font-size: 1.33rem;
-		line-height: 1.5;
-		text-align: left;
-		padding: 1rem 0 0 0;
-	}
-	p {
-		font-weight: 400;
-		padding: 0.75rem 0;
-		margin: 0 1rem;
-	}
-	p.reverse {
-		font-weight: 500;
-		color: #f5f5f5;
-		padding: 0.75rem 0;
-		margin: 0 1rem;
-	}
-	p.large {
-		font-family: 'Oswald', san-serif;
-		font-weight: 400;
-		font-size: 3.15rem;
-		line-height: 1.5;
-		text-align: left;
-	}
-	p.title {
-		font-family: 'Oswald', san-serif;
-		font-weight: 700;
-		font-size: 2rem;
-		line-height: 1.5;
-		text-align: left;
-	}
-	p.tiny {
-		font-size: small;
-		color: #f5f5f5;
-		text-align: center;
-	}
-	p.wayback{
-		font-size: 0.75rem;;
-		font-weight: 500;
-		line-height: 2;
-	}
+
+	/* Special Fonts */
+
 	p.graffiti {
 		font-family: 'FatWandalsAlt';
 		font-weight: 500;
@@ -241,7 +181,8 @@
 		transform: skewY(20deg);
 		width: 80vw;
 		padding: 0 5vw 10vh 5vw;
-	}
+		}
+	
 	p.graffiti-alt {
 		font-family: 'FatWandalsAlt';
 		font-weight: 500;
@@ -252,127 +193,81 @@
 		transform: skewY(-10deg);
 		width: 80vw;
 		padding: 0 0 10vw 0;
-	}
-	img {
-		max-inline-size: 100%;
-		block-size: auto;
-		/* aspect-ratio: 1/1; */
-		object-fit: contain;
-		object-position: center center;
-		border: 2px solid #454545;
-	}
-	img.normal {
-		max-inline-size: 100%;
-		block-size: auto;
-		object-fit: cover;
-		object-position: top center;
-		border: none;
-	}
-	img.normal-left {
-		max-inline-size: 100%;
-		block-size: auto;
-		object-fit: contain;
-		object-position: top left;
-		border: none;
-	}
-	img.bg {
-		max-inline-size: 100%;
-		block-size: auto;
-		object-fit: fill;
-		object-position: center center;
-		border: none;
-	}
-	a,
-	a:hover,
-	a:visited {
-		color: #212427;
-		text-decoration: none;
-	}
-	a.menu,
-	a:hover.menu,
-	a:visited.menu {
-		color: #f5f5f5;
-		text-decoration: none;
-	}
-	a.more,
-	a:hover.more,
-	a:visited.more {
-		color: #454545;
-		text-decoration: none;
-	}
-	/* Merch, More, all other content */
+		}
+
+	/* Merch, More, other content */
+
 	#body {
 		padding: 20vh 0 100vh 0;
 		margin: 0 auto;
 		scroll-snap-align: start;
 		scroll-snap-stop: normal;
 	}
+
 	.body {
 		padding: 20vh 0 100vh 0;
 		margin: 0 auto;
 		scroll-snap-align: start;
 		scroll-snap-stop: normal;
 	}
+
 	#wayback {
 		margin: 0 1rem;
 		padding: 1rem;
 	}
+
 	#wayback-container {
 		padding: 30vh 0 0 0;
 	}	
+
 	/* Landing Page */
+
 	#disclaimer {
 		border: 4px solid #ebb834;	
 		margin: 0 1rem;
 		padding: 1rem;
 	}
+
 	/* Trato de Novios */
+
 	#advisory {
 		border: 4px solid #ebb834;
 		margin: 0 1rem;
 		padding: 1rem;
 	}
+
 	/* An Interview */
+
 	#bio {
 		border: 4px solid #ebb834;
 		margin: 0 1rem;
 		padding: 1rem;
 	}
+
 	#excerpt {
 		padding: 20vh 0 100vh 0;
 		margin: 0 auto;
 		scroll-snap-align: start;
 		scroll-snap-stop: normal;
 	}
+
 	/* Let's Talk */
+
 	#solicitud {
 		border: 4px solid #454545;
 		margin: 0 1rem;
 		padding: 1rem;
 	}
+
 	/* A to Z */
+
 	#table-of-contents {
 		padding: 20vh 0 100vh 0;
 		margin: 0 auto;
 		scroll-snap-align: start;
 		scroll-snap-stop: normal;
 	}
-	blockquote {
-		display: block;
-		font-size: 1.5rem;
-		font-weight: bold;
-		font-style: italic;
-		margin: 2rem 1rem;
-	}
-	blockquote:before {
-		content: open-quote;
-	}
-	blockquote:after {
-		content: close-quote;
-	}
-	.border {
-		border: 2px solid #454545;
-	}
+
 	.flex-container-100vh-center {
 		display: flex;
 		height: 100vh;
@@ -383,6 +278,7 @@
 		scroll-snap-stop: always;
 		overflow: hidden;
 	}
+
 	.flex-container-100vh {
 		display: flex;
 		height: 100vh;
@@ -393,67 +289,28 @@
 		scroll-snap-align: start;
 		padding: 0 0.75rem;
 	}
-	hr {
-		margin: 0 2rem;
-	}
-	footer {
-		text-align: left;
-		background-color: #212427;
-		scroll-snap-align: start;
-		padding: 1rem;
-	}
-	video {
-		width: 100%;
-		padding: 0 0 2rem 0;
-	}
+
 	.scrim {
 		margin: 0 0.25rem;
 		padding: 0.75rem 0.5rem;
 		background: rgba(0, 0, 0, 0.50);
 		border-radius:10px;
 	}
-	/* RESPONSIVE LISTS*/
-	.hlist {
-		display: flex;
-		flex-wrap: wrap;
-		padding: 0;
-		margin: 0 0 0 1rem;
-	}
-	.hlist li {
-		list-style-type: none;
-		margin: 5px 10px 5px 0;
-		padding: 10px 20px;
-		font-weight: 900;
-		border: 4px solid #439bbd;
-		border-radius: 5px;
-	}
+
 }
 
 /* LAPTOP -- DESKTOP -- MONITOR -- TV */
 
 @media (orientation: landscape) {
-	html {
-		display: block;
-		font-size: min(max(1rem, 4vw), 22px);
-		background-color: #f5f5f5;
-		scroll-behavior: smooth;
-		scroll-snap-type: y mandatory;
-		overflow-y: scroll;
-	}
-	body {
-		font-family: 'Roboto', sans-serif;
-		font-size: min(max(1rem, 4vw), 22px);
-		font-weight: 400;
-		line-height: 1.7;
-		color: #212427;
-		
-	}
+	
 	.column-container {
 		max-width: 700px;
 		padding: 0 1rem 2rem;
 		margin: 0 auto;
 	}
+
 	/* Backgrounds */
+
 	#bg1{
 		background-image: url(images/backgrounds/bg1.jpg), url(images/backgrounds/bg1.jpg), url(images/backgrounds/bg1.jpg);
 		background-position: center center, left center, right center;
@@ -461,9 +318,11 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	.bg-dark{
 		background-color: #212427;
 	}
+
 	#bg2{
 		background-image: url(images/backgrounds/bg2.jpg), url(images/backgrounds/bg2.jpg), url(images/backgrounds/bg2.jpg);
 		background-position: center center, left center, right center;
@@ -471,9 +330,11 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	.bg-light{
 		background-color: #f5f5f5;
 	}
+
 	#bg3{
 		background-image: url(images/backgrounds/bg3.jpg), url(images/backgrounds/bg3.jpg), url(images/backgrounds/bg3.jpg);
 		background-position: center center, left center, right center;
@@ -481,6 +342,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg4{
 		background-image: url(images/backgrounds/bg4.jpg), url(images/backgrounds/bg4.jpg), url(images/backgrounds/bg4.jpg);
 		background-position: center center, left center, right center;
@@ -488,6 +350,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg5{
 		background-image: url(images/backgrounds/bg5.jpg), url(images/backgrounds/bg5.jpg), url(images/backgrounds/bg5.jpg);
 		background-position: center center, left center, right center;
@@ -495,6 +358,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg6{
 		background-image: url(images/backgrounds/bg6.jpg), url(images/backgrounds/bg6.jpg), url(images/backgrounds/bg6.jpg);
 		background-position: center center, left center, right center;
@@ -502,6 +366,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg7{
 		background-image: url(images/backgrounds/bg7.jpg), url(images/backgrounds/bg7.jpg), url(images/backgrounds/bg7.jpg);
 		background-position: center center, left center, right center;
@@ -509,6 +374,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg8{
 		background-image: url(images/backgrounds/bg8.jpg), url(images/backgrounds/bg8.jpg), url(images/backgrounds/bg8.jpg);
 		background-position: center center, left center, right center;
@@ -516,6 +382,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg9{
 		background-image: url(images/backgrounds/bg9.jpg), url(images/backgrounds/bg9.jpg), url(images/backgrounds/bg9.jpg);
 		background-position: center center, left center, right center;
@@ -523,6 +390,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg10{
 		background-image: url(images/backgrounds/bg10.jpg), url(images/backgrounds/bg10.jpg), url(images/backgrounds/bg10.jpg);
 		background-position: center center, left center, right center;
@@ -530,6 +398,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg11{
 		background-image: url(images/backgrounds/bg11.jpg), url(images/backgrounds/bg11.jpg), url(images/backgrounds/bg11.jpg);
 		background-position: center center, left center, right center;
@@ -537,6 +406,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg12{
 		background-image: url(images/backgrounds/bg12.jpg), url(images/backgrounds/bg12.jpg), url(images/backgrounds/bg12.jpg);
 		background-position: center center, left center, right center;
@@ -544,6 +414,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg13{
 		background-image: url(images/backgrounds/bg13.jpg), url(images/backgrounds/bg13.jpg), url(images/backgrounds/bg13.jpg);
 		background-position: center center, left center, right center;
@@ -551,6 +422,7 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg14{
 		background-image: url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg);
 		background-position: center center, left center, right center;
@@ -558,20 +430,23 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg15{
-		background-image: url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg);
+		background-image: url(./images/backgrounds/fixed/bg15.jpg), url(./images/backgrounds/fixed/bg15.jpg), url(./images/backgrounds/fixed/bg15.jpg);
 		background-position: center center, left center, right center;
 		background-size: contain, contain, contain;
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg16{
-		background-image: url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg);
+		background-image: url(./images/backgrounds/fixed/bg16.jpg), url(./images/backgrounds/fixed/bg16.jpg), url(./images/backgrounds/fixed/bg16.jpg);
 		background-position: center center, left center, right center;
 		background-size: 100% 100%, 100% 100%, 100% 100%;
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
+
 	#bg17{
 		background-image: url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg);
 		background-position: center center, left center, right center;
@@ -579,77 +454,9 @@
 		background-attachment: local, local, local;
 		background-repeat: no-repeat, no-repeat, no-repeat; 
 	}
-	h1 {
-		font-family: 'Oswald', san-serif;
-		font-size: 3.15rem;
-		font-weight: 700;
-		line-height: 1.5;
-		text-align: left;
-		padding: 0 0 0 0;
-		color: #212427;
-	}
-	h2 {
-		font-family: 'Oswald', san-serif;
-		font-size: 2.36rem;
-		font-weight: 400;
-		line-height: 1.5;
-		text-align: left;
-		text-transform: uppercase;
-		padding: 1rem 0 0 0;
-	}
-	h3 {
-		font-family: 'Oswald', san-serif;
-		font-weight: 400;
-		font-size: 1.77rem;
-		line-height: 1.5;
-		text-align: left;
-		padding: 1rem 0 0 0;
-	}
-	h4 {
-		font-family: 'Oswald', san-serif;
-		font-weight: 400;
-		font-size: 1.33rem;
-		line-height: 1.5;
-		text-align: left;
-		padding: 1rem 0 0 0;
-	}
-	p {
-		font-size: 1.3rem;
-		font-weight: 400;
-		padding: 0.75rem 0;
-		margin: auto;
-	}
-	p.reverse {
-		font-size: 1.3rem;
-		font-weight: 500;
-		color: #f5f5f5;
-		padding: 0.75rem 0;
-		margin: auto;
-	}
-	p.large {
-		font-family: 'Oswald', san-serif;
-		font-weight: 400;
-		font-size: 3.15rem;
-		line-height: 1.5;
-		text-align: left;
-	}
-	p.title {
-		font-family: 'Oswald', san-serif;
-		font-weight: 700;
-		font-size: 2.36rem;
-		line-height: 1.5;
-		text-align: left;
-	}
-	p.tiny {
-		font-size: small;
-		color: #f5f5f5;
-		text-align: center;
-	}
-	p.wayback{
-		font-size: 1rem;;
-		font-weight: 400;
-		line-height: 2;
-	}
+	
+	/* Special Fonts */
+
 	p.graffiti {
 		font-family: 'FatWandalsAlt';
 		font-weight: 500;
@@ -661,6 +468,7 @@
 		width: 80vw;
 		padding: 0 0 10vh 0;
 	}
+
 	p.graffiti-alt {
 		font-family: 'FatWandalsAlt';
 		font-weight: 500;
@@ -672,114 +480,67 @@
 		width: 80vw;
 		padding: 0 0 10vh 0;
 	}
-	img {
-		max-inline-size: 100%;
-		block-size: auto;
-		aspect-ratio: 1.5/1;
-		object-fit: cover;
-		object-position: top center;
-		border: 2px solid #454545;
-	}
-	img.normal {
-		max-inline-size: 100%;
-		block-size: auto;
-		object-fit: contain;
-		object-position: top center;
-		border: none;
-	}
-	img.normal-left {
-		max-inline-size: 100%;
-		block-size: auto;
-		object-fit: contain;
-		object-position: top left;
-		border: none;
-	}
-	a,
-	a:hover,
-	a:visited {
-		color: #212427;
-		text-decoration: none;
-	}
-	a.menu,
-	a:hover.menu,
-	a:visited.menu {
-		color: #f5f5f5;
-		text-decoration: none;
-	}
-	a.more,
-	a:hover.more,
-	a:visited.more {
-		color: #454545;
-		text-decoration: none;
-	}
+
 	/* Merch, More, all other content */
+
 	#body {
-		padding: 20vh 0 80vh 0;
+		padding: 30vh 0 100vh 0;
 		margin: 0 auto;
 		scroll-snap-align: start;
 		scroll-snap-stop: normal;
 	}
+
 	.body {
 		padding: 20vh 0 80vh 0;
 		margin: 0 auto;
 		scroll-snap-align: start;
 		scroll-snap-stop: normal;
 	}
+
 	#wayback {
 		padding: 2rem;
 	}
+
 	#wayback-container {
 		padding: 30vh 0 0 0;
 	}
+
 	/* Landing Page */
+
 	#disclaimer {
 		border: 4px solid #ebb834;
 		padding: 2rem;
 	}
+
 	/* Trato de Novios */
+
 	#advisory {
 		border: 4px solid #ebb834;
 		padding: 2rem;
 	}
+
 	/* An Interview */
+
 	#bio {
 		border: 4px solid #ebb834;
 		padding: 2rem;
 	}
+
 	#excerpt {
 		padding: 20vh 0 80vh 0;
 		margin: 0 auto;
 		scroll-snap-align: start;
 		scroll-snap-stop: normal;
 	}
+
 	/* Let's Talk */
+
 	#solicitud {
 		border: 4px solid #ebb834;
 		padding: 2rem;
 	}
-	/* A to Z */
-	#table-of-contents {
-		padding: 20vh 0 80vh 0;
-		margin: 0 auto;
-		scroll-snap-align: start;
-		scroll-snap-stop: normal;
-	}
-	blockquote {
-		display: block;
-		font-size: 1.5rem;
-		font-weight: bold;
-		font-style: italic;
-		margin: 2rem 1rem;
-	}
-	blockquote:before {
-		content: open-quote;
-	}
-	blockquote:after {
-		content: close-quote;
-	}
-	.border {
-		border: 1px solid #454545;
-	}
+
+
 	.flex-container-100vh-center {
 		display: flex;
 		height: 100vh;
@@ -789,6 +550,7 @@
 		scroll-snap-align: start;
 		scroll-snap-stop: always;
 	}
+
 	.flex-container-100vh {
 		display: flex;
 		height: 100vh;
@@ -798,94 +560,255 @@
 		scroll-snap-align: start;
 		scroll-snap-stop: always;
 	}
-	.menu {
-		margin: 0;
-	}
-	hr {
-		margin: 0;
-	}
-	footer {
-		text-align: left;
-		background-color: #212427;
-		scroll-snap-align: start;
-		padding: 2rem 0 0 0;
-	}
-	video {
-		width: 100%;
-		padding: 0 0 2rem 0;
-	}
+
 	.scrim {
 		padding: 0.75rem 1rem;
 		background: rgba(0, 0, 0, 0.50);
 		border-radius:10px;
 	}
-	/* RESPONSIVE LIST */
-	.hlist {
-		display: flex;
-		flex-wrap: wrap;
-		padding: 0;
-		margin: 0;
-	}
-	.hlist li {
-		list-style-type: none;
-		margin: 5px 10px 5px 0;
-		padding: 10px 40px;
-		font-weight: 900;
-		border: 4px solid #439bbd;
-		border-radius: 5px;
-	}
+
 }
 
 /* UNIVERSAL */
 	
-	p, li, h1, h2, h3, h4 {
-  		overflow-wrap: break-word;	
-  		hyphens: none;
+html {
+	display: block;
+	font-size: 2vw;
+	background-color: #f5f5f5;
+	scroll-behavior: smooth;
+	scroll-snap-type: y mandatory;
+	overflow-y: scroll;
 	}
-	.nowrap {
-		white-space: nowrap;
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #212427;
 	}
-	.reverse {
-		color: #f5f5f5;
+
+h1 {
+	font-family: 'Oswald', san-serif;
+	font-size: xx-large;
+	font-weight: 700;
+	line-height: 1.5;
+	text-align: left;
+	margin: 0 1vw;
 	}
-	.orange {
-		color: #eb5c34;
+
+h2 {
+	font-family: 'Oswald', san-serif;
+	font-size: x-large;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: left;
+	text-transform: uppercase;
+	margin: 0 1vw;
+	padding: 1vw 0 0 0;
 	}
-	.gold {
-		color: #ebb834;
+
+h3 {
+	font-family: 'Oswald', san-serif;
+	font-size: x-large;
+	font-weight: 700;
+	line-height: 2;
+	text-align: left;
+	margin: 0 1vw;
+	padding: 0 0 0 0;
 	}
-	.blue {
-		color: #439bbd;
+
+h4 {
+	font-family: 'Oswald', san-serif;
+	font-size: large;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: left;
+	padding: 1vw 0 0 0;
 	}
-	img.l {
-		max-inline-size: 100%;
-		block-size: auto;
-		aspect-ratio: 1.33/1;
-		object-fit: cover;
-		object-position: top center;
-		border: 1px solid #454545;
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: medium;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: left;
+	padding: 0.75vw 0;
+	margin: 0 1vw;
 	}
-	img.p {
-		max-inline-size: 100%;
-		block-size: auto;
-		aspect-ratio: 0.66/1;
-		object-fit: cover;
-		object-position: top center;
-		border: 1px solid #454545;
+
+p.reverse {
+	font-family: 'Roboto', sans-serif;
+	font-size: medium;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: left;
+	color: #f5f5f5;
+	padding: 0.75vw 0;
+	margin: 0 1vw;
+	}
+
+p.large {
+	font-family: 'Oswald', san-serif;
+	font-size: large;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: left;
+	}
+
+p.tiny {
+	font-family: 'Roboto', sans-serif;
+	font-size: small;
+	color: #f5f5f5;
+	text-align: center;
+	}
+
+p.wayback{
+	font-family: 'Roboto', sans-serif;
+	font-size: medium;
+	font-weight: 500;
+	line-height: 2;
+	}
+
+p, li, h1, h2, h3, h4 {
+  	overflow-wrap: break-word;	
+  	hyphens: none;
+	}
+
+.nowrap {
+	white-space: nowrap;
+	}
+
+.reverse {
+	color: #f5f5f5;
+	}
+
+.orange {
+	color: #eb5c34;
+	}
+
+.gold {
+	color: #ebb834;
+	}
+
+.blue {
+	color: #439bbd;
+	}
+
+img.l {
+	max-inline-size: 100%;
+	block-size: auto;
+	aspect-ratio: 1.5/1;
+	object-fit: cover;
+	object-position: top center;
+	border: 2px solid #454545;
+	}
+
+img.p {
+	max-inline-size: 100%;
+	block-size: auto;
+	aspect-ratio: 0.66/1;
+	object-fit: cover;
+	object-position: top center;
+	border: 1px solid #454545;
 	}	
-	img.s {
-		max-inline-size: 100%;
-		block-size: auto;
-		aspect-ratio: 1/1;
-		object-fit: cover;
-		object-position: top center;
-		border: 1px solid #454545;
+
+img.s {
+	max-inline-size: 100%;
+	block-size: auto;
+	aspect-ratio: 1/1;
+	object-fit: cover;
+	object-position: top center;
+	border: 1px solid #454545;
 	}
-	strong,b {
-		font-weight: 900;
+
+strong,b {
+	font-weight: 900;
 	}
-	em {
-		font-weight: 400;
+
+em {
+	font-weight: 400;
+	}
+
+video {
+	width: 100%;
+	padding: 0 0 2rem 0;
+	}
+
+blockquote {
+	display: block;
+	font-size: 1.5rem;
+	font-weight: bold;
+	font-style: italic;
+	margin: 2rem 1rem;
+	}
+
+blockquote:before {
+	content: open-quote;
+	}
+
+blockquote:after {
+	content: close-quote;
+	}
+
+.border {
+	border: 2px solid #454545;
+	}
+
+hr {
+	margin: 0 2rem;
+	}
+
+/* A to Z */
+
+#table-of-contents {
+	padding: 20vh 0 80vh 0;
+	margin: 0 auto;
+	scroll-snap-align: start;
+	scroll-snap-stop: normal;
+	}
+
+a,
+a:hover,
+a:visited {
+	color: #212427;
+	text-decoration: none;
+	}
+
+a.menu,
+a:hover.menu,
+a:visited.menu {
+	color: #f5f5f5;
+	text-decoration: none;
+	}
+
+a.more,
+a:hover.more,
+a:visited.more {
+	color: #454545;
+	text-decoration: none;
+	}
+
+footer {
+	text-align: center;
+	background-color: #212427;
+	scroll-snap-align: start;
+	padding: 2vw 0;
+	}
+
+/* RESPONSIVE LISTS*/
+
+.hlist {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0 0 0 1rem;
+	}
+
+.hlist li {
+	list-style-type: none;
+	margin: 5px 10px 5px 0;
+	padding: 10px 20px;
+	font-weight: 900;
+	border: 4px solid #439bbd;
+	border-radius: 5px;
 	}
 
 /* PHONE LANDSCAPE DENY */
