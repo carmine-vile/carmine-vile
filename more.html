@@ -6,13 +6,11 @@
 	<title>More.</title>
 	<meta content="The least of your problems." name="description">
 	<meta content="Carmine Vile" name="author">
-	<link rel="preload" as="image" href="images/backgrounds/bg7.png">
 	<link href="https://fonts.googleapis.com" rel="preconnect">
 	<link href="https://fonts.gstatic.com" rel="preconnect">
 	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 	<link href="default.css" rel="stylesheet">
 	<link href="https://carminevile.com/favicon.png" rel="shortcut icon">
-	<style>body{background-image: url(images/backgrounds/bg7.png), url(images/backgrounds/bg7.png);}</style>
 	<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-E0935JRZ1J"></script>
 <script>
@@ -24,16 +22,23 @@
 </script>
 </head>
 <body>
-<div id="column-container">
-	<div class="flex-container-100vh">
+<div id="bg">
+	<div class="flex-container-100vh-center">
 		<div>
 			<h1>Privacy.</h1>
 			<h2>THE LEAST OF YOUR PROBLEMS.</h2>
 		</div>
 	</div>
-	<div class="flex-container-100vh">
-		<div><img alt="" height="1333" src="images/fixed/031.jpg" width="2000"></div>
+</div>
+<div class="bg-dark">
+	<div class="column-container">
+		<div class="flex-container-100vh">
+			<div>
+				<img class="l" alt="" height="1333" width="2000" src="images/fixed/031.jpg" loading="lazy">
+			</div>
+		</div>
 	</div>
+</div>
 	<div id="body">
 		<div>
 			<p>They say it has to be in plain speak.</p>
@@ -71,7 +76,9 @@
 		</div>
 	</div>
 	<footer>
-		<small>&copy; Copyright 2021-2023, He Wept by Carmine Vile. <span class="nowrap">All Rights Reserved.</span></small>
+		<div class="column-container">
+			<p class="tiny">&copy; Copyright 2021-2023, He Wept by Carmine Vile. <span class="nowrap">All Rights Reserved.</span></p>
+		</div>
 	</footer>
-</div></body>
-</html>
+	</body>
+	</html>

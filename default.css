@@ -588,13 +588,12 @@ hr {
 
 #bio {
 	border: 4px solid #ebb834;
-	margin: 0 1rem;
-	padding: 1rem;
+	padding:3vw;
 	}
 
 #excerpt {
-	padding: 20vh 0 100vh 0;
-	margin: 0 auto;
+	border: 4px solid #454545;
+	padding:3vw;
 	scroll-snap-align: start;
 	scroll-snap-stop: normal;
 	}
