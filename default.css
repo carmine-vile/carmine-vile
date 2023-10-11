@@ -22,7 +22,7 @@
 	p.graffiti {
 		font-family: 'FatWandalsAlt';
 		font-weight: 500;
-		font-size: min(max(1rem,13vw), 100px);
+		font-size: min(max(1vw,13vw), 100px);
 		color: #eb5c34;
 		line-height:1.5;
 		text-align: center;
@@ -34,7 +34,7 @@
 	p.graffiti-alt {
 		font-family: 'FatWandalsAlt';
 		font-weight: 500;
-		font-size: min(max(1rem,11vw), 100px);
+		font-size: min(max(1vw,11vw), 100px);
 		color: #eb5c34;
 		line-height:1.5;
 		text-align: center;
@@ -54,7 +54,7 @@
 	p.graffiti {
 		font-family: 'FatWandalsAlt';
 		font-weight: 500;
-		font-size: min(max(1rem,10vw), 100px);
+		font-size: min(max(1vw,10vw), 100px);
 		color: #eb5c34;
 		line-height: 1.5;
 		text-align: center;
@@ -66,7 +66,7 @@
 	p.graffiti-alt {
 		font-family: 'FatWandalsAlt';
 		font-weight: 500;
-		font-size: min(max(1rem,8vw), 100px);
+		font-size: min(max(1vw,8vw), 100px);
 		color: #eb5c34;
 		line-height:1.5;
 		text-align: center;
@@ -212,11 +212,11 @@ p, li, h1, h2, h3, h4 {
 
 img.l {
 	/*max-inline-size: 100%;*/
-	width: 100%;
+	max-width: 100%;
 	block-size: auto;
 	aspect-ratio: 1.5/1;
-	object-fit: cover;
-	object-position: top center;
+	/*object-fit: cover;*/
+	/*object-position: top center;*/
 	border: 2px solid #454545;
 	}
 
@@ -256,7 +256,7 @@ em {
 
 video {
 	width: 100%;
-	padding: 0 0 2rem 0;
+	padding: 0 0 4vw 0;
 	}
 
 blockquote {
@@ -264,7 +264,7 @@ blockquote {
 	font-size: 1.5rem;
 	font-weight: bold;
 	font-style: italic;
-	margin: 2rem 1rem;
+	margin: 2vw 1vw;
 	}
 
 blockquote:before {
@@ -280,7 +280,7 @@ blockquote:after {
 	}
 
 hr {
-	margin: 0 2rem;
+	margin: 0 2vw;
 	}
 
 /* Landing Page */
@@ -342,8 +342,8 @@ hr {
 /* Cross Traffic */
 
 #wayback {
-	margin: 0 1rem;
-	padding: 1rem;
+	margin: 0 1vw;
+	padding: 1vw;
 	}
 
 #wayback-container {
@@ -354,8 +354,8 @@ hr {
 
 #advisory {
 	border: 4px solid #ebb834;
-	margin: 0 1rem;
-	padding: 1rem;
+	margin: 0 1vw;
+	padding: 1vw;
 	}
 
 a,
@@ -578,7 +578,7 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0;
-	margin: 0 0 0 1rem;
+	margin: 0 0 0 1vw;
 	}
 
 .hlist li {
