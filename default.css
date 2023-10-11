@@ -17,153 +17,12 @@
 
 @media (orientation: portrait) {
 
-	/* Backgrounds */
-
-	#bg1{
-		background-image: url(images/backgrounds/bg1.jpg), url(images/backgrounds/bg1.jpg), url(images/backgrounds/bg1.jpg);
-		background-position: center center, bottom center, top center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-	#bg2{
-		background-image: url(images/backgrounds/bg2.jpg);
-		background-position: center center;
-		background-size: 100% 100%;
-		background-attachment: local;
-		background-repeat: no-repeat;
-	}
-
-	#bg3{
-		background-image: url(images/backgrounds/bg3.jpg), url(images/backgrounds/bg3.jpg), url(images/backgrounds/bg3.jpg);
-		background-position: center center, bottom center, top center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}	
-
-	#bg4{
-		background-image: url(images/backgrounds/bg4.jpg), url(images/backgrounds/bg4.jpg), url(images/backgrounds/bg4.jpg);
-		background-position: center center, bottom center, top center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-	#bg5{
-		background-color: #212427;
-		background-image: url(images/backgrounds/bg5.jpg);
-		background-position: center center;
-		background-size: contain;
-		background-attachment: local;
-		background-repeat: no-repeat;
-	}
-
-	#bg6{
-		background-image: url(images/backgrounds/bg6.jpg), url(images/backgrounds/bg6.jpg), url(images/backgrounds/bg6.jpg);
-		background-position: center center, bottom center, top center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-	#bg7{
-		background-image: url(images/backgrounds/bg7.jpg), url(images/backgrounds/bg7.jpg), url(images/backgrounds/bg7.jpg);
-		background-position: center center, bottom center, top center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-	#bg8{
-		background-color: #212427;
-		background-image: url(images/backgrounds/bg8.jpg);
-		background-position: center center;
-		background-size: contain;
-		background-attachment: local;
-		background-repeat: no-repeat; 
-	}
-
-	#bg9{
-		background-color: #212427;
-		background-image: url(images/backgrounds/bg9.jpg);
-		background-position: center center;
-		background-size: contain;
-		background-attachment: local;
-		background-repeat: no-repeat; 
-	}
-
-	#bg10{
-		background-image: url(images/backgrounds/bg10.jpg), url(images/backgrounds/bg10.jpg), url(images/backgrounds/bg10.jpg);
-		background-position: center center, bottom center, top center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-	#bg11{
-		background-image: url(images/backgrounds/bg11.jpg), url(images/backgrounds/bg11.jpg), url(images/backgrounds/bg11.jpg);
-		background-position: center center, bottom center, top center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-	#bg12{
-		background-image: url(images/backgrounds/bg12.jpg), url(images/backgrounds/bg12.jpg), url(images/backgrounds/bg12.jpg);
-		background-position: center center, bottom center, top center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-	#bg13{
-		background-image: url(images/backgrounds/bg13.jpg), url(images/backgrounds/bg13.jpg), url(images/backgrounds/bg13.jpg);
-		background-position: center center, bottom center, top center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-	#bg14{
-		background-image: url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg);
-		background-position: center center, bottom center, top center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-	#bg15{
-		background-image: url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg);
-		background-position: center center, bottom center, top center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-	#bg16{
-		background-image: url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg);
-		background-position: center center, bottom center, top center;
-		background-size: 100% 100%, 100% 100%, 100% 100%;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-	#bg17{
-		background-image: url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg);
-		background-position: center center, bottom center, top center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
 	/* Special Fonts */
 
 	p.graffiti {
 		font-family: 'FatWandalsAlt';
 		font-weight: 500;
-		font-size: min(max(1rem,12vw), 100px);
+		font-size: min(max(1rem,13vw), 100px);
 		color: #eb5c34;
 		line-height:1.5;
 		text-align: center;
@@ -175,7 +34,7 @@
 	p.graffiti-alt {
 		font-family: 'FatWandalsAlt';
 		font-weight: 500;
-		font-size: min(max(1rem,10vw), 100px);
+		font-size: min(max(1rem,11vw), 100px);
 		color: #eb5c34;
 		line-height:1.5;
 		text-align: center;
@@ -189,148 +48,6 @@
 /* LAPTOP -- DESKTOP -- MONITOR -- TV */
 
 @media (orientation: landscape) {
-	
-	/* Backgrounds */
-
-	#bg1{
-		background-image: url(images/backgrounds/bg1.jpg), url(images/backgrounds/bg1.jpg), url(images/backgrounds/bg1.jpg);
-		background-position: center center, left center, right center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-
-	#bg2{
-		background-image: url(images/backgrounds/bg2.jpg);
-		background-position: center center;
-		background-size: 100% 100%;
-		background-attachment: local;
-		background-repeat: no-repeat;
-	}
-
-	#bg3{
-		background-image: url(images/backgrounds/bg3.jpg), url(images/backgrounds/bg3.jpg), url(images/backgrounds/bg3.jpg);
-		background-position: center center, left center, right center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-	#bg4{
-		background-image: url(images/backgrounds/bg4.jpg), url(images/backgrounds/bg4.jpg), url(images/backgrounds/bg4.jpg);
-		background-position: center center, left center, right center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-	#bg5{
-		background-color: #212427;
-		background-image: url(images/backgrounds/bg5.jpg);
-		background-position: center center;
-		background-size: contain;
-		background-attachment: local;
-		background-repeat: no-repeat; 
-	}
-
-	#bg6{
-		background-image: url(images/backgrounds/bg6.jpg), url(images/backgrounds/bg6.jpg), url(images/backgrounds/bg6.jpg);
-		background-position: center center, left center, right center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-	#bg7{
-		background-image: url(images/backgrounds/bg7.jpg), url(images/backgrounds/bg7.jpg), url(images/backgrounds/bg7.jpg);
-		background-position: center center, left center, right center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-	#bg8{
-		background-color: #212427;
-		background-image: url(images/backgrounds/bg8.jpg);
-		background-position: center center;
-		background-size: contain;
-		background-attachment: local;
-		background-repeat: no-repeat; 
-	}
-
-	#bg9{
-		background-color: #212427;
-		background-image: url(images/backgrounds/bg9.jpg);
-		background-position: center center;
-		background-size: contain;
-		background-attachment: local;
-		background-repeat: no-repeat; 
-	}
-
-	#bg10{
-		background-image: url(images/backgrounds/bg10.jpg), url(images/backgrounds/bg10.jpg), url(images/backgrounds/bg10.jpg);
-		background-position: center center, left center, right center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-	#bg11{
-		background-image: url(images/backgrounds/bg11.jpg), url(images/backgrounds/bg11.jpg), url(images/backgrounds/bg11.jpg);
-		background-position: center center, left center, right center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-	#bg12{
-		background-image: url(images/backgrounds/bg12.jpg), url(images/backgrounds/bg12.jpg), url(images/backgrounds/bg12.jpg);
-		background-position: center center, left center, right center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-	#bg13{
-		background-image: url(images/backgrounds/bg13.jpg), url(images/backgrounds/bg13.jpg), url(images/backgrounds/bg13.jpg);
-		background-position: center center, left center, right center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-	#bg14{
-		background-image: url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg);
-		background-position: center center, left center, right center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-	#bg15{
-		background-image: url(./images/backgrounds/fixed/bg15.jpg), url(./images/backgrounds/fixed/bg15.jpg), url(./images/backgrounds/fixed/bg15.jpg);
-		background-position: center center, left center, right center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-	#bg16{
-		background-image: url(./images/backgrounds/fixed/bg16.jpg), url(./images/backgrounds/fixed/bg16.jpg), url(./images/backgrounds/fixed/bg16.jpg);
-		background-position: center center, left center, right center;
-		background-size: 100% 100%, 100% 100%, 100% 100%;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
-
-	#bg17{
-		background-image: url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg), url(./images/backgrounds/fixed/bg14.jpg);
-		background-position: center center, left center, right center;
-		background-size: contain, contain, contain;
-		background-attachment: local, local, local;
-		background-repeat: no-repeat, no-repeat, no-repeat; 
-	}
 	
 	/* Special Fonts */
 
@@ -480,7 +197,11 @@ p, li, h1, h2, h3, h4 {
 	color: #439bbd;
 	}
 
-.dark-grey {
+.dark-gray {
+	color: #191919;
+}
+
+.med-grey {
 	color: #212427;
 }
 
@@ -516,7 +237,7 @@ img.s {
 	}
 
 .bg-dark{
-	background-color: #212427;
+	background-color: #191919;
 	}
 
 .bg-light{
@@ -664,7 +385,7 @@ a:visited.more {
 footer {
 	font-size: x-small;
 	text-align: center;
-	background-color: #212427;
+	background-color: #191919;
 	scroll-snap-align: start;
 	padding: 2vmax 0;
 	}
@@ -692,103 +413,158 @@ footer {
 
 /* BACKGROUNDS */
 
-#bg1-1{
-	background-color: #212427;
-	background-image: url(images/variable/011.jpg);
+#bg1{
+	background-color: #191919;
+	background-image: url(images/backgrounds/bg1.jpg);
 	background-position: center center;
 	background-size: contain;
-	background-attachment: scroll;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+
+#bg2{
+	background-color: #191919;
+	background-image: url(images/backgrounds/bg2.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
 	background-repeat: no-repeat;
 }
 
-#bg2-1{
-	background-color: #212427;
-	background-image: url(images/variable/012.jpg);
+#bg3{
+	background-color: #191919;
+	background-image: url(images/backgrounds/bg3.jpg);
 	background-position: center center;
 	background-size: contain;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
+	background-attachment: local;
+	background-repeat: no-repeat; 
 }
 
-#bg3-1{
-	background-color: #212427;
-	background-image: url(images/variable/013.jpg);
+#bg4{
+	background-color: #191919;
+	background-image: url(images/backgrounds/bg4.jpg);
 	background-position: center center;
 	background-size: contain;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
+	background-attachment: local;
+	background-repeat: no-repeat; 
 }
 
-#bg4-1{
-	background-color: #212427;
-	background-image: url(images/variable/014.jpg);
+#bg5{
+	background-color: #191919;
+	background-image: url(images/backgrounds/bg5.jpg);
 	background-position: center center;
 	background-size: contain;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
+	background-attachment: local;
+	background-repeat: no-repeat; 
 }
 
-#bg5-1{
-	background-color: #212427;
-	background-image: url(images/variable/015.jpg);
+#bg6{
+	background-color: #191919;
+	background-image: url(images/backgrounds/bg6.jpg);
 	background-position: center center;
 	background-size: contain;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
+	background-attachment: local;
+	background-repeat: no-repeat; 
 }
 
-#bg6-1{
-	background-color: #212427;
-	background-image: url(images/variable/016.jpg);
+#bg7{
+	background-color: #191919;
+	background-image: url(images/backgrounds/bg7.jpg);
 	background-position: center center;
 	background-size: contain;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
+	background-attachment: local;
+	background-repeat: no-repeat; 
 }
 
-#bg7-1{
-	background-color: #212427;
-	background-image: url(images/variable/017.jpg);
+#bg8{
+	background-color: #191919;
+	background-image: url(images/backgrounds/bg8.jpg);
 	background-position: center center;
 	background-size: contain;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
+	background-attachment: local;
+	background-repeat: no-repeat; 
 }
 
-#bg8-1{
-	background-color: #212427;
-	background-image: url(images/variable/018.jpg);
+#bg9{
+	background-color: #191919;
+	background-image: url(images/backgrounds/bg9.jpg);
 	background-position: center center;
 	background-size: contain;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
+	background-attachment: local;
+	background-repeat: no-repeat; 
 }
 
-#bg9-1{
-	background-color: #212427;
-	background-image: url(images/variable/019.jpg);
+#bg10{
+	background-color: #191919;
+	background-image: url(images/backgrounds/bg10.jpg);
 	background-position: center center;
 	background-size: contain;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
+	background-attachment: local;
+	background-repeat: no-repeat; 
 }
 
-#bg11-1{
-	background-color: #212427;
-	background-image: url(images/variable/020.jpg);
+#bg11{
+	background-color: #191919;
+	background-image: url(images/backgrounds/bg11.jpg);
 	background-position: center center;
 	background-size: contain;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
+	background-attachment: local;
+	background-repeat: no-repeat; 
 }
 
-#bg12-1{
-	background-color: #212427;
-	background-image: url(images/fixed/021.jpg);
+#bg12{
+	background-color: #191919;
+	background-image: url(images/backgrounds/bg12.jpg);
 	background-position: center center;
 	background-size: contain;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+#bg13{
+	background-color: #191919;
+	background-image: url(images/backgrounds/bg13.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+#bg14{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/fixed/bg14.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+#bg15{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/fixed/bg15.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+#bg16{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/fixed/bg16.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+#bg17{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/fixed/bg14.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
 }
 
 /* RESPONSIVE LISTS*/
