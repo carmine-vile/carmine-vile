@@ -285,13 +285,13 @@ hr {
 
 #disclaimer {
 	border: 4px solid #ebb834;
-	padding: 3vw;
+	padding: 4vw;
 	}
 
 /* A to Z */
 
 #table-of-contents {
-	padding: 20vh 0 80vh 0;
+	padding: 20vh 4vw 80vh;
 	margin: 0 auto;
 	scroll-snap-align: start;
 	scroll-snap-stop: normal;
@@ -308,12 +308,15 @@ hr {
 
 #bio {
 	border: 4px solid #ebb834;
-	padding:3vw;
+	padding: 4vw;
+	margin: 4vw;
+	scroll-snap-align: start;
+	scroll-snap-stop: normal;
 	}
 
 #excerpt {
 	border: 4px solid #454545;
-	padding:3vw;
+	padding:4vw;
 	scroll-snap-align: start;
 	scroll-snap-stop: normal;
 	}
