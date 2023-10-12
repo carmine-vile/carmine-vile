@@ -529,7 +529,7 @@ footer {
 
 #bg14-square{
 	background-color: #191919;
-	background-image: url(./images/backgrounds/fixed/bg14.jpg);
+	background-image: url(./images/backgrounds/bg14.jpg);
 	background-position: center center;
 	background-size: contain;
 	background-attachment: local;
@@ -538,7 +538,7 @@ footer {
 
 #bg15-square{
 	background-color: #191919;
-	background-image: url(./images/backgrounds/fixed/bg15.jpg);
+	background-image: url(./images/backgrounds/bg15.jpg);
 	background-position: center center;
 	background-size: contain;
 	background-attachment: local;
@@ -547,7 +547,7 @@ footer {
 
 #bg16-square{
 	background-color: #191919;
-	background-image: url(./images/backgrounds/fixed/bg16.jpg);
+	background-image: url(./images/backgrounds/bg16.jpg);
 	background-position: center center;
 	background-size: contain;
 	background-attachment: local;
@@ -556,7 +556,7 @@ footer {
 
 #bg17-square{
 	background-color: #191919;
-	background-image: url(./images/backgrounds/fixed/bg17.jpg);
+	background-image: url(./images/backgrounds/bg17.jpg);
 	background-position: center center;
 	background-size: contain;
 	background-attachment: local;
@@ -565,7 +565,7 @@ footer {
 
 #bg18-square{
 	background-color: #191919;
-	background-image: url(./images/backgrounds/fixed/bg18.jpg);
+	background-image: url(./images/backgrounds/bg18.jpg);
 	background-position: center center;
 	background-size: contain;
 	background-attachment: local;
@@ -574,7 +574,7 @@ footer {
 
 #bg19-square{
 	background-color: #191919;
-	background-image: url(./images/backgrounds/fixed/bg19.jpg);
+	background-image: url(./images/backgrounds/bg19.jpg);
 	background-position: center center;
 	background-size: contain;
 	background-attachment: local;
@@ -583,7 +583,7 @@ footer {
 
 #bg20-square{
 	background-color: #191919;
-	background-image: url(./images/backgrounds/fixed/bg20.jpg);
+	background-image: url(./images/backgrounds/bg20.jpg);
 	background-position: center center;
 	background-size: contain;
 	background-attachment: local;
@@ -592,7 +592,7 @@ footer {
 
 #bg21-square{
 	background-color: #191919;
-	background-image: url(./images/backgrounds/fixed/bg21.jpg);
+	background-image: url(./images/backgrounds/bg21.jpg);
 	background-position: center center;
 	background-size: contain;
 	background-attachment: local;
@@ -610,8 +610,8 @@ footer {
 
 .hlist li {
 	list-style-type: none;
-	margin: 5px 10px 4px 0;
-	padding: 8px 20px;
+	margin: 5px 10px 3px 0;
+	padding: 7px 20px;
 	font-weight: 900;
 	border: 4px solid #439bbd;
 	border-radius: 5px;
