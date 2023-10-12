@@ -96,6 +96,7 @@ body {
 
 .column-container {
 	max-width: 700px;
+	scrollbar-gutter: stable;
 	margin: 0 auto;
 	}
 
@@ -204,7 +205,7 @@ p, li, h1, h2, h3, h4 {
 }
 
 img.l {
-	max-inline-size: 98%;
+	max-inline-size: 95%;
 	block-size: auto;
 	aspect-ratio: 1.5/1;
 	border: 2px solid #454545;
