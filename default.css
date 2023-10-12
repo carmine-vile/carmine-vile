@@ -80,8 +80,6 @@
 /* UNIVERSAL */
 	
 html {
-	/*display: block;*/
-	font-size: 100%;
 	background-color: #f5f5f5;
 	scroll-behavior: smooth;
 	scroll-snap-type: y mandatory;
@@ -90,7 +88,7 @@ html {
 	}
 
 body {
-	font-size: medium;
+	font-size: 100%;
 	font-family: 'Roboto', sans-serif;
 	color: #212427;
 	}
@@ -102,7 +100,6 @@ body {
 
 h1 {
 	font-family: 'Oswald', san-serif;
-	font-size: 8vmin;
 	font-weight: 700;
 	line-height: 1.5;
 	text-align: left;
@@ -111,7 +108,6 @@ h1 {
 	
 h2 {
 	font-family: 'Oswald', san-serif;
-	font-size: 5vmin;
 	font-weight: 400;
 	line-height: 1.5;
 	text-align: left;
@@ -122,7 +118,6 @@ h2 {
 
 h3 {
 	font-family: 'Oswald', san-serif;
-	font-size: 4vmin;
 	font-weight: 700;
 	line-height: 1.5;
 	text-align: left;
@@ -132,7 +127,6 @@ h3 {
 
 h4 {
 	font-family: 'Oswald', san-serif;
-	font-size: large;
 	font-weight: 400;
 	line-height: 1.5;
 	text-align: left;
@@ -141,7 +135,6 @@ h4 {
 
 p {
 	font-family: 'Roboto', sans-serif;
-	font-size: 3vmin;
 	font-weight: 400;
 	line-height: 1.7;
 	text-align: left;
@@ -151,7 +144,6 @@ p {
 
 p.reverse {
 	font-family: 'Roboto', sans-serif;
-	font-size: 3vmin;
 	font-weight: 500;
 	line-height: 1.8;
 	text-align: left;
@@ -162,14 +154,13 @@ p.reverse {
 
 p.tiny {
 	font-family: 'Roboto', sans-serif;
-	font-size: 2vmin;
+	font-size: small;
 	color: #f5f5f5;
 	text-align: center;
 	}
 
 p.wayback{
 	font-family: 'Roboto', sans-serif;
-	font-size: 3vmin;
 	font-weight: 500;
 	line-height: 2;
 	}
@@ -216,9 +207,8 @@ img.l {
 	max-width: 100%;
 	block-size: auto;
 	aspect-ratio: 1.5/1;
-	/*object-fit: cover;*/
-	/*object-position: top center;*/
 	border: 2px solid #454545;
+	margin: 0 auto;
 	overflow: hidden;
 	}
 
@@ -420,7 +410,7 @@ footer {
 
 /* BACKGROUNDS */
 
-#bg1{
+#bg1-square{
 	background-color: #191919;
 	background-image: url(images/backgrounds/bg1.jpg);
 	background-position: center center;
@@ -429,8 +419,7 @@ footer {
 	background-repeat: no-repeat; 
 }
 
-
-#bg2{
+#bg2-square{
 	background-color: #191919;
 	background-image: url(images/backgrounds/bg2.jpg);
 	background-position: center center;
@@ -439,7 +428,7 @@ footer {
 	background-repeat: no-repeat;
 }
 
-#bg3{
+#bg3-square{
 	background-color: #191919;
 	background-image: url(images/backgrounds/bg3.jpg);
 	background-position: center center;
@@ -448,7 +437,7 @@ footer {
 	background-repeat: no-repeat; 
 }
 
-#bg4{
+#bg4-square{
 	background-color: #191919;
 	background-image: url(images/backgrounds/bg4.jpg);
 	background-position: center center;
@@ -457,7 +446,7 @@ footer {
 	background-repeat: no-repeat; 
 }
 
-#bg5{
+#bg5-square{
 	background-color: #191919;
 	background-image: url(images/backgrounds/bg5.jpg);
 	background-position: center center;
@@ -466,7 +455,7 @@ footer {
 	background-repeat: no-repeat; 
 }
 
-#bg6{
+#bg6-square{
 	background-color: #191919;
 	background-image: url(images/backgrounds/bg6.jpg);
 	background-position: center center;
@@ -475,7 +464,7 @@ footer {
 	background-repeat: no-repeat; 
 }
 
-#bg7{
+#bg7-square{
 	background-color: #191919;
 	background-image: url(images/backgrounds/bg7.jpg);
 	background-position: center center;
@@ -484,7 +473,7 @@ footer {
 	background-repeat: no-repeat; 
 }
 
-#bg8{
+#bg8-square{
 	background-color: #191919;
 	background-image: url(images/backgrounds/bg8.jpg);
 	background-position: center center;
@@ -493,7 +482,7 @@ footer {
 	background-repeat: no-repeat; 
 }
 
-#bg9{
+#bg9-square{
 	background-color: #191919;
 	background-image: url(images/backgrounds/bg9.jpg);
 	background-position: center center;
@@ -502,7 +491,7 @@ footer {
 	background-repeat: no-repeat; 
 }
 
-#bg10{
+#bg10-square{
 	background-color: #191919;
 	background-image: url(images/backgrounds/bg10.jpg);
 	background-position: center center;
@@ -511,7 +500,7 @@ footer {
 	background-repeat: no-repeat; 
 }
 
-#bg11{
+#bg11-square{
 	background-color: #191919;
 	background-image: url(images/backgrounds/bg11.jpg);
 	background-position: center center;
@@ -520,7 +509,7 @@ footer {
 	background-repeat: no-repeat; 
 }
 
-#bg12{
+#bg12-square{
 	background-color: #191919;
 	background-image: url(images/backgrounds/bg12.jpg);
 	background-position: center center;
@@ -529,7 +518,7 @@ footer {
 	background-repeat: no-repeat; 
 }
 
-#bg13{
+#bg13-square{
 	background-color: #191919;
 	background-image: url(images/backgrounds/bg13.jpg);
 	background-position: center center;
@@ -538,7 +527,7 @@ footer {
 	background-repeat: no-repeat; 
 }
 
-#bg14{
+#bg14-square{
 	background-color: #191919;
 	background-image: url(./images/backgrounds/fixed/bg14.jpg);
 	background-position: center center;
@@ -547,7 +536,7 @@ footer {
 	background-repeat: no-repeat; 
 }
 
-#bg15{
+#bg15-square{
 	background-color: #191919;
 	background-image: url(./images/backgrounds/fixed/bg15.jpg);
 	background-position: center center;
@@ -556,7 +545,7 @@ footer {
 	background-repeat: no-repeat; 
 }
 
-#bg16{
+#bg16-square{
 	background-color: #191919;
 	background-image: url(./images/backgrounds/fixed/bg16.jpg);
 	background-position: center center;
@@ -565,7 +554,7 @@ footer {
 	background-repeat: no-repeat; 
 }
 
-#bg17{
+#bg17-square{
 	background-color: #191919;
 	background-image: url(./images/backgrounds/fixed/bg14.jpg);
 	background-position: center center;
