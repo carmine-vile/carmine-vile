@@ -34,7 +34,7 @@
 	p.graffiti-alt {
 		font-family: 'FatWandalsAlt';
 		font-weight: 500;
-		font-size: min(max(1vw,11vw), 100px);
+		font-size: min(max(1vw,12.5vw), 100px);
 		color: #eb5c34;
 		line-height:1.5;
 		text-align: center;
@@ -91,6 +91,7 @@ body {
 	font-size: 100%;
 	font-family: 'Roboto', sans-serif;
 	color: #212427;
+	width: 100vw;
 	}
 
 .column-container {
@@ -209,7 +210,6 @@ img.l {
 	aspect-ratio: 1.5/1;
 	border: 2px solid #454545;
 	margin: 0 auto;
-	overflow: hidden;
 	}
 
 img.p {
@@ -390,7 +390,6 @@ footer {
 .flex-container-100vh-center {
 	display: flex;
 	height: 100vh;
-	flex-flow: row wrap;
 	justify-content: center;
 	align-items: center;
 	scroll-snap-align: start;
@@ -401,7 +400,6 @@ footer {
 .flex-container-100vh {
 	display: flex;
 	height: 100vh;
-	flex-flow: row wrap;
 	justify-content: left;
 	align-items: center;
 	scroll-snap-stop: always;
