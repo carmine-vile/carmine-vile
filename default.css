@@ -261,7 +261,12 @@ blockquote {
 	margin: 2vw 1vw;
 	}
 
-blockquote:before {
+blockquo<div id="menu-center">
+<ul class="hlist">
+<li class="scrim"><a class="menu" href="a-to-z.html">A TO Z</a></li>
+<li class="scrim"><a class="menu" href="home.html">HOME</a></li>
+</ul>
+te:before {
 	content: open-quote;
 	}
 
@@ -404,6 +409,13 @@ footer {
 	scroll-snap-stop: always;
 	scroll-snap-align: start;
 	}
+
+.menu-center {
+	height: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
 /* BACKGROUNDS */
 
