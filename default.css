@@ -406,7 +406,7 @@ footer {
 	}
 
 .menu-center {
-	height: 20vh;
+	/*height: 10vh;*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
