@@ -206,7 +206,7 @@ p, li, h1, h2, h3, h4 {
 
 img.merch {
 	max-width: 100%;
-	object-fit: 100%;
+	aspect-ratio: 1.25/1;
 	border: 2px solid #454545;
 	margin: 1em auto;
 }
