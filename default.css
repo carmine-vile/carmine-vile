@@ -1,9 +1,9 @@
 @font-face {
 	font-family: FatWandalsAlt;
 	font-display: block;
-	src: url('./fonts/fatwandals/fatwandalsalt.woff2') format('woff2'),
-		 url('./fonts/fatwandals/fatwandalsalt.woff') format('woff'),
-		 url('./fonts/fatwandals/fatwandalsalt.ttf') format('truetype');
+	src: url('./fonts/fatwandals/FatWandalsAlt.woff2') format('woff2'),
+		 url('./fonts/fatwandals/FatWandalsAlt.woff') format('woff'),
+		 url('./fonts/fatwandals/FatWandalsAlt.ttf') format('truetype');
 }
 
 /* RESET*/
@@ -205,7 +205,7 @@ p, li, h1, h2, h3, h4 {
 }
 
 img.merch {
-	max-inline-size: 100%;
+	max-inline-size: 98%;
 	block-size: auto;
 	aspect-ratio: 1.25/1;
 	object-fit: cover;
@@ -1161,6 +1161,239 @@ footer {
 #bg50-square{
 	background-color: #191919;
 	background-image: url(./images/backgrounds/bg50.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+/* PREMISE */
+/* Algo Más */
+
+#bg78-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg78.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+#bg79-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg79.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+#bg80-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg80.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+/* Attention Please */
+
+#bg81-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg81.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+#bg82-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg82.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+#bg83-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg83.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+/* Fly High */
+
+#bg84-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg84.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+#bg85-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg85.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+#bg86-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg86.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+/* Get Real */
+
+#bg87-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg87.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+#bg88-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg88.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+#bg89-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg89.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+/* Out Loud */
+
+#bg90-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg90.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+#bg91-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg91.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+#bg92-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg92.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+/* Resurrection */
+
+#bg93-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg93.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+#bg94-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg94.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+#bg95-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg95.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+/* Shout Louder */
+
+#bg96-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg96.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+#bg97-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg97.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+#bg98-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg98.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+/* Your Words */
+
+#bg99-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg99.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+#bg100-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg100.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+#bg101-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg101.jpg);
 	background-position: center center;
 	background-size: contain;
 	background-attachment: local;
