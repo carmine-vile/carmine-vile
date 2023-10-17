@@ -249,6 +249,14 @@ img.s {
 	background-color: #f5f5f5;
 	}
 
+.bg-square{
+	background-color: #191919;
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
 strong,b {
 	font-weight: 900;
 	}
@@ -265,6 +273,7 @@ video {
 blockquote {
 	color: #f5f5f5;
 	font-size: xx-large;
+	line-height: 1.7;
 	display: block;
 	font-weight: bold;
 	font-style: italic;
@@ -363,6 +372,7 @@ hr {
 /* Cross Traffic */
 
 #wayback {
+	border: 4px solid #ebb834;
 	margin: 0 1vmin;
 	padding: 1vmin;
 	}
@@ -457,378 +467,6 @@ footer {
 }
 
 /* BACKGROUNDS */
-/* Index */
-#bg1-square{
-	background-color: #191919;
-	background-image: url(images/backgrounds/bg1.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg2-square{
-	background-color: #191919;
-	background-image: url(images/backgrounds/bg2.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat;
-}
-
-#bg3-square{
-	background-color: #191919;
-	background-image: url(images/backgrounds/bg3.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg4-square{
-	background-color: #191919;
-	background-image: url(images/backgrounds/bg4.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg5-square{
-	background-color: #191919;
-	background-image: url(images/backgrounds/bg5.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg6-square{
-	background-color: #191919;
-	background-image: url(images/backgrounds/bg6.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg7-square{
-	background-color: #191919;
-	background-image: url(images/backgrounds/bg7.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg8-square{
-	background-color: #191919;
-	background-image: url(images/backgrounds/bg8.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg9-square{
-	background-color: #191919;
-	background-image: url(images/backgrounds/bg9.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg10-square{
-	background-color: #191919;
-	background-image: url(images/backgrounds/bg10.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg11-square{
-	background-color: #191919;
-	background-image: url(images/backgrounds/bg11.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg12-square{
-	background-color: #191919;
-	background-image: url(images/backgrounds/bg12.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg13-square{
-	background-color: #191919;
-	background-image: url(images/backgrounds/bg13.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-/* An Interview */
-
-#bg14-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg14.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg15-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg15.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg16-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg16.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg17-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg17.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg18-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg18.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg19-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg19.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg20-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg20.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-/* A to Z */
-
-#bg21-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg21.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg22-square{
-	background-color: #f5f5f5;
-	background-image: url(./images/backgrounds/fixed/dancer.svg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg23-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg23.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-/* Home */
-
-#bg24-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg24.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg25-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg25.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg26-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg26.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg27-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg27.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-/* Let's Talk */
-
-#bg28-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg28.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg29-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg29.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg30-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg30.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg31-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg31.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg32-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg32.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg33-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg33.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg34-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg34.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg35-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg35.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg36-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg36.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-/* Merch */
-
-#bg37-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg37.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg38-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg38.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-/* More */
-
-#bg39-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg39.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
-
-#bg40-square{
-	background-color: #191919;
-	background-image: url(./images/backgrounds/bg40.jpg);
-	background-position: center center;
-	background-size: contain;
-	background-attachment: local;
-	background-repeat: no-repeat; 
-}
 
 /* Teasers */
 
@@ -1399,6 +1037,30 @@ footer {
 	background-attachment: local;
 	background-repeat: no-repeat; 
 }
+
+/* TEASERS */
+
+/* Angel's Mercy */
+
+#bg102-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg102.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+#bg103-square{
+	background-color: #191919;
+	background-image: url(./images/backgrounds/bg103.jpg);
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
+
 
 /* RESPONSIVE LISTS*/
 
