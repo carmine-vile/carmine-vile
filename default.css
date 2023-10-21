@@ -436,7 +436,7 @@ footer {
 	text-align: center;
 	background-color: #191919;
 	scroll-snap-align: start;
-	padding: 2vmax 0;
+	padding: 2vmax 1vmin;
 	}
 
 .flex-container-100vh-center {
