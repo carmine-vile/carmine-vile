@@ -28,7 +28,6 @@
 		text-align: center;
 		transform: skewY(20deg);
 		width: 80vw;
-		padding: 0 0 0 0;
 		}
 	
 	p.graffiti-alt {
@@ -40,7 +39,6 @@
 		text-align: center;
 		transform: skewY(8deg);
 		width: 80vw;
-		padding: 0 0 0 0;
 		}
 
 	.flex-container-100vh {
@@ -71,7 +69,6 @@
 		text-align: center;
 		transform: skewY(10deg);
 		width: 90vw;
-		padding: 0 0 10vh 0;
 	}
 
 	p.graffiti-alt {
@@ -83,7 +80,6 @@
 		text-align: center;
 		transform: skewY(5deg);
 		width: 90vw;
-		padding: 0 0 5vh 0;
 	}
 
 }
