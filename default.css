@@ -301,6 +301,11 @@ hr {
 	padding: 4vmin;
 	}
 
+.tiny {
+	color: #f5f5f5;
+	text-align: center;
+}
+
 /* A to Z */
 
 #table-of-contents {
@@ -469,8 +474,7 @@ footer {
 .hlist {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 0;
-	margin: 0 0 0 1vw;
+	padding: 1vmin 0 0 0;
 	}
 
 .hlist li {
