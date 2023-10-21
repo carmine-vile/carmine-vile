@@ -43,6 +43,13 @@
 		padding: 0 0 0 0;
 		}
 
+	.column-container {
+		max-width: 95%;
+		/*scrollbar-gutter: stable;*/
+		margin: 0 auto;
+		}
+
+
 }
 
 /* LAPTOP -- DESKTOP -- MONITOR -- TV */
@@ -105,7 +112,6 @@ h1 {
 	font-weight: 700;
 	line-height: 1.5;
 	text-align: left;
-	margin: 0 1vw;
 	}
 	
 h2 {
@@ -114,8 +120,6 @@ h2 {
 	line-height: 1.5;
 	text-align: left;
 	text-transform: uppercase;
-	margin: 0 1vw;
-	padding: 1vw 0 0 0;
 	}
 
 h3 {
@@ -123,8 +127,6 @@ h3 {
 	font-weight: 700;
 	line-height: 1.5;
 	text-align: left;
-	margin: 0 1vw;
-	padding: 1vh 0 1vh 0;
 	}
 
 h4 {
@@ -132,7 +134,6 @@ h4 {
 	font-weight: 400;
 	line-height: 1.5;
 	text-align: left;
-	padding: 1vw 0 0 0;
 	}
 
 p {
@@ -152,13 +153,6 @@ p.reverse {
 	color: #f5f5f5;
 	padding: 1vmin 0;
 	margin: 0 1vw;
-	}
-
-p.tiny {
-	font-family: 'Roboto', sans-serif;
-	font-size: small;
-	color: #f5f5f5;
-	text-align: center;
 	}
 
 p.wayback{
