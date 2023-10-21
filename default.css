@@ -43,6 +43,14 @@
 		padding: 0 0 0 0;
 		}
 
+		.bg-postcard{
+			background-color: #191919;
+			background-position: center center;
+			background-size: 100% 65%;
+			background-attachment: local;
+			background-repeat: no-repeat; 
+		}
+
 }
 
 /* LAPTOP -- DESKTOP -- MONITOR -- TV */
@@ -73,6 +81,14 @@
 		transform: skewY(5deg);
 		width: 90vw;
 		padding: 0 0 5vh 0;
+	}
+
+	.bg-postcard{
+		background-color: #191919;
+		background-position: center center;
+		background-size: 52.5% 65%;
+		background-attachment: local;
+		background-repeat: no-repeat; 
 	}
 
 }
