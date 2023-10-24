@@ -93,7 +93,11 @@
 		margin: 0 auto;
 		scroll-snap-align: start;
 		scroll-snap-stop: normal;
-		}	
+		}
+
+	h3, h4, p, p.reverse {
+		font-size: 150%; 
+	}
 
 }
 
