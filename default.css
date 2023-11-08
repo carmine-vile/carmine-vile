@@ -103,10 +103,6 @@
 		scroll-snap-stop: normal;
 		}
 
-	h3, h4, p, p.reverse {
-		font-size: 125%; 
-	}
-
 	p {
 		font-family: 'Roboto', sans-serif;
 		font-weight: 400;
