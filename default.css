@@ -41,6 +41,14 @@
 		width: 80vw;
 		}
 
+	h1.billboard {
+		font-family: 'Oswald', san-serif;
+		font-weight: 700;
+		font-size: clamp(3rem, 4vw, 14rem);
+		line-height: 1.5;
+		text-align: left;
+		}
+	
 	#body {
 		padding: 20vh 3vw 70vh 3vw;
 		margin: 0 auto;
