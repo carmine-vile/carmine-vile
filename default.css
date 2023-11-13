@@ -44,7 +44,7 @@
 	h1.billboard {
 		font-family: 'Oswald', san-serif;
 		font-weight: 700;
-		font-size: clamp(3rem, 4vw, 14rem);
+		font-size: clamp(4rem, 5vw, 15rem);
 		line-height: 1.5;
 		text-align: left;
 		}
