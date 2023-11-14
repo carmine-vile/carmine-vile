@@ -41,10 +41,8 @@ body {
 	}
 
 .column-container {
-	max-width: 700px;
-	/*scrollbar-gutter: stable;*/
-	margin: 0 auto;
-	padding: 0 3vw;
+	margin: 0 3vw;
+	padding: 0;
 	}
 
 h1 {
@@ -344,7 +342,7 @@ footer {
 	height: 100vh;
 	justify-content: center;
 	align-items: center;
-	padding: 0 3vw;
+	padding: 0;
 	scroll-snap-align: start;
 	scroll-snap-stop: always;
 	overflow: hidden;
@@ -355,7 +353,7 @@ footer {
 	height: 100vh;
 	justify-content: left;
 	align-items: center;
-	padding: 0 3vw;
+	padding: 0;
 	scroll-snap-stop: always;
 	scroll-snap-align: start;
 	}
@@ -454,6 +452,11 @@ footer {
 		text-decoration: none;
 		}
 
+	.column-container {
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 0;
+		}	
 }
 
 /* PHONE LANDSCAPE DENY */
