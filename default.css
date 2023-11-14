@@ -44,6 +44,7 @@ body {
 	max-width: 700px;
 	/*scrollbar-gutter: stable;*/
 	margin: 0 auto;
+	padding: 0 3vw;
 	}
 
 h1 {
@@ -354,6 +355,7 @@ footer {
 	height: 100vh;
 	justify-content: left;
 	align-items: center;
+	padding: 0 3vw;
 	scroll-snap-stop: always;
 	scroll-snap-align: start;
 	}
