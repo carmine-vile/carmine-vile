@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background-image: url(.//images/backgrounds/bg10.png);"><head>
+<html lang="en" style="background-image: url(.//images/square/rotating/10.png);"><head>
 	<meta charset="UTF-8">
 	<meta content="You can't live without this, and you can only get it here." name="description">
 	<meta content="brand awareness, consumption, commodities, meaning of life, marketing, design" name="keywords">
@@ -36,8 +36,8 @@
 	<div class="flex-container-100vh">
 		<div>
 			<ul class="hlist">
-				<li><a class="menu" href="attention-please.html"><span class="nowrap"><strong>NEXT. </strong> Audience Participation.</span></a></a></li>
-				<li><a class="menu" href="algo-mas.html"><span class="nowrap"><strong>BACK. </strong> Hay algo más que hacer.</span></a></li>
+				 <li><a class="menu" href="attention-please.html"><span class="nowrap"><strong>NEXT. </strong> Audience Participation.</span></a></a></li>
+				 <li><a class="menu" href="algo-mas.html"><span class="nowrap"><strong>BACK. </strong> Hay algo más que hacer.</span></a></li>
 			</ul>
 		</div>
 	</div>
@@ -45,8 +45,8 @@
 		<div>
 			<p class="title">He Wept by <span class="nowrap graffiti">Carmine Vile.</span></p>
 			<ul class="hlist">
-				<li><a class="menu" href="../the-premise.html">THE PREMISE</a></li>
-				<li><a class="menu" href="../home.html">HOME</a></li>
+				 <li><a class="menu" href="../the-premise.html">THE PREMISE</a></li>
+				 <li><a class="menu" href="../home.html">HOME</a></li>
 			</ul>
 		</div>
 	</div>

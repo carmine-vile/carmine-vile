@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background-image: url(images/backgrounds/bg.png);"><head>
+<html lang="en" style="background-image: url(images/square/rotating/.png);"><head>
 	<meta charset="UTF-8">
 	<meta content="Everybody is trying to sell you something." name="description">
 	<meta content="credit cards, shipping preferences, distractions, retailers, manufacturers, mass media, Google, theater, actors, audience, Wizard of Oz, marijuana dispensary, income, submission," name="keywords">
@@ -43,8 +43,8 @@
 	<div class="flex-container-100vh">
 		<div>
 			<ul class="hlist">
-				<li><a class="menu" href="get-real.html"><span class="nowrap"><strong>NEXT. </strong> Get Real. Buy Now.</span></a></li>
-				<li><a class="menu" href="out-loud.html"><span class="nowrap"><strong>BACK. </strong> Thinking Out Loud.</span></a></li>
+				 <li><a class="menu" href="get-real.html"><span class="nowrap"><strong>NEXT. </strong> Get Real. Buy Now.</span></a></li>
+				 <li><a class="menu" href="out-loud.html"><span class="nowrap"><strong>BACK. </strong> Thinking Out Loud.</span></a></li>
 			</ul>
 		</div>
 	</div>
@@ -52,8 +52,8 @@
 		<div>
 			<p class="title">He Wept by <span class="nowrap graffiti">Carmine Vile.</span></p>
 			<ul class="hlist">
-				<li><a class="menu" href="../the-premise.html">THE PREMISE</a></li>
-				<li><a class="menu" href="../home.html">HOME</a></li>
+				 <li><a class="menu" href="../the-premise.html">THE PREMISE</a></li>
+				 <li><a class="menu" href="../home.html">HOME</a></li>
 			</ul>
 		</div>
 	</div>

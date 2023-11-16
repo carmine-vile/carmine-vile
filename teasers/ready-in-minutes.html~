@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background-image: url(images/backgrounds/bg.png);"><head>
+<html lang="en" style="background-image: url(images/square/rotating/.png);"><head>
 	<meta charset="UTF-8">
 	<meta content="There's only one thing left to do." name="description">
 	<meta content="instant photo booth, shopping mall, rainy day, landfill, mortailty" name="keywords">
@@ -46,8 +46,8 @@
 			<p class="title">He Wept by <span class="nowrap graffiti">Carmine Vile.</span></p>
 
 			<ul class="hlist">
-				<li><a class="menu" href="../teasers.html#21">TEASERS</a></li>
-				<li><a class="menu" href="../home.html">HOME</a></li>
+				 <li><a class="menu" href="../teasers.html#21">TEASERS</a></li>
+				 <li><a class="menu" href="../home.html">HOME</a></li>
 			</ul>
 		</div>
 	</div>

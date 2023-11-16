@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background-image: url(../images/backgrounds/bg11.png);"><head>
+<html lang="en" style="background-image: url(../images/square/rotating/11.png);"><head>
 	<meta charset="UTF-8">
 	<meta content="Twenty years ago strangers made a little boy feel welcome, wanted, like he belonged, if only for a little while--strangers acting out of foolishness or kindness or love." name="description">
 	<meta content="miracles, Chicago L, Foremost Liquors, Currency Exchange, Milwaukee Avenue, Fanny Freezer, Christmas, New Years, Humbolt Park, Buck Town, Ukranian Village, Logan Sqaure, Western Avenue, Division Street, Chicago Police Department, Squadrol, dumpster, vacation bible school, St. Mary's Hospital, G. Heileman's Old Style beer, Chicago Housing Authority, Chicago Transit Authority, Space Invaders" name="keywords">
@@ -99,8 +99,8 @@
 			<p class="title">He Wept by <span class="nowrap graffiti">Carmine Vile.</span></p>
 
 			<ul class="hlist">
-				<li><a class="menu" href="../teasers.html#22">TEASERS</a></li>
-				<li><a class="menu" href="../home.html">HOME</a></li>
+				 <li><a class="menu" href="../teasers.html#22">TEASERS</a></li>
+				 <li><a class="menu" href="../home.html">HOME</a></li>
 			</ul>
 		</div>
 	</div>

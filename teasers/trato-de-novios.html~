@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background-image: url(../images/backgrounds/bg78.png);">
+<html lang="en" style="background-image: url(../images/square/rotating/78.png);">
 <head>
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -30,7 +30,7 @@
 		</div>
 	</div>
 	<div class="flex-container-100vh">
-		<div><img alt="" height="1333" src="../images/variable/117.jpg" width="2000" loading="lazy"></div>
+		<div><img alt="" height="1333" src="../images/postcard/rotating/117.jpg" width="2000" loading="lazy"></div>
 	</div>
 	<div id="body">
 		<div>
@@ -56,15 +56,15 @@
 		</div>
 	</div>
 	<div class="flex-container-100vh">
-		<div><img alt="" height="1333" src="../images/variable/128.jpg" width="2000" loading="lazy"></div>
+		<div><img alt="" height="1333" src="../images/postcard/rotating/128.jpg" width="2000" loading="lazy"></div>
 	</div>
 	<div class="flex-container-100vh">
 		<div>
 			<p class="title">He Wept by <span class="nowrap graffiti">Carmine Vile.</span></p>
 
 			<ul class="hlist">
-				<li><a class="menu" href="../teasers.html">TEASERS</a></li>
-				<li><a class="menu" href="../home.html">HOME</a></li>
+				 <li><a class="menu" href="../teasers.html">TEASERS</a></li>
+				 <li><a class="menu" href="../home.html">HOME</a></li>
 			</ul>
 		</div>
 	</div>

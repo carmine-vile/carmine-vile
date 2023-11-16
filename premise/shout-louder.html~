@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background-image: url(images/backgrounds/bg.png);"><head>
+<html lang="en" style="background-image: url(images/square/rotating/.png);"><head>
 	<meta charset="UTF-8">
 	<meta content="Who do we think is listening? Who do we think is watching?" name="description">
 	<meta content="labels, Coke, Pepsi, RC, Democrats, Republicans, Presbyterians, Methodist, suburbs, shopping malls, Victoria's Secret, Apple iPhone, liberation, transformation, salvation, self absorbed bubble, conspicuous consumption of commodities, self, place, purpose, authenticity" name="keywords">
@@ -47,8 +47,8 @@
 	<div class="flex-container-100vh">
 		<div>
 			<ul class="hlist">
-				<li><a class="menu" href="your-words.html"><span class="nowrap"><strong>NEXT. </strong> Your Words Hurt My Ears.</span></a></li>
-				<li><a class="menu" href="get-real.html"><span class="nowrap"><strong>BACK. </strong> Get Real. Buy Now.</span></a></li>
+				 <li><a class="menu" href="your-words.html"><span class="nowrap"><strong>NEXT. </strong> Your Words Hurt My Ears.</span></a></li>
+				 <li><a class="menu" href="get-real.html"><span class="nowrap"><strong>BACK. </strong> Get Real. Buy Now.</span></a></li>
 			</ul>
 		</div>
 	</div>
@@ -56,8 +56,8 @@
 		<div>
 			<p class="title">He Wept by <span class="nowrap graffiti">Carmine Vile.</span></p>
 			<ul class="hlist">
-				<li><a class="menu" href="../the-premise.html">THE PREMISE</a></li>
-				<li><a class="menu" href="../home.html">HOME</a></li>
+				 <li><a class="menu" href="../the-premise.html">THE PREMISE</a></li>
+				 <li><a class="menu" href="../home.html">HOME</a></li>
 			</ul>
 		</div>
 	</div>

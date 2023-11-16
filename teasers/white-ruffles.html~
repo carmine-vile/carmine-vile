@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background-image: url(images/backgrounds/bg.png);"><head>
+<html lang="en" style="background-image: url(images/square/rotating/.png);"><head>
 	<meta charset="UTF-8">
 	<meta content="Once upon a time, she believed in things too good to be true. Soon enough the unkept promises stacked up like past due bills next to an overflowing ashtray." name="description">
 	<meta content="marriage, Texas, pickup truck, beer, suicide" name="keywords">
@@ -156,8 +156,8 @@
 			<p class="title">He Wept by <span class="nowrap graffiti">Carmine Vile.</span></p>
 
 			<ul class="hlist">
-				<li><a class="menu" href="../teasers.html#1">TEASERS</a></li>
-				<li><a class="menu" href="../home.html">HOME</a></li>
+				 <li><a class="menu" href="../teasers.html#1">TEASERS</a></li>
+				 <li><a class="menu" href="../home.html">HOME</a></li>
 			</ul>
 		</div>
 	</div>

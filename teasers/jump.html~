@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background-image: url(../images/backgrounds/bg15.png);"><head>
+<html lang="en" style="background-image: url(../images/square/rotating/15.png);"><head>
 	<meta charset="UTF-8">
 	<meta content="At what point do we become accomplices in whatever story is concocted for us to consume if we are unwilling to alter our penchant for consumption? They cater to us, sure, but all they ever did was sell us what we had our hearts set on buying. We consent to be deceived." name="description">
 	<meta content="evidence based medicine, fear, uncertainty, virus, vaccine, circus, smart phones, special interests, worldview, bubble, mask, gel, propaganda, group think, mobs, cult, Happy Meals, doomsday" name="keywords">
@@ -119,8 +119,8 @@
 -container-100vh">
 		<div>
 			<ul class="hlist">
-				<li><a class="menu" href="../teasers.html#15">TEASERS</a></li>
-				<li><a class="menu" href="../home.html">HOME</a></li>
+				 <li><a class="menu" href="../teasers.html#15">TEASERS</a></li>
+				 <li><a class="menu" href="../home.html">HOME</a></li>
 			</ul>
 		</div>
 	</div>

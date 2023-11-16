@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background-image: url(images/backgrounds/bg.png);"><head>
+<html lang="en" style="background-image: url(images/square/rotating/.png);"><head>
 	<meta charset="UTF-8">
 	<meta content="...film belongs to the dilettante children of millionaires. Damn. Now what do we do?" name="description">
 	<meta content="Rainer Werner Fassbinder, Miguel Piñero, Nuyorican Poets Café, Reinaldo Povod, Michael Carmine" name="keywords">
@@ -37,8 +37,8 @@
 			<p class="title">He Wept by <span class="nowrap graffiti">Carmine Vile.</span></p>
 
 			<ul class="hlist">
-				<li><a class="menu" href="../teasers.html#17">TEASERS</a></li>
-				<li><a class="menu" href="../home.html">HOME</a></li>
+				 <li><a class="menu" href="../teasers.html#17">TEASERS</a></li>
+				 <li><a class="menu" href="../home.html">HOME</a></li>
 			</ul>
 		</div>
 	</div>

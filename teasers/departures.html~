@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background-image: url(images/backgrounds/bg.png);"><head>
+<html lang="en" style="background-image: url(images/square/rotating/.png);"><head>
 	<meta charset="UTF-8">
 	<meta content="Sometimes, you have to stand still in order to find what really moves you." name="description">
 	<meta content="camera, clarity, blur, sights, sounds, color, structure, motion, senses, celebrate, condemn, empower, undermine, question, story, somewhere, something, someone" name="keywords">
@@ -39,7 +39,7 @@
 		<div>
 			<p class="title">Visit.</p>
 			<ul class="hlist">
-			<li><a class="menu" href="https://www.pbase.com/sboettger" target="_blank">GALLERIES</a></li>
+			 <li><a class="menu" href="https://www.pbase.com/sboettger" target="_blank">GALLERIES</a></li>
 			</ul>
 		</div>
 	</div>
@@ -51,8 +51,8 @@
 			<p class="title">He Wept by <span class="nowrap graffiti">Carmine Vile.</span></p>
 
 			<ul class="hlist">
-				<li><a class="menu" href="../teasers.html#5">TEASERS</a></li>
-				<li><a class="menu" href="../home.html">HOME</a></li>
+				 <li><a class="menu" href="../teasers.html#5">TEASERS</a></li>
+				 <li><a class="menu" href="../home.html">HOME</a></li>
 			</ul>
 		</div>
 	</div>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background-image: url(images/backgrounds/bg.png);"><head>
+<html lang="en" style="background-image: url(images/square/rotating/.png);"><head>
 	<meta charset="UTF-8">
 	<meta content="High concept, insight oriented, storytelling." name="description">
 	<meta content="fresh, original, entertainment, online, meaning, freedom, love, growth, change, exclusive" name="keywords">
@@ -41,8 +41,8 @@
 	<div class="flex-container-100vh">
 		<div>
 			<ul class="hlist">
-				<li><a class="menu" href="resurrection.html"><span class="nowrap"><strong>NEXT. </strong> This Is Not Entertainment.</span></a></li>
-				<li><a class="menu" href="your-words.html"><span class="nowrap"><strong>BACK. </strong> Your Words Hurt My Ears.</span></a></li>
+				 <li><a class="menu" href="resurrection.html"><span class="nowrap"><strong>NEXT. </strong> This Is Not Entertainment.</span></a></li>
+				 <li><a class="menu" href="your-words.html"><span class="nowrap"><strong>BACK. </strong> Your Words Hurt My Ears.</span></a></li>
 			</ul>
 		</div>
 	</div>
@@ -50,8 +50,8 @@
 		<div>
 			<p class="title">He Wept by <span class="nowrap graffiti">Carmine Vile.</span></p>
 			<ul class="hlist">
-				<li><a class="menu" href="../the-premise.html">THE PREMISE</a></li>
-				<li><a class="menu" href="../home.html">HOME</a></li>
+				 <li><a class="menu" href="../the-premise.html">THE PREMISE</a></li>
+				 <li><a class="menu" href="../home.html">HOME</a></li>
 			</ul>
 		</div>
 	</div>

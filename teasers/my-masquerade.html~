@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background-image: url(images/backgrounds/bg.png);"><head>
+<html lang="en" style="background-image: url(images/square/rotating/.png);"><head>
 	<meta charset="UTF-8">
 	<meta content="Maybe you think my life is pretty simple compared to yours. More limits than opportunities. More traps than triumphs." name="description">
 	<meta content="housekeeper, waitress, Costco, fear, self-loathing, contempt" name="keywords">
@@ -50,7 +50,7 @@
 			<p>Maybe then she can sleep without being afraid and see the world through innocent eyes again.</p>
 			<p>Maybe then she can love herself.</p>
 			<p>Maybe then she will finally understand that she already is somebody, and no one can take that away.</p>
-			<!-- <p><img alt="" class="border" src="../images/fixed/0123.jpg" style="width:300px;"></p> -->
+			<!-- <p><img alt="" class="border" src="../images/static/0123.jpg" style="width:300px;"></p> -->
 			<p>Sinceramente,</p>
 			<p>Maria.</p>
 			
@@ -61,8 +61,8 @@
 			<p class="title">He Wept by <span class="nowrap graffiti">Carmine Vile.</span></p>
 
 			<ul class="hlist">
-				<li><a class="menu" href="../teasers.html#19">TEASERS</a></li>
-				<li><a class="menu" href="../home.html">HOME</a></li>
+				 <li><a class="menu" href="../teasers.html#19">TEASERS</a></li>
+				 <li><a class="menu" href="../home.html">HOME</a></li>
 			</ul>
 		</div>
 	</div>
