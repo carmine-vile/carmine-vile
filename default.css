@@ -41,7 +41,7 @@ body {
 	}
 
 .column-container {
-	margin: 0 3vw;
+	margin: 0 5vw;
 	padding: 0;
 	}
 
@@ -136,6 +136,10 @@ h1.billboard {
 	font-size: clamp(2.75rem, 4vw, 14rem);
 	line-height: 1.5;
 	text-align: left;
+	}
+
+.billboard {
+	display: block;
 	}
 
 .reverse {
@@ -387,6 +391,10 @@ footer {
 		text-align: left;
 		}
 
+	.billboard {
+		display: inline;
+	}
+
 	#body {
 		padding: 20vh 0 70vh;
 		margin: 0 auto;
@@ -443,6 +451,7 @@ footer {
 		border: 4px solid #439bbd;
 		border-radius: 5px;
 	}	
+
 }
 
 /* PHONE LANDSCAPE DENY */
