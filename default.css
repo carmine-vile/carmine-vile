@@ -274,6 +274,13 @@ hr {
 	padding: 0;
 	}
 
+a.credit,
+a:hover.credit,
+a:visited.credit {
+	color: #eb5c34;
+	text-decoration: underline;
+	}
+
 a,
 a:hover,
 a:visited {
