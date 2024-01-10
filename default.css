@@ -139,14 +139,6 @@ p.billboard {
 	padding: 3vw;
 	}
 
-h1.billboard {
-	font-family: 'Oswald', san-serif;
-	font-weight: 700;
-	font-size: clamp(2.75rem, 4vw, 14rem);
-	line-height: 1.5;
-	text-align: left;
-	}
-
 .billboard {
 	display: block;
 	}
@@ -405,14 +397,6 @@ footer {
 		transform: skewY(5deg);
 		width: 90vw;
 	}
-
-	h1.billboard {
-		font-family: 'Oswald', san-serif;
-		font-weight: 700;
-		font-size: clamp(5rem, 6vw, 15rem);
-		line-height: 1.5;
-		text-align: left;
-		}
 
 	.billboard {
 		display: inline;
