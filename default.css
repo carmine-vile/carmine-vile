@@ -122,7 +122,7 @@ p.graffiti {
 p.graffiti-alt {
 	font-family: 'FatWandalsAlt';
 	font-weight: 500;
-	font-size: clamp(3rem, 4vw, 14rem);
+	font-size: clamp(3.5rem, 4vw, 15rem);
 	color: #eb5c34;
 	line-height:1.5;
 	text-align: center;
@@ -173,8 +173,8 @@ p.billboard {
 
 .scrim {
 	border-radius: 3%;
-  	background-color: rgba(0, 0, 0, 0.5);
-  	box-shadow: 0 0 5rem rgba(0, 0, 0.3);
+  	background-color: rgba(0, 0, 0, 0.3);
+  	/* box-shadow: 0 0 5rem rgba(0, 0, 0.3); */
 	margin: 1vw;
 	}
 
