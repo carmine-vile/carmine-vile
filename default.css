@@ -245,6 +245,14 @@ img.s {
 	background-repeat: repeat; 
 }
 
+.bg-square-alt{
+	background-color: #191919;
+	background-position: center center;
+	background-size: contain;
+	background-attachment: local;
+	background-repeat: no-repeat; 
+}
+
 strong,b {
 	font-weight: 900;
 	}
