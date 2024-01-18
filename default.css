@@ -40,6 +40,13 @@ body {
 	scroll-snap-stop: normal;
 	}
 
+#start	{
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	margin-left: -50px;
+}
+
 .column-container {
 	margin: 0 5vw;
 	padding: 0;
