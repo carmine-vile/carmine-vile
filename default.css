@@ -147,6 +147,18 @@ p.billboard {
 	padding: 3vw;
 	}
 
+p.billboard-huge {
+	font-family: 'Oswald', san-serif;
+	font-weight: 900;
+	font-size: clamp(4rem, 6vw, 15rem);
+	line-height: 1.4;
+	text-align: left;
+text-transform: uppercase;
+font-kerning: normal;
+letter-spacing: -3px;
+	padding: 3vw;
+	}
+
 .billboard {
 	display: block;
 	}
