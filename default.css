@@ -153,7 +153,7 @@ letter-spacing: -2px;
 p.billboard {
 	font-family: 'Oswald', san-serif;
 	font-weight: 900;
-	font-size: clamp(3.5rem, 6vw, 15rem);
+	font-size: clamp(3rem, 6vw, 15rem);
 	line-height: 1.3;
 	text-align: left;
 text-transform: uppercase;
