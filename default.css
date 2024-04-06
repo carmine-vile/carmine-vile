@@ -120,7 +120,7 @@ p.graffiti {
 	font-size: clamp(3rem, 7vw, 15rem);
 	color: #eb5c34;
 	line-height:1.5;
-	text-align: center;
+	text-align: left;
 	/* transform: skewY(20deg); */
 	width: 80vw;
 	}
