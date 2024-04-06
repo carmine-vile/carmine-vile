@@ -121,6 +121,7 @@ p.graffiti {
 	color: #eb5c34;
 	line-height:1.5;
 	text-align: left;
+font-kerning: normal;
 	/* transform: skewY(20deg); */
 	width: 80vw;
 	}
