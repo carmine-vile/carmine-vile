@@ -116,8 +116,8 @@ p, li, h1, h2, h3, h4 {
 
 p.graffiti {
 	font-family: 'Oswald';
-	font-weight: 700;
-	font-size: clamp(3rem, 6vw, 15rem);
+	font-weight: 900;
+	font-size: clamp(3rem, 7vw, 15rem);
 	color: #eb5c34;
 	line-height:1.5;
 	text-align: center;
