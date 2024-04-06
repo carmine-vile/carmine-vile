@@ -117,14 +117,14 @@ p, li, h1, h2, h3, h4 {
 p.graffiti {
 	font-family: 'Oswald';
 	font-weight: 900;
-	font-size: clamp(4rem, 8vw, 15rem);
+	font-size: clamp(3rem, 8vw, 15rem);
 	color: #eb5c34;
 	line-height:1.5;
 	text-align: left;
 font-kerning: normal;
-letter-spacing: -2px;
+letter-spacing: -4px;
 	/* transform: skewY(20deg); */
-	width: 80vw;
+	width: 90vw;
 	}
 	
 p.graffiti-alt {
