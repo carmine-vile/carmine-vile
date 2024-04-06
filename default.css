@@ -1,10 +1,10 @@
-@font-face {
+/* @font-face {
 	font-family: FatWandalsAlt;
 	font-display: block;
 	src: url('./fonts/fatwandals/FatWandalsAlt.woff2') format('woff2'),
 		 url('./fonts/fatwandals/FatWandalsAlt.woff') format('woff'),
 		 url('./fonts/fatwandals/FatWandalsAlt.ttf') format('truetype');
-}
+} */
 
 /* RESET*/
 
@@ -114,7 +114,7 @@ p, li, h1, h2, h3, h4 {
 
 /* Special Fonts */
 
-p.graffiti {
+/* p.graffiti {
 	font-family: 'Oswald';
 	font-weight: 900;
 	font-size: clamp(4rem, 8vw, 15rem);
@@ -125,9 +125,9 @@ font-kerning: normal;
 letter-spacing: -3px;
 	/* transform: skewY(20deg); */
 	width: 90vw;
-	}
+	} */
 	
-p.graffiti-alt {
+/* p.graffiti-alt {
 	font-family: 'FatWandalsAlt';
 	font-weight: 500;
 	font-size: clamp(3.5rem, 4vw, 15rem);
@@ -136,7 +136,7 @@ p.graffiti-alt {
 	text-align: center;
 	transform: skewY(8deg);
 	width: 80vw;
-	}
+	}. */
 
 p.billboard {
 	font-family: 'Oswald', san-serif;
@@ -144,6 +144,9 @@ p.billboard {
 	font-size: clamp(2.5rem, 4vw, 14rem);
 	line-height: 1.5;
 	text-align: left;
+text-transform: uppercase;
+font-kerning: normal;
+letter-spacing: -2px;
 	padding: 3vw;
 	}
 
