@@ -115,8 +115,8 @@ p, li, h1, h2, h3, h4 {
 /* Special Fonts */
 
 p.graffiti {
-	font-family: 'FatWandalsAlt';
-	font-weight: 500;
+	font-family: 'Oswald';
+	font-weight: 700;
 	font-size: clamp(3rem, 4vw, 15rem);
 	color: #eb5c34;
 	line-height:1.5;
