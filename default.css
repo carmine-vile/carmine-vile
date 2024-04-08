@@ -116,8 +116,12 @@ p.billboard {
 	}
 
 .billboard {
-	display: inline;
+	display: block;
 	}
+
+.descriptor {
+	display: block;
+}
 
 .reverse {
 	color: #f5f5f5;
@@ -359,6 +363,10 @@ footer {
 	/* Special Fonts */
 
 	.billboard {
+		display: inline;
+	}
+
+	.descriptor {
 		display: inline;
 	}
 
