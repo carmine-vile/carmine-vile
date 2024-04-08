@@ -1,11 +1,3 @@
-/* @font-face {
-	font-family: FatWandalsAlt;
-	font-display: block;
-	src: url('./fonts/fatwandals/FatWandalsAlt.woff2') format('woff2'),
-		 url('./fonts/fatwandals/FatWandalsAlt.woff') format('woff'),
-		 url('./fonts/fatwandals/FatWandalsAlt.ttf') format('truetype');
-} */
-
 /* RESET*/
 
 	* {
@@ -20,10 +12,6 @@
 
 html {
 	background-color: #f5f5f5;
-	/* scroll-behavior: smooth; */
-	/* scroll-behavior: auto; */
-	/* scroll-snap-type: y mandatory; */
-/* 	scroll-snap-type: y proximity; */
 	overflow-y: scroll;
 	overflow-x: hidden;
 	}
@@ -38,8 +26,6 @@ body {
 #body {
 	padding: 20vh 0 70vh;
 	margin: 0 auto;
-	scroll-snap-align: start;
-	scroll-snap-stop: normal;
 	}
 
 #start	{
@@ -116,59 +102,10 @@ p, li, h1, h2, h3, h4 {
 
 /* Special Fonts */
 
-/* p.graffiti {
-	font-family: 'Oswald';
-	font-weight: 900;
-	font-size: clamp(4rem, 8vw, 15rem);
-	color: #eb5c34;
-	line-height:1.4;
-	text-align: left;
-font-kerning: normal;
-letter-spacing: -3px;
-	/* transform: skewY(20deg); */
-/* 	width: 90vw;
-	} */
-	
-/* p.graffiti-alt {
-	font-family: 'FatWandalsAlt';
-	font-weight: 500;
-	font-size: clamp(3.5rem, 4vw, 15rem);
-	color: #eb5c34;
-	line-height:1.5;
-	text-align: center;
-	transform: skewY(8deg);
-	width: 80vw;
-	}. */
-
-/* p.billboard {
-	font-family: 'Oswald', san-serif;
-	font-weight: 700;
-	font-size: clamp(2.5rem, 4vw, 14rem);
-	line-height: 1.5;
-	text-align: left;
-text-transform: uppercase;
-font-kerning: normal;
-letter-spacing: -2px;
-	padding: 3vw;
-	} */
-
 p.billboard {
 	font-family: 'Oswald', san-serif;
 	font-weight: 900;
 	font-size: clamp(3rem, 6vw, 15rem);
-	line-height: 1.3;
-	text-align: left;
-	text-transform: uppercase;
-	font-kerning: normal;
-	letter-spacing: -2px;
-	width: 85vw;
-	padding: 3vw;
-	}
-
-p.billboard-huge {
-	font-family: 'Oswald', san-serif;
-	font-weight: 900;
-	font-size: clamp(3.5rem, 6vw, 15rem);
 	line-height: 1.3;
 	text-align: left;
 	text-transform: uppercase;
@@ -211,19 +148,9 @@ p.billboard-huge {
 }
 
 .scrim {
-	border-radius: 3%;
   	background-color: rgba(0, 0, 0, 0.3);
-  	/* box-shadow: 0 0 5rem rgba(0, 0, 0.3); */
 	margin: 1vw;
 	}
-
-.scrim-alt {
-	border-radius: 3%;
-	background-color: rgba(0, 0, 0, 0.3);
-	/* box-shadow: 0 0 5rem rgba(0, 0, 0.3); */
-	margin: 1vw;
-	padding: 1vw;
-}
 
 img.merch {
 	max-inline-size: 98%;
@@ -431,28 +358,6 @@ footer {
 	
 	/* Special Fonts */
 
-	p.graffiti {
-		font-family: 'FatWandalsAlt';
-		font-weight: 500;
-		font-size: clamp(5rem, 7vw, 15rem);
-		color: #eb5c34;
-		line-height: 1.5;
-		text-align: center;
-		transform: skewY(10deg);
-		width: 90vw;
-	}
-
-	p.graffiti-alt {
-		font-family: 'FatWandalsAlt';
-		font-weight: 500;
-		font-size: clamp(5rem, 6vw, 15rem);
-		color: #eb5c34;
-		line-height:1.5;
-		text-align: center;
-		transform: skewY(5deg);
-		width: 90vw;
-	}
-
 	.billboard {
 		display: inline;
 	}
@@ -460,8 +365,6 @@ footer {
 	#body {
 		padding: 20vh 0 70vh;
 		margin: 0 auto;
-		scroll-snap-align: start;
-		scroll-snap-stop: normal;
 		}
 
 	#start	{
