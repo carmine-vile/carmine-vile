@@ -116,7 +116,7 @@ p.billboard {
 	}
 
 .billboard {
-	display: block;
+	display: inline;
 	}
 
 .reverse {
