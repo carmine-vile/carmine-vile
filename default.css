@@ -109,7 +109,7 @@ p.billboard {
 	text-align: left;
 	text-transform: uppercase;
 	text-shadow: -1px 1px 0 #212427, 1px 1px 0 #212427, 1px -1px 0 #212427, -1px -1px 0 #212427;
-	font-kerning: normal;
+	/*font-kerning: normal;*/
 	width: 85vw;
 	padding: 3vw;
 	}
