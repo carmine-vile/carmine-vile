@@ -218,6 +218,7 @@ a.menu {
 }
 .footer{
     font-size: small;
+    display: inline;
 }
 .contact {
     padding: 0 1rem 0 0;
@@ -225,6 +226,9 @@ a.menu {
 }
 .contents {
     padding: 0 1rem 0 0;
+    display: inline;
+}
+.creates {
     display: inline;
 }
 #particles-js {
@@ -265,6 +269,7 @@ a.menu {
     }
     .footer{
         font-size: x-small;
+        display: block;
     }
     #middle {
         width:90vw;
@@ -290,6 +295,9 @@ a.menu {
     }
     #box div {
         width:100%;
+    }
+    .creates {
+        display: block;
     }
     .contact {
         padding: 0.5rem 0;
