@@ -179,7 +179,7 @@ a.menu {
     transition:0.4s ease-in-out;
 }
 .container div:hover {
-    cursor:pointer;
+    cursor: auto;
 }
 .container section {
     margin:8vh 0px;
