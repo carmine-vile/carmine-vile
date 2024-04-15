@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #f5f5f5;
     padding:0px;
     margin:0px;
     background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("bg0.jpg") center center;
@@ -8,7 +11,6 @@ body {
     width:100vw;
     height:100vh;
     overflow: hidden;
-    font-family: 'Roboto', sans-serif;
 }
 #loading {
     width: 100vw;
@@ -61,12 +63,10 @@ body {
 }
 #menu a {
     margin:0px 6%;
-    font-size:19px;
     color: #f5f5f5;
     text-decoration:underline;
 }
 a.menu {
-    font-size: small;
     color:rgba(255, 50, 50,0.8)
 }
 #middle {
@@ -90,7 +90,6 @@ a.menu {
     width:10vw;
     height:10vw;
     text-align:center;
-    /* font-size:25px; */
     transform:rotate(-90deg);
     background:transparent;
     color:#f5f5f5;
@@ -108,7 +107,6 @@ a.menu {
     width:10vw;
     height:10vw;
     text-align:center;
-    /* font-size:25px; */
     transform:rotate(90deg);
     background:transparent;
     color:#f5f5f5;
@@ -126,7 +124,6 @@ a.menu {
     width:10vw;
     height:10vw;
     text-align:center;
-    /* font-size:25px; */
     background:transparent;
     color:#f5f5f5;
     position:fixed;
@@ -161,6 +158,21 @@ a.menu {
 #middle table tr td {
     text-align:center;
 }
+#about_container {
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("bg5.jpg") center center;	background-size: cover;
+	background-repeat: no-repeat; 
+
+}
+#work_container {
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("bg4.jpg") center center;	background-size: cover;
+    background-repeat: no-repeat; 
+
+}
+#contact_container {
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("bg3.jpg") center center;	background-size: cover;
+	background-repeat: no-repeat; 
+
+}
 .container {
     width:90vw;
     height:90vh;
@@ -174,7 +186,6 @@ a.menu {
     display:none;
 }
 .container div {
-    font-size:25px;
     margin:20px 0px;
     transition:0.4s ease-in-out;
 }
@@ -184,24 +195,12 @@ a.menu {
 .container section {
     margin:8vh 0px;
 }
-/*#used div{
-    font-size:14px !important;
-    display:inline-block;
-    padding:8px 10px;
-    border:2px solid #fff;
-    margin:0px 10px;
-    border-radius:50px;
-}
-#used:hover {
-    cursor:pointer;
-}
-#used div:hover {
-    cursor:pointer;
-} */
 .container h1 {
     font-size:60px;
 }
 .container p {
+    font-weight: bold;
+    color: #f5f5f5;
     font-size: medium;
     line-height: 1.5;
 }
@@ -213,7 +212,6 @@ a.menu {
     position:fixed;
     z-index:1;
     bottom:0;
-    font-size:16px;
     font-weight:bold;
 }
 .footer{
