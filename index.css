@@ -6,7 +6,7 @@ body {
     color: #f5f5f5;
     padding:0px;
     margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img/bg0.jpg") center center;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./img/bg0.jpg") center center;
     background-size:cover;
     width:100vw;
     height:100vh;
@@ -164,17 +164,17 @@ a.menu {
     text-align:center;
 }
 #about_container {
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img/bg5.jpg") center center;	background-size: cover;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./img/bg5.jpg") center center;	background-size: cover;
 	background-repeat: no-repeat; 
 
 }
 #work_container {
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img/bg4.jpg") center center;	background-size: cover;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./img/bg4.jpg") center center;	background-size: cover;
     background-repeat: no-repeat; 
 
 }
 #contact_container {
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img/bg3.jpg") center center;	background-size: cover;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./img/bg3.jpg") center center;	background-size: cover;
 	background-repeat: no-repeat; 
 
 }
