@@ -196,6 +196,7 @@ a.menu {
     cursor: pointer;
 }
 .container section {
+    font-size: small;
     margin:4vh 0px;
 }
 .container h1 {
@@ -260,7 +261,8 @@ a.menu {
 	background: rgb(255, 50, 50);
 }
 
-@media (max-width: 800px) { 
+/* @media (max-width: 800px) { */
+    @media (orientation: portrait) {    
     #about {
         display:none;
     }
@@ -282,7 +284,7 @@ a.menu {
         padding:0px 5vw;
     }
     #middle table {
-        width:80%;
+        width:90%;
     }
     #menu {
         display:inline-block;
