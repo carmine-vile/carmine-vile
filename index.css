@@ -81,7 +81,7 @@ a.menu {
     height:90vh;
     display:flex;
     flex-direction:column;
-    justify-content:space-around;
+    justify-content:center;
     position:fixed;
     top:0;
     text-align:center;
