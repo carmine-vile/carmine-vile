@@ -283,9 +283,9 @@ a.menu {
     #menu {
         display:inline-block;
     }
-    /* #onlywide {
+    #onlywide {
         display:none !important;
-    } */
+    }
     .box2 {
         margin-left:0px !important;
     }
