@@ -280,7 +280,7 @@ a.menu {
         width:100%;
     }
     #menu {
-        display:inline;
+        display:block;
     }
     #onlywide {
         display:none !important;
