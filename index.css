@@ -67,7 +67,7 @@ body {
     cursor: pointer;
 }
 #menu a {
-    margin:0px 6%;
+    margin:0px 3%;
     text-decoration:underline;
     text-decoration-color: rgb(255, 50, 50);
 }
