@@ -255,8 +255,8 @@ a.menu {
 	background: rgb(255, 50, 50);
 }
 
-/* @media (max-width: 800px) { */
-    @media (orientation: portrait) {    
+@media (max-width: 999px) { 
+/* @media (orientation: portrait) { */   
     #about {
         display:none;
     }
@@ -283,9 +283,9 @@ a.menu {
     #menu {
         display:inline-block;
     }
-    #onlywide {
+    /* #onlywide {
         display:none !important;
-    }
+    } */
     .box2 {
         margin-left:0px !important;
     }
