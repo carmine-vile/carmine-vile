@@ -42,9 +42,9 @@
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
     </div>
-    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;"><strong>prologue</strong></a>
-    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;"><strong>let's talk</strong></a>
-    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;"><strong>contents</strong></a>
+    <a id="prologue" onclick="showprologue()" class="animated fadeIn" style="animation-delay:2.2s;"><strong>prologue</strong></a>
+    <a id="letstalk" onclick="showletstalk()" class="animated fadeIn" style="animation-delay:2.2s;"><strong>let's talk</strong></a>
+    <a id="contents" onclick="showcontents()" class="animated fadeIn" style="animation-delay:2.2s;"><strong>contents</strong></a>
     <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
         <h2>Nobody writes like Carmine Vile. Nobody.</h2>
         <h1>He Wept</h1>
@@ -52,14 +52,14 @@
         <p><strong><span class="creates">Carmine Vile crafts fiction that resonates </span><span class="creates">where it must and liberates where it can.</span></strong></p>
         <p><strong>All the rest is up to you.</strong></p>
         <div id="menu">
-            <a onclick="showabout()">prologue</a>
-            <a onclick="showwork()">let's talk</a>
-            <a onclick="showcontact()">contents</a>
+            <a onclick="showprologue()">prologue</a>
+            <a onclick="showletstalk()">let's talk</a>
+            <a onclick="showcontents()">contents</a>
         </div>
     </div>
     
-    <div id="about_container" class="container">
-        <div onclick="closeabout()"><p><span class="bars"><i class="fas fa-solid fa-bars fa-rotate-90"></i></span>&nbsp;&nbsp; <a class="menu">NAV</a></p></div>
+    <div id="prologue_container" class="container">
+        <div onclick="closeprologue()"><p><span class="bars"><i class="fas fa-solid fa-bars fa-rotate-90"></i></span>&nbsp;&nbsp; <a class="menu">NAV</a></p></div>
         <section>
             <h4>PROLOGUE</h4>
             <p>He wept.</p>
@@ -84,11 +84,11 @@
             <a class="menu contents" href="https://carminevile.substack.com/p/an-interview" target="_blank">Storytelling goes way back.</a></span>
             </p>
         </section>
-        <div onclick="closeabout()" style="padding: 0 0 4rem 0"><p><span class="bars"><i class="fas fa-solid fa-bars fa-rotate-90"></i></span>&nbsp;&nbsp; <a class="menu">NAV</a></p></div>
+        <div onclick="closeprologue()" style="padding: 0 0 4rem 0"><p><span class="bars"><i class="fas fa-solid fa-bars fa-rotate-90"></i></span>&nbsp;&nbsp; <a class="menu">NAV</a></p></div>
     </div>
 
-    <div id="work_container" class="container">
-        <div onclick="closework()"><p><span class="bars"><i class="fas fa-solid fa-bars fa-rotate-90"></i></span>&nbsp;&nbsp; <a class="menu">NAV</a></p></div>
+    <div id="letstalk_container" class="container">
+        <div onclick="closeletstalk()"><p><span class="bars"><i class="fas fa-solid fa-bars fa-rotate-90"></i></span>&nbsp;&nbsp; <a class="menu">NAV</a></p></div>
         <section>
             <h4>LET'S TALK</h4>
             <p>I like making things catch your eye and capture your imagination.</p>
@@ -113,11 +113,11 @@
             <a class="menu contents" href="https://carminevile.substack.com/p/the-merch" target="_blank">Nineteen eighty-four wants its tee-shirts back.</a></span>
             </p>
         </section>
-        <div onclick="closework()" style="padding: 0 0 4rem 0"><p><span class="bars"><i class="fas fa-solid fa-bars fa-rotate-90"></i></span>&nbsp;&nbsp; <a class="menu">NAV</a></p></div>
+        <div onclick="closeletstalk()" style="padding: 0 0 4rem 0"><p><span class="bars"><i class="fas fa-solid fa-bars fa-rotate-90"></i></span>&nbsp;&nbsp; <a class="menu">NAV</a></p></div>
     </div>
 
-    <div id="contact_container" class="container">
-        <div onclick="closecontact()"><p><span class="bars"><i class="fas fa-solid fa-bars"></i></span>&nbsp;&nbsp; <a class="menu">NAV</a></p></div>
+    <div id="contents_container" class="container">
+        <div onclick="closecontents()"><p><span class="bars"><i class="fas fa-solid fa-bars"></i></span>&nbsp;&nbsp; <a class="menu">NAV</a></p></div>
         <section>
             <h4>CONTENTS</h4>
             <p>What you are about to experience is a work of fiction.</p>
@@ -142,7 +142,7 @@
             <a class="menu contents" href="https://carminevile.substack.com/archive" target="_blank">Archive - Substack</a></span>
             </p>
         </section>
-        <div onclick="closecontact()" style="padding: 0 0 4rem 0"><p><span class="bars"><i class="fas fa-solid fa-bars"></i></span>&nbsp;&nbsp; <a class="menu">NAV</a></p></div>
+        <div onclick="closecontents()" style="padding: 0 0 4rem 0"><p><span class="bars"><i class="fas fa-solid fa-bars"></i></span>&nbsp;&nbsp; <a class="menu">NAV</a></p></div>
     </div>
     <div id="footer"><span class="footer">© Copyright 2021-2024, He Wept by Carmine Vile.</span> <span class="footer">All Rights Reserved.</span>
     </div>
