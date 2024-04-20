@@ -98,8 +98,8 @@ a.menu {
     display:flex;
     flex-direction:column;
     justify-content:center;
-    position:fixed;
-    top:0;
+    /*position:fixed;
+    top:0;*/
     text-align:center;
     z-index:1;
     padding-bottom:10vh;
@@ -287,10 +287,10 @@ a.menu {
         font-size: x-small;
         display: block;
     }
-    #middle {
+    /*#middle {
         height: 90vw;
         width: 90vw;
-        padding: 10vw 5vw 5vw;
+        padding: 10vw 5vw 5vw;*/
     }
     #menu {
         height: 50px;
