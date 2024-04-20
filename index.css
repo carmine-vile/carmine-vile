@@ -8,6 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 1rem;
+    line-height: 1.5;
     padding:0px;
     margin:0px;
     background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./img/bg0.jpg") center center;
@@ -282,6 +283,7 @@ a.menu {
     }
     .footer{
         font-size: x-small;
+        line-height: 1.5;
         display: block;
     }
     #middle {
@@ -318,7 +320,7 @@ a.menu {
         font-size: 90%;
     }
     #crafts {
-        font-size: small;
+        font-size: x-small;
     }
 }
 
