@@ -267,8 +267,8 @@ a.menu {
 	background: rgb(255, 50, 50);
 }
 
-@media (max-width: 999px) { 
-/* @media (orientation: portrait) { */   
+/* @media (max-width: 999px) { */
+@media (orientation: portrait) {
     #prologue {
         display:none;
     }
@@ -319,8 +319,9 @@ a.menu {
         padding: 0.5rem 0;
         display: block;
     }
-    .crafts {
-        display: block;
+    #crafts {
+        width:80%;
+        margin: 0 auto:
     }
 }
 
