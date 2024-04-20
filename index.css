@@ -94,7 +94,7 @@ a.menu {
     text-decoration-color: #f5f5f5;
 }
 #middle {
-    width:100vw;
+    width:90vw;
     height:90vh;
     display:flex;
     flex-direction:column;
@@ -105,7 +105,7 @@ a.menu {
     top:0;
     z-index:1;
     margin: 0 auto;
-    padding-bottom:10vh 5vh;
+    padding: 0 5vh 10vh 5vh;
     cursor: auto;
 }
 #middle h1 {
