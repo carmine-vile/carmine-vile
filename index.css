@@ -94,7 +94,7 @@ a.menu {
     text-decoration-color: #f5f5f5;
 }
 #middle {
-    width:90vw;
+    width:100vw;
     height:90vh;
     display:flex;
     flex-direction:column;
@@ -105,7 +105,7 @@ a.menu {
     top:0;
     z-index:1;
     margin: 0 auto;
-    padding: 0 5vh 10vh 5vh;
+    padding-bottom: 10vh;
     cursor: auto;
 }
 #middle h1 {
@@ -287,6 +287,10 @@ a.menu {
     .footer{
         font-size: x-small;
         display: block;
+    }
+    #middle {
+        width:90vw;
+        padding:0px 5vw;
     }
     #menu {
         height: 50px;
