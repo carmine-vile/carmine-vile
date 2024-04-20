@@ -62,14 +62,15 @@ body {
 #menu {
     width:100%;
     text-align:center;
-    margin:6vh 0px;
+    margin:3vh 0 6vh;
     display:none;
     cursor: pointer;
 }
 #menu a {
-    margin:0px 6%;
-    text-decoration:underline;
-    text-decoration-color: rgb(255, 50, 50);
+    /*margin:0px 3%;*/
+    padding: 0 1rem;
+    text-decoration:none;
+    /*text-decoration-color: rgb(255, 50, 50);*/
 }
 a.menu {
     color:#f5f5f5;
@@ -82,8 +83,8 @@ a.menu {
     display:flex;
     flex-direction:column;
     justify-content:center;
-    /*position:fixed;
-    top:0;*/
+    position:fixed;
+    top:0;
     text-align:center;
     z-index:1;
     padding-bottom:10vh;
@@ -91,8 +92,24 @@ a.menu {
 }
 #middle h1 {
     color: rgb(255, 50, 50);
-    font-size:70px;
-    line-height:0.75;
+    font-size:4rem;
+    line-height: 1;
+}
+.circle {
+    text-transform: uppercase;
+    border: 2px solid rgb(255, 50, 50);
+    padding: 25px;
+	border-radius: 100%;
+    z-index:5;
+}
+.circle:hover {
+    color: #f5f5f5;
+    background: rgb(255, 50, 50);
+    border: 2px solid rgb(255, 50, 50);
+    cursor: pointer;
+    
+    /*padding: 10px;
+	border-radius: 50%;*/
 }
 #prologue {
     font-size: 1.5rem;
@@ -109,7 +126,7 @@ a.menu {
     justify-content:center;
     z-index:4;
     transition:0.4s ease-in-out;
-    border-radius:0px 0px 100px 100px;
+    border-radius:100px;
 }
 #letstalk {
     font-size: 1.5rem;
@@ -126,7 +143,7 @@ a.menu {
     justify-content:center;
     z-index:4;
     transition:0.4s ease-in-out;
-    border-radius:0px 0px 100px 100px;
+    border-radius:100px;
 }
 #contents {
     font-size: 1.5rem;
@@ -142,29 +159,25 @@ a.menu {
     justify-content:center;
     z-index:4;
     transition:0.4s ease-in-out;
-    border-radius:100px 100px 0px 0px;
+    border-radius:100px;
 }
 #prologue:hover {
-    color: #212427;
-    background: #f5f5f5;
+    text-transform: uppercase;
+    color: #f5f5f5;
+    background: rgb(255, 50, 50);
     cursor:pointer;
 }
 #letstalk:hover {
-    color: #212427;
-    background: #f5f5f5;
+    text-transform: uppercase;
+    color: #f5f5f5;
+    background: rgb(255, 50, 50);
     cursor:pointer;
 }
 #contents:hover {
-    color: #212427;
-    background: #f5f5f5;
+    text-transform: uppercase;
+    color: #f5f5f5;
+    background: rgb(255, 50, 50);
     cursor:pointer;
-}
-#middle table {
-    width:30%;
-    margin:6vh auto;
-}
-#middle table tr td {
-    text-align:center;
 }
 #prologue_container {
     background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./img/bg5.jpg") center center;	background-size: cover;
@@ -204,7 +217,6 @@ a.menu {
     line-height: 1.5;
 }
 .bars {
-    /*font-size: large;*/
     color:rgb(255, 50, 50);
 }
 #footer {
@@ -217,8 +229,8 @@ a.menu {
     font-weight:bold;
 }
 .footer{
-    font-size: small;
-    display: block;
+    font-size: x-small;
+    display: inline;
 }
 .creates {
     display: inline;
@@ -254,6 +266,18 @@ a.menu {
 	color: #f5f5f5;
 	background: rgb(255, 50, 50);
 }
+.hlist {
+    margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	}
+
+.hlist li {
+	list-style-type: none;
+    padding: 15px;
+	border: 2px solid rgb(255, 50, 50);
+	border-radius: 50%;
+	}
 
 @media (max-width: 999px) { 
 /* @media (orientation: portrait) { */   
@@ -278,10 +302,10 @@ a.menu {
         padding:0px 5vw;
     }
     #middle table {
-        width:90%;
+        width:100%;
     }
     #menu {
-        display:inline-block;
+        display:block;
     }
     #onlywide {
         display:none !important;
@@ -304,6 +328,12 @@ a.menu {
         padding: 0.5rem 0;
         display: block;
     }
+    .hlist li {
+        list-style-type: none;
+        padding: 5px;
+        border: 2px solid rgb(255, 50, 50);
+        border-radius: 50%;
+        }
 }
 
 /* PHONE LANDSCAPE DENY */
