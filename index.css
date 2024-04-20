@@ -219,6 +219,9 @@ a.menu {
     font-weight: bold;
     line-height: 1.5;
 }
+.container p{
+    font-size: small;
+}
 .bars {
     color:rgb(255, 50, 50);
 }
