@@ -243,9 +243,6 @@ a.menu {
     padding: 0 1rem 0 0;
     display: inline-block;
 }
-.crafts {
-    display: inline;
-}
 #particles-js {
     position:fixed;
     width:100vw;
@@ -316,6 +313,12 @@ a.menu {
         margin: 0;
         padding: 0.5rem 0;
         display: block;
+    }
+    h2 {
+        font-size: 80%;
+    }
+    #crafts {
+        font-size: small;
     }
 }
 
