@@ -289,6 +289,8 @@ a.menu {
     #middle {
         width:90vw;
         padding:0px 5vw;
+        justify-content:center;
+        align-items: center;
     }
     #menu {
         height: 50px;
@@ -317,7 +319,7 @@ a.menu {
         display: block;
     }
     h2 {
-        font-size: 90%;
+        font-size: 1rem;
     }
     #crafts {
         font-size: small;
