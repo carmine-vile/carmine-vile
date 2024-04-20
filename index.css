@@ -93,23 +93,21 @@ a.menu {
     text-decoration-color: #f5f5f5;
 }
 #middle {
-    width:100vw;
+    width:90vw;
     height:90vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
-    /*position:fixed;
-    top:0;*/
+    position:fixed;
+    top:0;
     text-align:center;
     z-index:1;
-    padding-bottom:10vh;
+    padding-bottom:10vh 5vh;
     cursor: auto;
 }
 #middle h1 {
     color: rgb(255, 50, 50);
-    font-size:4rem;
-    line-height: 1;
-}
+    }
 #prologue {
     font-size: 1.5rem;
     width:10vw;
@@ -234,9 +232,6 @@ a.menu {
     font-size: x-small;
     display: inline;
 }
-.creates {
-    display: inline;
-}
 .contact {
     padding: 0 1rem 0 0;
     display: inline;
@@ -245,6 +240,9 @@ a.menu {
     margin: 0 1rem 1rem 0;
     padding: 0 1rem 0 0;
     display: inline-block;
+}
+.crafts {
+    display: inline;
 }
 #particles-js {
     position:fixed;
@@ -287,11 +285,14 @@ a.menu {
         font-size: x-small;
         display: block;
     }
+    h1,h2,p {
+        font-size: 80%;
+    }
     /*#middle {
         height: 90vw;
         width: 90vw;
-        padding: 10vw 5vw 5vw;*/
-    }
+        padding: 10vw 5vw 5vw;
+    }*/
     #menu {
         height: 50px;
         display:flex;
@@ -309,9 +310,6 @@ a.menu {
     #box div {
         width:100%;
     }
-    .creates {
-        display: block;
-    }
     .contact {
         padding: 0.5rem 0;
         display: block;
@@ -319,6 +317,9 @@ a.menu {
     .contents {
         margin: 0;
         padding: 0.5rem 0;
+        display: block;
+    }
+    .crafts {
         display: block;
     }
 }
