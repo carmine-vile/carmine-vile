@@ -285,9 +285,9 @@ a.menu {
         font-size: x-small;
         display: block;
     }
-    h1,h2,p {
+    /*h1,h2,p {
         font-size: 80%;
-    }
+    }*/
     /*#middle {
         height: 90vw;
         width: 90vw;
@@ -319,9 +319,9 @@ a.menu {
         padding: 0.5rem 0;
         display: block;
     }
-    #crafts {
-        width:80%;
-        margin: 0 auto:
+    .squeeze {
+        width:90%;
+        margin: 0 auto;
     }
 }
 
