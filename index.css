@@ -86,6 +86,7 @@ button:hover {
     text-transform: uppercase;
     color: #f5f5f5;
     background:rgb(255, 50, 50);
+    cursor: pointer;
 }
 a.menu {
     color:#f5f5f5;
@@ -93,15 +94,17 @@ a.menu {
     text-decoration-color: #f5f5f5;
 }
 #middle {
-    width:90vw;
+    width:100vw;
     height:90vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
+    align-items: center;
+    text-align: center;
     position:fixed;
     top:0;
-    text-align:center;
     z-index:1;
+    margin: 0 auto;
     padding-bottom:10vh 5vh;
     cursor: auto;
 }
@@ -285,14 +288,6 @@ a.menu {
         font-size: x-small;
         display: block;
     }
-    /*h1,h2,p {
-        font-size: 80%;
-    }*/
-    /*#middle {
-        height: 90vw;
-        width: 90vw;
-        padding: 10vw 5vw 5vw;
-    }*/
     #menu {
         height: 50px;
         display:flex;
