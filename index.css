@@ -282,6 +282,10 @@ a.menu {
     #contents {
         display:none;
     }
+    #middle h1 {
+        font-size: 7vmin;
+        color: rgb(255, 50, 50);
+        }
     #footer {
         text-align:center;
     }
@@ -300,7 +304,7 @@ a.menu {
         height: 50px;
         display:flex;
         flex-direction:row;
-        align-items: center;
+        align-items: start;
         justify-content:space-around;
         cursor: pointer;
     }    
