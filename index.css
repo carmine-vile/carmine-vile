@@ -6,8 +6,8 @@ html {
 }
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
     font-size: 1rem;
+    font-weight: bold;
     line-height: 1.5;
     padding:0px;
     margin:0px;
@@ -109,6 +109,7 @@ a.menu {
     cursor: auto;
 }
 #middle h1 {
+    font-size: 5vmax;
     color: rgb(255, 50, 50);
     }
 #prologue {
